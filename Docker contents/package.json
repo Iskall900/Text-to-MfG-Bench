@@ -1,0 +1,7 @@
+{
+  "name": "docker-contents",
+  "private": true,
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "1.0.4"
+  }
+}

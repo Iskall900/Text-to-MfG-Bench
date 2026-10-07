@@ -1,0 +1,97 @@
+{
+  "bracket_id": "string [ Axx from the generative design application checklist ]",
+  "project_name": "string [Name of the project ] ",
+  "project_desc": " brief description of the bracket being made",
+  "geometry": {
+    "constrained_fasteners": [
+      {
+        "id": "SF1",
+        "location": {
+          "x": 75,
+          "y": 50,
+          "z": 25
+        },
+        "pointing_vector": [
+          0,
+          0,
+          1
+        ],
+        "mount_type": "through",
+        "bolt_type": {
+          "size": "M6",
+          "thread_pitch": 1.0
+        }
+      }
+    ],
+    "loading_interfaces": [
+      {
+        "LoadName": "TopLoad",
+        "load_location": {
+          "x": 75,
+          "y": 50,
+          "z": 25
+        },
+        "load_mass (kg)": 0.5,
+        "load_fastners": [
+          {
+            "id": "B1",
+            "location": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "pointing_vector": [
+              0,
+              0,
+              1
+            ],
+            "mount_type": "through",
+            "bolt_type": {
+              "size": "M6",
+              "thread_pitch": 1.0
+            }
+          },
+          {
+            "id": "B2",
+            "location": {
+              "x": 100,
+              "y": 0,
+              "z": 5
+            },
+            "pointing_vector": [
+              0.707,
+              0,
+              0.707
+            ],
+            "mount_type": "tapped",
+            "bolt_type": {
+              "size": "1/4",
+              "thread_pitch": 20
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "material": "Aluminum 6061-T6",
+  "load case (g)": {
+    "x_load": 10,
+    "y_load": 3,
+    "z_load": "MAC"
+  },
+  "environmental_conditions": {
+    "temperature_range (C)": {
+      "min": -40,
+      "max": 85
+    },
+    "vibration_profile": "MIL-STD-810G"
+  },
+  "design_constraints": {
+    "safety_factor": 1.5,
+    "manufacturing_method": "CNC machining"
+  },
+  "additional_notes": [
+    "Ensure compatibility with existing mounting interface",
+    "Optimize for minimal thermal expansion"
+  ]
+}
