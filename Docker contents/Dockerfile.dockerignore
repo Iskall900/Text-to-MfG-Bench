@@ -1,0 +1,19 @@
+*
+!Docker contents/
+Docker contents/*
+!Docker contents/Dockerfile
+!Docker contents/package.json
+!Docker contents/package-lock.json
+!Docker contents/metering.ts
+!Docker contents/web-search.ts
+!Docker contents/offline-shell.c
+!Docker contents/pi-launcher.sh
+!Docker contents/README.md
+!Docker contents/docs/
+!Docker contents/docs/**
+!DfM/
+DfM/*
+!DfM/check_dfm.py
+!DfM/config.json
+!DfM/README.md
+!DfM/verify_dfm.py

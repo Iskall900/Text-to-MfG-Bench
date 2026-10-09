@@ -1,25 +1,61 @@
 {
-  "bracket_id": "string [ Axx from the generative design application checklist ]",
-  "project_name": "string [Name of the project ] ",
-  "project_desc": " brief description of the bracket being made",
+  "bracket_id": "A15",
+  "project_name": "Excite Balloon Mission",
+  "project_desc": "Tip/Tilt assembly mounting interface",
   "geometry": {
     "constrained_fasteners": [
       {
-        "id": "SF1",
+        "id": "T1",
         "location": {
-          "x": 75,
-          "y": 50,
-          "z": 25
+          "x": 30.03,
+          "y": -21.45,
+          "z": 0.0
         },
         "pointing_vector": [
           0,
           0,
           1
         ],
-        "mount_type": "through",
+        "mount_type": null,
         "bolt_type": {
-          "size": "M6",
-          "thread_pitch": 1.0
+          "size": "1/4",
+          "thread_pitch": null
+        }
+      },
+      {
+        "id": "T2",
+        "location": {
+          "x": 30.03,
+          "y": 42.047,
+          "z": 0.0
+        },
+        "pointing_vector": [
+          0,
+          0,
+          1
+        ],
+        "mount_type": null,
+        "bolt_type": {
+          "size": "1/4",
+          "thread_pitch": null
+        }
+      },
+      {
+        "id": "T3",
+        "location": {
+          "x": -58.86,
+          "y": 42.047,
+          "z": 0.0
+        },
+        "pointing_vector": [
+          0,
+          0,
+          1
+        ],
+        "mount_type": null,
+        "bolt_type": {
+          "size": "1/4",
+          "thread_pitch": null
         }
       }
     ],
@@ -27,57 +63,93 @@
       {
         "LoadName": "TopLoad",
         "load_location": {
-          "x": 75,
-          "y": 50,
-          "z": 25
+          "x": -1.6225,
+          "y": -57.164,
+          "z": 125.21
         },
-        "load_mass (kg)": 0.5,
+        "load_mass (kg)": 1.35,
         "load_fastners": [
           {
-            "id": "B1",
+            "id": "S1",
             "location": {
-              "x": 0,
-              "y": 0,
-              "z": 0
+              "x": 11.075,
+              "y": -7.164,
+              "z": 112.51
             },
             "pointing_vector": [
               0,
-              0,
-              1
+              1,
+              0
             ],
-            "mount_type": "through",
+            "mount_type": null,
             "bolt_type": {
-              "size": "M6",
-              "thread_pitch": 1.0
+              "size": "1/4",
+              "thread_pitch": null
             }
           },
           {
-            "id": "B2",
+            "id": "S2",
             "location": {
-              "x": 100,
-              "y": 0,
-              "z": 5
+              "x": -14.32,
+              "y": -7.164,
+              "z": 112.51
             },
             "pointing_vector": [
-              0.707,
               0,
-              0.707
+              1,
+              0
             ],
-            "mount_type": "tapped",
+            "mount_type": null,
             "bolt_type": {
               "size": "1/4",
-              "thread_pitch": 20
+              "thread_pitch": null
+            }
+          },
+          {
+            "id": "S3",
+            "location": {
+              "x": -14.32,
+              "y": -7.164,
+              "z": 137.91
+            },
+            "pointing_vector": [
+              0,
+              1,
+              0
+            ],
+            "mount_type": null,
+            "bolt_type": {
+              "size": "1/4",
+              "thread_pitch": null
+            }
+          },
+          {
+            "id": "S4",
+            "location": {
+              "x": 11.075,
+              "y": -7.164,
+              "z": 137.91
+            },
+            "pointing_vector": [
+              0,
+              1,
+              0
+            ],
+            "mount_type": null,
+            "bolt_type": {
+              "size": "1/4",
+              "thread_pitch": null
             }
           }
         ]
       }
     ]
   },
-  "material": "Aluminum 6061-T6",
+  "material": "Aluminum 6061-T651",
   "load case (g)": {
     "x_load": 10,
     "y_load": 3,
-    "z_load": "MAC"
+    "z_load": 3
   },
   "environmental_conditions": {
     "temperature_range (C)": {
@@ -87,11 +159,11 @@
     "vibration_profile": "MIL-STD-810G"
   },
   "design_constraints": {
-    "safety_factor": 1.5,
+    "safety_factor": 1.4,
     "manufacturing_method": "CNC machining"
   },
   "additional_notes": [
     "Ensure compatibility with existing mounting interface",
-    "Optimize for minimal thermal expansion"
+    "Optimize for maximum stiffness"
   ]
 }
