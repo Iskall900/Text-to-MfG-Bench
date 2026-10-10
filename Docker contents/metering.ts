@@ -1,4 +1,5 @@
-import { closeSync, openSync, readdirSync, unlinkSync, writeFileSync } from 'node:fs';
+import { closeSync, mkdirSync, mkdtempSync, openSync, readFileSync, readdirSync, rmSync, unlinkSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import type { ExtensionAPI, ExtensionContext } from '@earendil-works/pi-coding-agent';
 
@@ -38,6 +39,7 @@ function writeReports(cwd: string, usage: string, time: string) {
 
 export default function metering(pi: ExtensionAPI) {
   let run: {
+    computeDir: string;
     start: bigint;
     cwd: string;
     entryIds: Set<string>;
@@ -45,6 +47,7 @@ export default function metering(pi: ExtensionAPI) {
     outcome: string;
   } | undefined;
   const start = (ctx: ExtensionContext) => ({
+    computeDir: mkdtempSync(join(tmpdir(), 'pi-compute-')),
     start: process.hrtime.bigint(),
     cwd: ctx.cwd,
     entryIds: new Set(ctx.sessionManager.getEntries().map(entry => entry.id)),
@@ -58,6 +61,7 @@ export default function metering(pi: ExtensionAPI) {
   pi.on('before_agent_start', (_event, ctx) => {
     run ??= start(ctx);
     run.active = true;
+    process.env.PI_COMPUTE_LOG = join(run.computeDir, 'runs');
   });
   pi.on('agent_before_settle', event => {
     if (run?.active) run.outcome = event.outcome;
@@ -66,6 +70,7 @@ export default function metering(pi: ExtensionAPI) {
     if (!run?.active) return;
     const completed = run;
     run = undefined;
+    delete process.env.PI_COMPUTE_LOG;
     const seconds = Number(process.hrtime.bigint() - completed.start) / 1e9;
     let uncached = 0, cached = 0, output = 0;
     for (const entry of ctx.sessionManager.getEntries()) {
@@ -80,13 +85,22 @@ export default function metering(pi: ExtensionAPI) {
     }
     const outcome = `outcome: ${completed.outcome}\n`;
     try {
-      writeReports(completed.cwd,
+      let runs: string[] = [];
+      try { runs = readFileSync(join(completed.computeDir, 'runs'), 'utf8').trim().split('\n'); }
+      catch (error) { if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error; }
+      const reportDir = join(completed.cwd, 'data-Pi');
+      mkdirSync(reportDir, { recursive: true });
+      writeFileSync(join(reportDir, 'compute.txt'),
+        `${outcome}modal_fea_runs: ${runs.filter(kind => kind === 'modal_fea').length}\ndfm_runs: ${runs.filter(kind => kind === 'dfm').length}\n`);
+      writeReports(reportDir,
         `${outcome}input_tokens_total: ${uncached + cached}\ninput_tokens_cached: ${cached}\ninput_tokens_uncached: ${uncached}\noutput_tokens: ${output}\n`,
         `${outcome}elapsed_seconds: ${seconds.toFixed(6)}\n`);
     } catch (error) {
       const message = `Pi metering could not write reports: ${error}`;
       console.error(message);
       ctx.ui.notify(message, 'error');
+    } finally {
+      rmSync(completed.computeDir, { recursive: true, force: true });
     }
   });
 }

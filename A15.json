@@ -19,8 +19,19 @@
         "mount_type": null,
         "bolt_type": {
           "size": "1/4",
-          "thread_pitch": null
-        }
+          "thread_pitch": null,
+          "standard": "NAS1352",
+          "head_type": "socket_head_cap_screw",
+          "nominal_diameter_in": 0.25,
+          "thread_pitch_unit": null,
+          "screw_length_mm": null,
+          "thread_engagement_mm": null,
+          "washer_standard": "NAS620",
+          "washer_dimensions_mm": null
+        },
+        "hole_diameter_mm": null,
+        "hole_depth_mm": null,
+        "hole_fit": null
       },
       {
         "id": "T2",
@@ -37,8 +48,19 @@
         "mount_type": null,
         "bolt_type": {
           "size": "1/4",
-          "thread_pitch": null
-        }
+          "thread_pitch": null,
+          "standard": "NAS1352",
+          "head_type": "socket_head_cap_screw",
+          "nominal_diameter_in": 0.25,
+          "thread_pitch_unit": null,
+          "screw_length_mm": null,
+          "thread_engagement_mm": null,
+          "washer_standard": "NAS620",
+          "washer_dimensions_mm": null
+        },
+        "hole_diameter_mm": null,
+        "hole_depth_mm": null,
+        "hole_fit": null
       },
       {
         "id": "T3",
@@ -55,8 +77,19 @@
         "mount_type": null,
         "bolt_type": {
           "size": "1/4",
-          "thread_pitch": null
-        }
+          "thread_pitch": null,
+          "standard": "NAS1352",
+          "head_type": "socket_head_cap_screw",
+          "nominal_diameter_in": 0.25,
+          "thread_pitch_unit": null,
+          "screw_length_mm": null,
+          "thread_engagement_mm": null,
+          "washer_standard": "NAS620",
+          "washer_dimensions_mm": null
+        },
+        "hole_diameter_mm": null,
+        "hole_depth_mm": null,
+        "hole_fit": null
       }
     ],
     "loading_interfaces": [
@@ -84,8 +117,19 @@
             "mount_type": null,
             "bolt_type": {
               "size": "1/4",
-              "thread_pitch": null
-            }
+              "thread_pitch": null,
+              "standard": "NAS1352",
+              "head_type": "socket_head_cap_screw",
+              "nominal_diameter_in": 0.25,
+              "thread_pitch_unit": null,
+              "screw_length_mm": null,
+              "thread_engagement_mm": null,
+              "washer_standard": "NAS620",
+              "washer_dimensions_mm": null
+            },
+            "hole_diameter_mm": null,
+            "hole_depth_mm": null,
+            "hole_fit": null
           },
           {
             "id": "S2",
@@ -102,8 +146,19 @@
             "mount_type": null,
             "bolt_type": {
               "size": "1/4",
-              "thread_pitch": null
-            }
+              "thread_pitch": null,
+              "standard": "NAS1352",
+              "head_type": "socket_head_cap_screw",
+              "nominal_diameter_in": 0.25,
+              "thread_pitch_unit": null,
+              "screw_length_mm": null,
+              "thread_engagement_mm": null,
+              "washer_standard": "NAS620",
+              "washer_dimensions_mm": null
+            },
+            "hole_diameter_mm": null,
+            "hole_depth_mm": null,
+            "hole_fit": null
           },
           {
             "id": "S3",
@@ -120,8 +175,19 @@
             "mount_type": null,
             "bolt_type": {
               "size": "1/4",
-              "thread_pitch": null
-            }
+              "thread_pitch": null,
+              "standard": "NAS1352",
+              "head_type": "socket_head_cap_screw",
+              "nominal_diameter_in": 0.25,
+              "thread_pitch_unit": null,
+              "screw_length_mm": null,
+              "thread_engagement_mm": null,
+              "washer_standard": "NAS620",
+              "washer_dimensions_mm": null
+            },
+            "hole_diameter_mm": null,
+            "hole_depth_mm": null,
+            "hole_fit": null
           },
           {
             "id": "S4",
@@ -138,12 +204,119 @@
             "mount_type": null,
             "bolt_type": {
               "size": "1/4",
-              "thread_pitch": null
-            }
+              "thread_pitch": null,
+              "standard": "NAS1352",
+              "head_type": "socket_head_cap_screw",
+              "nominal_diameter_in": 0.25,
+              "thread_pitch_unit": null,
+              "screw_length_mm": null,
+              "thread_engagement_mm": null,
+              "washer_standard": "NAS620",
+              "washer_dimensions_mm": null
+            },
+            "hole_diameter_mm": null,
+            "hole_depth_mm": null,
+            "hole_fit": null
           }
         ]
       }
-    ]
+    ],
+    "coordinate_system": "global XYZ",
+    "length_unit": "mm",
+    "pointing_vector_role": "hole axis; does not specify screw insertion direction",
+    "mounting_planes": {
+      "telescope": {
+        "axis": "Z",
+        "coordinate_mm": 0.0
+      },
+      "stage": {
+        "axis": "Y",
+        "coordinate_mm": -7.164
+      }
+    },
+    "stage_pattern_center": {
+      "x": -1.6225,
+      "y": -7.164,
+      "z": 125.21
+    },
+    "preserve_mounting_interfaces_exactly": true,
+    "interface_position_tolerance_mm": null,
+    "stage_side": "negative_Y",
+    "stage_structure_direction": "primarily_positive_Y",
+    "required_connected_solid_count": 1,
+    "continuous_load_paths_required": true,
+    "obstacles": [
+      {
+        "id": "stage",
+        "representation": "keepout_envelope",
+        "geometry": null,
+        "reference_file": null,
+        "clearance_margin_mm": null,
+        "basis": "unresolved; specify measured or conservative_assumption",
+        "source_or_assumption": null
+      },
+      {
+        "id": "telescope",
+        "representation": "keepout_envelope",
+        "geometry": null,
+        "reference_file": null,
+        "clearance_margin_mm": null,
+        "basis": "unresolved; specify measured or conservative_assumption",
+        "source_or_assumption": null
+      },
+      {
+        "id": "optical_path",
+        "representation": "keepout_envelope",
+        "geometry": null,
+        "reference_file": null,
+        "clearance_margin_mm": null,
+        "basis": "unresolved; specify measured or conservative_assumption",
+        "source_or_assumption": null
+      }
+    ],
+    "fastener_access": {
+      "interface_ids": [
+        "T1",
+        "T2",
+        "T3",
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "washer_bearing_area_required": true,
+      "min_washer_bearing_area_mm2": null,
+      "min_edge_distance_mm": null,
+      "bolt_head_clearance_required": true,
+      "straight_insertion_paths_required": true,
+      "driver_access_required": true,
+      "separate_envelope_types": [
+        "bolt",
+        "washer",
+        "head",
+        "straight_insertion",
+        "driver"
+      ],
+      "envelopes_by_interface": {
+        "T1": null,
+        "T2": null,
+        "T3": null,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null
+      },
+      "insertion_direction_by_interface": {
+        "T1": null,
+        "T2": null,
+        "T3": null,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null
+      },
+      "driver_tool": null
+    }
   },
   "material": "Aluminum 6061-T651",
   "load case (g)": {
@@ -156,14 +329,146 @@
       "min": -40,
       "max": 85
     },
-    "vibration_profile": "MIL-STD-810G"
+    "vibration_profile": "MIL-STD-810G",
+    "confirmation_status": "requires_confirmation; not specified in the original bracket brief"
   },
   "design_constraints": {
     "safety_factor": 1.4,
-    "manufacturing_method": "CNC machining"
+    "max_bracket_mass_kg": 0.2,
+    "min_first_mode_frequency_hz": 100,
+    "manufacturing_method": "CNC machining",
+    "safety_factor_type": "yield",
+    "safety_factor_applies_to": "every_independent_static_case",
+    "mass_scope": "bracket_only",
+    "stock_form": "billet",
+    "cnc_machinability_required": true
   },
   "additional_notes": [
     "Ensure compatibility with existing mounting interface",
     "Optimize for maximum stiffness"
-  ]
+  ],
+  "analysis": {
+    "static": {
+      "gravity_m_s2": 9.80665,
+      "solve_cases_independently": true,
+      "payload_loading_interface": "TopLoad",
+      "payload_load_application": "payload_center_of_gravity",
+      "transfer_through_stage_holes": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "represent_payload_offset_moments": true,
+      "include_bracket_self_inertia": true,
+      "self_inertia_acceleration": "same signed global acceleration as each payload case",
+      "load_sign_convention": "+1 or -1 relative to the positive global axis; null means unresolved",
+      "cases": [
+        {
+          "id": "X",
+          "axis": "X",
+          "payload_force_magnitude_N": 132.389775,
+          "load_sign": null,
+          "reversed_sign_equivalent": null
+        },
+        {
+          "id": "Y",
+          "axis": "Y",
+          "payload_force_magnitude_N": 39.7169325,
+          "load_sign": null,
+          "reversed_sign_equivalent": null
+        },
+        {
+          "id": "Z",
+          "axis": "Z",
+          "payload_force_magnitude_N": 39.7169325,
+          "load_sign": null,
+          "reversed_sign_equivalent": null
+        }
+      ]
+    },
+    "restraints": {
+      "telescope_interface_ids": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "telescope_support_definition": null,
+      "stage_load_transfer_method": null,
+      "physically_interpretable_required": true,
+      "overconstraint_permitted": false,
+      "contact_model": null,
+      "bolt_preload_N": null,
+      "friction_coefficient": null,
+      "interface_stiffness": null
+    },
+    "modal": {
+      "type": "supported",
+      "objective": "maximize_first_mode_frequency_subject_to_design_constraints",
+      "frequency_requirement": "design_constraints.min_first_mode_frequency_hz",
+      "include_bracket_mass": true,
+      "payload_loading_interface": "TopLoad",
+      "include_payload_mass": true,
+      "payload_representation": "point_mass",
+      "point_mass_at_payload_cg": true,
+      "payload_rotational_inertia_tensor_kg_m2": null,
+      "rotational_inertia_status": "not_provided",
+      "invent_rotational_inertia_tensor": false
+    },
+    "material_properties": {
+      "density_kg_m3": null,
+      "elastic_modulus_Pa": null,
+      "poissons_ratio": null,
+      "yield_allowable_Pa": null,
+      "sources": {
+        "density": null,
+        "elastic_modulus": null,
+        "poissons_ratio": null,
+        "yield_allowable": null
+      }
+    },
+    "reporting": {
+      "required_outputs": [
+        "bracket_only_mass",
+        "stress",
+        "displacement",
+        "reactions",
+        "yield_factor_of_safety",
+        "force_and_moment_equilibrium_errors",
+        "element_count",
+        "node_count",
+        "mesh_quality",
+        "convergence",
+        "load_signs_used",
+        "reversed_load_sign_equivalence",
+        "first_mode_frequency",
+        "first_mode_shape"
+      ],
+      "mesh_quality_acceptance_criteria": null,
+      "convergence_acceptance_criteria": null,
+      "equilibrium_error_acceptance_criteria": null,
+      "stress_metric": null,
+      "stress_evaluation_method": null,
+      "yield_fos_definition": "yield_allowable divided by evaluated_stress"
+    }
+  },
+  "model_scope": {
+    "bracket_mass_scope": "bracket_solid_only",
+    "bracket_stiffness_scope": "bracket_solid_only",
+    "excluded_from_bracket_properties": [
+      "payload",
+      "hardware",
+      "reference_bodies",
+      "keepout_envelopes"
+    ],
+    "payload_contributes_static_load": true,
+    "payload_contributes_modal_mass": true,
+    "reference_geometry": [
+      "mounting_interface_references",
+      "separate_bolt_washer_head_and_tool_access_envelopes"
+    ],
+    "fabricate_stage_or_telescope_detail": false,
+    "document_conservative_keepouts_when_dimensions_are_unavailable": true,
+    "real_hardware_interference_status": "unverified"
+  }
 }

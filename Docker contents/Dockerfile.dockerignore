@@ -17,3 +17,5 @@ DfM/*
 !DfM/config.json
 !DfM/README.md
 !DfM/verify_dfm.py
+
+!Docker contents/ccx-limited.py

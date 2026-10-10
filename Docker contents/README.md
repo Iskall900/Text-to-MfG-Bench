@@ -49,6 +49,13 @@ docker run -it -e DEEPSEEK_API_KEY text-to-mfg:latest
 
 Configure Pi's provider/model in that container as needed.
 
+Each `pi` launch allows at most 30 modal CalculiX invocations through `ccx`.
+The wrapper detects `*FREQUENCY`, including included input files, and shares a
+locked counter across child processes. Failed modal attempts count; static solves
+and version checks do not. A new Pi launch resets the budget. Direct execution of
+`/usr/bin/ccx` bypasses this operational limit; it is not a security boundary.
+Rebuild the image and recreate containers to apply it.
+
 Pi exposes a `web_search` tool using the
 [Brave Web Search API](https://api-dashboard.search.brave.com/documentation/services/web-search).
 Set `BRAVE_SEARCH_API_KEY` in your host shell and pass it alongside your model key:
@@ -91,11 +98,17 @@ The image uses its existing Build123d installation, rather than the macOS
 Python dependency lock described in the DfM README.
 
 Pi automatically meters each prompt until the agent finishes, including tools,
-retries, compaction, and queued continuations. It writes two files in the prompt's
-working directory (normally `/workspace`):
+retries, compaction, and queued continuations. It writes all metering `.txt` reports in `data-Pi` inside the prompt's
+working directory (normally `/workspace/data-Pi`), creating the folder as needed:
 
 - `agents-1-usage.txt`: total input, cached input, uncached input, and output tokens.
 - `agents-1-time.txt`: total elapsed seconds from prompt submission to completion.
+- `compute.txt`: `modal_fea_runs` and `dfm_runs` for the latest prompt. Counts
+  allowed modal `ccx` attempts (including failed solves) and DfM CLI checks after
+  argument parsing (including failed checks). Help, static solves, and attempts
+  rejected by the modal limit do not count. Direct `/usr/bin/ccx` and imported
+  DfM API calls bypass the counters. Each prompt replaces `compute.txt`; concurrent
+  prompts in one directory leave the last completed report.
 
 Both reports include the outcome (`completed`, `aborted`, or `error`). Cache writes
 count as uncached input. Tokens are provider-reported; missing usage cannot be

@@ -16,6 +16,7 @@ import json
 from math import cos, isfinite, pi, sin, sqrt
 from pathlib import Path
 import platform
+import os
 import sys
 from importlib.metadata import version
 
@@ -998,6 +999,10 @@ def main(argv=None):
     parser.add_argument("--output-dir", type=Path, default=Path("results"))
     args = parser.parse_args(argv)
     try:
+        log = os.environ.get('PI_COMPUTE_LOG')
+        if log:
+            with open(log, 'a') as counter:
+                counter.write('dfm\n')
         report = check(args.part, args.config)
         write_reports(report, args.output_dir)
     except (OSError, RuntimeError, ValueError, TypeError) as exc:
