@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-10-14T20:48:38.553423+00:00",
+  "docker_error": "Docker Desktop is unable to start",
+  "read_only_checks_failed": 2,
+  "container": "goal-maxmode-run-00",
+  "modal_runs": 10,
+  "dfm_calls": 2,
+  "exit_file_exists": false,
+  "run_state": "unverified while Docker API unavailable",
+  "operator_action": "Preserved artifacts and counters; no restart or new prompt. User notification issued; heartbeat remains active to detect recovery."
+}

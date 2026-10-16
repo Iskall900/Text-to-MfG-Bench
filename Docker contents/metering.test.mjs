@@ -26,7 +26,7 @@ test('counts all new model usage, waits for settlement, and resets per prompt', 
     await h.emit('input');
     await new Promise(resolve => setTimeout(resolve, 25));
     await h.emit('before_agent_start');
-    writeFileSync(process.env.PI_COMPUTE_LOG, 'modal_fea\ndfm\nmodal_fea\n');
+    writeFileSync(process.env.PI_COMPUTE_LOG, 'modal_fea\nmodal_fea\n');
     h.entries.push(assistant(usage(10, 20, 3, 4)));
     await h.emit('agent_end');
     assert.deepEqual(readdirSync(cwd), []);
@@ -34,7 +34,7 @@ test('counts all new model usage, waits for settlement, and resets per prompt', 
     h.entries.push(assistant(usage(5, 6, 0, 7)), { type: 'compaction', usage: usage(2, 1, 1, 2) });
     await h.emit('agent_before_settle', { outcome: 'completed' });
     await h.emit('agent_settled');
-    assert.equal(readFileSync(join(cwd, 'data-Pi', 'compute.txt'), 'utf8'), 'outcome: completed\nmodal_fea_runs: 2\ndfm_runs: 1\n');
+    assert.equal(readFileSync(join(cwd, 'data-Pi', 'compute.txt'), 'utf8'), 'outcome: completed\nmodal_fea_runs: 2\n');
     const report = readFileSync(join(cwd, 'data-Pi', 'agents-1-usage.txt'), 'utf8');
     assert.match(report, /input_tokens_total: 48\n/);
     assert.match(report, /input_tokens_cached: 27\n/);
@@ -50,7 +50,7 @@ test('counts all new model usage, waits for settlement, and resets per prompt', 
     h.entries.push(assistant(usage(1, 0, 0, 2)));
     await h.emit('agent_before_settle', { outcome: 'aborted' });
     await h.emit('agent_settled');
-    assert.equal(readFileSync(join(cwd, 'data-Pi', 'compute.txt'), 'utf8'), 'outcome: aborted\nmodal_fea_runs: 0\ndfm_runs: 0\n');
+    assert.equal(readFileSync(join(cwd, 'data-Pi', 'compute.txt'), 'utf8'), 'outcome: aborted\nmodal_fea_runs: 0\n');
     assert.match(readFileSync(join(cwd, 'data-Pi', 'agents-2-usage.txt'), 'utf8'), /outcome: aborted\ninput_tokens_total: 1\n/);
   } finally { rmSync(cwd, { recursive: true, force: true }); }
 });

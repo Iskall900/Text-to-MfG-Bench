@@ -1,0 +1,14 @@
+{
+  "iteration_2": {
+    "pi_original_geometry": "iteration_1/geometry_1",
+    "files_copied": [
+      "bracket_v2.step",
+      "build_v2.py",
+      "bracket_v2.stl"
+    ],
+    "original_fea_prefix": "iteration_1/FEA_1/v2",
+    "observed_at": "2026-10-14T17:48:04.513744+00:00",
+    "note": "Operator preserves requested iteration format. FEA results will be copied once finished. Originals retained.",
+    "fea_copied": true
+  }
+}

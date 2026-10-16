@@ -32,7 +32,6 @@ COPY --from=offline-shell /pi-offline-shell /usr/local/bin/pi-offline-shell
 COPY ["Docker contents/pi-launcher.sh", "/usr/local/bin/pi"]
 COPY ["Docker contents/ccx-limited.py", "/usr/local/bin/ccx"]
 RUN chmod 755 /usr/local/bin/pi /usr/local/bin/ccx
-COPY DfM/check_dfm.py DfM/config.json DfM/README.md DfM/verify_dfm.py /opt/DfM/
 COPY ["Docker contents/README.md", "/opt/README.md"]
 
 COPY ["Docker contents/docs/", "/tmp/docs/"]

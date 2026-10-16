@@ -1,0 +1,14 @@
+{
+  "node_count": 149911,
+  "element_count": 81193,
+  "ccx_rc": 201,
+  "solve_time_s": 7.5,
+  "first_mode_hz": null,
+  "frequencies_hz": []
+}
+Xp vm_max None fos None cg None
+Xn vm_max None fos None cg None
+Yp vm_max None fos None cg None
+Yn vm_max None fos None cg None
+Zp vm_max None fos None cg None
+Zn vm_max None fos None cg None

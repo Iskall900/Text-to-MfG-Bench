@@ -1,0 +1,1 @@
+PASS: 30 reservations allowed; 31st rejected; counter unchanged after rejection.

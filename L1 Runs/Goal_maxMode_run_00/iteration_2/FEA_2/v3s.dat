@@ -1,0 +1,48 @@
+
+ displacements (vx,vy,vz) for set CGNODE and time  0.1000000E+01
+
+    127879  2.156814E-01  2.121728E-05  1.309348E-05
+
+ forces (fx,fy,fz) for set CGNODE and time  0.1000000E+01
+
+    127879  1.326564E+02  2.480135E-09 -3.114970E-09
+
+ displacements (vx,vy,vz) for set CGNODE and time  0.2000000E+01
+
+    127879 -2.138997E-01 -2.023447E-05 -1.250334E-05
+
+ forces (fx,fy,fz) for set CGNODE and time  0.2000000E+01
+
+    127879 -1.323898E+02 -2.528591E-09  3.215184E-09
+
+ displacements (vx,vy,vz) for set CGNODE and time  0.3000000E+01
+
+    127879  6.531090E-06  1.162188E-02  5.585913E-03
+
+ forces (fx,fy,fz) for set CGNODE and time  0.3000000E+01
+
+    127879  3.076993E-11  3.979691E+01  2.411428E-09
+
+ displacements (vx,vy,vz) for set CGNODE and time  0.4000000E+01
+
+    127879 -6.070342E-06 -1.085647E-02 -5.259681E-03
+
+ forces (fx,fy,fz) for set CGNODE and time  0.4000000E+01
+
+    127879 -3.220637E-11 -3.971693E+01 -2.254317E-09
+
+ displacements (vx,vy,vz) for set CGNODE and time  0.5000000E+01
+
+    127879  3.871268E-06  5.281734E-03  6.334036E-03
+
+ forces (fx,fy,fz) for set CGNODE and time  0.5000000E+01
+
+    127879  8.125445E-12 -6.664969E-10  3.979691E+01
+
+ displacements (vx,vy,vz) for set CGNODE and time  0.6000000E+01
+
+    127879 -3.751001E-06 -5.259681E-03 -6.300786E-03
+
+ forces (fx,fy,fz) for set CGNODE and time  0.6000000E+01
+
+    127879 -1.063210E-11  6.565902E-10 -3.971693E+01

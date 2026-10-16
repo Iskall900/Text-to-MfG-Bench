@@ -91,7 +91,7 @@ export default function metering(pi: ExtensionAPI) {
       const reportDir = join(completed.cwd, 'data-Pi');
       mkdirSync(reportDir, { recursive: true });
       writeFileSync(join(reportDir, 'compute.txt'),
-        `${outcome}modal_fea_runs: ${runs.filter(kind => kind === 'modal_fea').length}\ndfm_runs: ${runs.filter(kind => kind === 'dfm').length}\n`);
+        `${outcome}modal_fea_runs: ${runs.filter(kind => kind === 'modal_fea').length}\n`);
       writeReports(reportDir,
         `${outcome}input_tokens_total: ${uncached + cached}\ninput_tokens_cached: ${cached}\ninput_tokens_uncached: ${uncached}\noutput_tokens: ${output}\n`,
         `${outcome}elapsed_seconds: ${seconds.toFixed(6)}\n`);

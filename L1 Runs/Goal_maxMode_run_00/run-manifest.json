@@ -1,0 +1,22 @@
+{
+  "run": "Goal_maxMode_run_00",
+  "container": "goal-maxmode-run-00",
+  "image": "text-to-mfg:latest",
+  "image_id": "sha256:a8822cfffb4f1c37123a2d49ad6ffeaafbf423d2a2bf9df58c1cfa601ec2b25c",
+  "model": "deepseek-flash",
+  "model_name": "DeepSeek V4.1 Flash",
+  "reasoning": "max",
+  "modal_limit": 30,
+  "dfm_limit": 30,
+  "workspace": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/L1 runs/Goal_maxMode_run_00",
+  "input_sha256": "e8157dfad15f513aa994a139f58608af314c1f4ed5080e1360ecad11105383d8",
+  "model_reference": "https://api-docs.deepseek.com/news/news260910/",
+  "reasoning_reference": "https://api-docs.deepseek.com/guides/thinking_mode/",
+  "web_search": "Brave key unavailable",
+  "started": "2026-10-14T17:14:24.504690+00:00",
+  "management_automation": {
+    "id": "manage-goal-maxmode-run-00",
+    "check_interval_minutes": 10,
+    "status": "ACTIVE"
+  }
+}

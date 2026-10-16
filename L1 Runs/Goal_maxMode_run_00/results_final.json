@@ -1,0 +1,179 @@
+{
+  "run": "Goal_maxMode_run_00",
+  "bracket_id": "A15",
+  "best_iteration": "iteration_2",
+  "geometry_step": "iteration_2/geometry_2/bracket_v3.step",
+  "bracket_mass_kg": 0.184055,
+  "bracket_volume_mm3": 68168.5,
+  "first_mode_hz": {
+    "medium_mesh": 107.4839,
+    "fine_mesh": 107.229
+  },
+  "frequencies_medium_hz": [
+    107.4839,
+    223.5,
+    503.9253,
+    1267.663,
+    3025.946,
+    3534.271,
+    3964.072,
+    4157.7
+  ],
+  "frequencies_fine_hz": [
+    107.229,
+    223.3422,
+    503.1827,
+    1265.804,
+    3018.118
+  ],
+  "static_cases": {
+    "Xp": {
+      "max_von_mises_MPa": 75.34730971308355,
+      "yield_fos": 3.6630372212489823,
+      "cg_disp_mm": [
+        0.2156814,
+        2.121728e-05,
+        1.309348e-05
+      ],
+      "reaction_N": [
+        -150.0468756261502,
+        -6.815860843173706e-05,
+        -0.00030622449500300605
+      ],
+      "applied_payload_N": [
+        132.389775,
+        0,
+        0
+      ]
+    },
+    "Xn": {
+      "max_von_mises_MPa": 75.34730971308355,
+      "yield_fos": 3.6630372212489823,
+      "cg_disp_mm": [
+        -0.2156814,
+        -2.121728e-05,
+        -1.309348e-05
+      ],
+      "reaction_N": [
+        150.0468756261502,
+        6.815860843173706e-05,
+        0.00030622449500300605
+      ],
+      "applied_payload_N": [
+        -132.389775,
+        0,
+        0
+      ]
+    },
+    "Yp": {
+      "max_von_mises_MPa": 7.273455046960841,
+      "yield_fos": 37.946202763063006,
+      "cg_disp_mm": [
+        6.53109e-06,
+        0.01162188,
+        0.005585913
+      ],
+      "reaction_N": [
+        2.912423204928533e-06,
+        -45.01404166648103,
+        -1.3034698512893215e-05
+      ],
+      "applied_payload_N": [
+        0,
+        39.7169325,
+        0
+      ]
+    },
+    "Yn": {
+      "max_von_mises_MPa": 7.273455046960841,
+      "yield_fos": 37.946202763063006,
+      "cg_disp_mm": [
+        -6.53109e-06,
+        -0.01162188,
+        -0.005585913
+      ],
+      "reaction_N": [
+        -2.912423204928533e-06,
+        45.01404166648103,
+        1.3034698512893215e-05
+      ],
+      "applied_payload_N": [
+        0,
+        -39.7169325,
+        0
+      ]
+    },
+    "Zp": {
+      "max_von_mises_MPa": 2.917126988112562,
+      "yield_fos": 94.61363907869412,
+      "cg_disp_mm": [
+        3.871268e-06,
+        0.005281734,
+        0.006334036
+      ],
+      "reaction_N": [
+        8.345001817863658e-07,
+        1.4943291970333682e-06,
+        -45.01405204731115
+      ],
+      "applied_payload_N": [
+        0,
+        0,
+        39.7169325
+      ]
+    },
+    "Zn": {
+      "max_von_mises_MPa": 2.917126988112562,
+      "yield_fos": 94.61363907869412,
+      "cg_disp_mm": [
+        -3.871268e-06,
+        -0.005281734,
+        -0.006334036
+      ],
+      "reaction_N": [
+        -8.345001817863658e-07,
+        -1.4943291970333682e-06,
+        45.01405204731115
+      ],
+      "applied_payload_N": [
+        0,
+        0,
+        -39.7169325
+      ]
+    }
+  },
+  "material": {
+    "E_MPa": 68900,
+    "nu": 0.33,
+    "rho_kg_m3": 2700,
+    "yield_MPa": 276,
+    "source": "assumed standard 6061-T651"
+  },
+  "modal": {
+    "payload_kg": 1.35,
+    "payload_representation": "point mass at CG, rigid coupling to S-hole washer patches",
+    "rotational_inertia": "not provided; not invented"
+  },
+  "mesh": {
+    "medium": {
+      "nodes": 149911,
+      "elements": 68367,
+      "size_mm": [
+        1.2,
+        3.0
+      ]
+    },
+    "fine": {
+      "size_mm": [
+        0.9,
+        2.2
+      ]
+    }
+  },
+  "dfm": {
+    "iteration_1": "FAIL: 128 TOOL_ACCESSIBILITY",
+    "iteration_2": "pending / see iteration_2/DfM_2/report.txt"
+  },
+  "modal_runs_used": 10,
+  "dfm_calls_used": 2
+}

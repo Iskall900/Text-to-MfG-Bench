@@ -11,11 +11,5 @@ Docker contents/*
 !Docker contents/README.md
 !Docker contents/docs/
 !Docker contents/docs/**
-!DfM/
-DfM/*
-!DfM/check_dfm.py
-!DfM/config.json
-!DfM/README.md
-!DfM/verify_dfm.py
 
 !Docker contents/ccx-limited.py

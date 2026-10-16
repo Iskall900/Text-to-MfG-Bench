@@ -1,0 +1,446 @@
+CNC DfM violation summary (reported locations)
+MIN_WALL_THICKNESS: 0
+INTERNAL_CORNER_RADIUS: 0
+TOOL_ACCESSIBILITY: 128
+POCKET_DEPTH_WIDTH: 0
+MIN_HOLE_DIAMETER: 0
+MAX_HOLE_DEPTH: 0
+TOTAL: 128
+STATUS: FAIL
+
+Coverage / inconclusive findings
+MIN_WALL_THICKNESS: measured=9809, inconclusive=0
+INTERNAL_CORNER_RADIUS: measured=0, inconclusive=64
+TOOL_ACCESSIBILITY: measured=9809, inconclusive=0
+POCKET_DEPTH_WIDTH: measured=0, inconclusive=64
+MIN_HOLE_DIAMETER: measured=10, inconclusive=41
+MAX_HOLE_DEPTH: measured=10, inconclusive=41
+
+Violations
+check_name,x,y,z,face_id,measured_value,limit,explanation
+TOOL_ACCESSIBILITY,-3.275296,5.872500,4.666645,4,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.275296,7.902833,4.666645,4,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.275296,9.933167,4.666645,4,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.275296,11.963500,4.666645,4,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.177191,3.842167,4.836567,4,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.177191,5.872500,4.836567,4,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.177191,7.902833,4.836567,4,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.177191,9.933167,4.836567,4,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.177191,11.963500,4.836567,4,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.067809,-2.248833,4.836567,11,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.700161,22.037698,4.666645,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.635476,22.111457,4.836567,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.584802,21.726550,4.510981,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.584802,21.922339,4.666645,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.511043,21.598795,4.510981,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.511043,21.987024,4.836567,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.485487,21.792910,4.666645,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.403916,21.651624,4.666645,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.403916,21.847414,4.836567,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.341485,21.500901,4.666645,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.315929,21.695015,4.836567,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.299260,21.343318,4.666645,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.248586,21.532435,4.836567,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.203041,21.362457,4.836567,42,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.584802,-3.890550,4.510981,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.584802,-4.086339,4.666645,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.511043,-3.762795,4.510981,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.511043,-4.151024,4.836567,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.485487,-3.956910,4.666645,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.454590,-4.200532,5.017841,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.416410,-3.484015,4.510981,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.403916,-3.815624,4.666645,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.403916,-4.011414,4.836567,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.341485,-3.664901,4.666645,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.341485,-4.053129,5.017841,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.315929,-3.859015,4.836567,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.299260,-4.081343,5.207365,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.277966,-3.345571,4.666645,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.248586,-3.696435,4.836567,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.248586,-3.892225,5.017841,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.203041,-3.526457,4.836567,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.203041,-3.914685,5.207365,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.180071,-3.351987,4.836567,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.177485,-3.720571,5.017841,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.129397,-3.541105,5.017841,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.129397,-3.736895,5.207365,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.105146,-3.356898,5.017841,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.079590,-3.551013,5.207365,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.054472,-3.360220,5.207365,45,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.139854,21.192898,5.017841,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.115603,21.572895,5.207365,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.115603,21.377105,5.017841,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.067515,21.556571,5.017841,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.064929,21.187987,4.836567,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.041959,21.750685,5.207365,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.041959,21.362457,4.836567,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.003586,21.728225,5.017841,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.003586,21.532435,4.836567,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.054260,21.343318,4.666645,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.070929,21.695015,4.836567,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.096485,21.889129,5.017841,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.096485,21.500901,4.666645,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.158916,21.847414,4.836567,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.158916,21.651624,4.666645,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.209590,22.036532,5.017841,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.209590,21.462506,4.510981,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.240487,21.792910,4.666645,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.266043,21.987024,4.836567,50,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.165410,-3.551013,5.207365,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.139854,-3.356898,5.017841,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.115603,-3.736895,5.207365,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.115603,-3.541105,5.017841,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.067515,-3.720571,5.017841,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.064929,-3.351987,4.836567,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.041959,-3.914685,5.207365,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-0.041959,-3.526457,4.836567,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.003586,-3.892225,5.017841,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.003586,-3.696435,4.836567,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.032966,-3.345571,4.666645,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.054260,-4.081343,5.207365,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.054260,-3.507318,4.666645,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.070929,-3.859015,4.836567,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.096485,-4.053129,5.017841,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.158916,-4.011414,4.836567,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.158916,-3.815624,4.666645,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.171410,-3.484015,4.510981,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.209590,-4.200532,5.017841,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.209590,-3.626506,4.510981,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.240487,-3.956910,4.666645,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.266043,-4.151024,4.836567,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.266043,-3.762795,4.510981,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.339802,-4.086339,4.666645,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.339802,-3.890550,4.510981,53,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-22.797500,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-20.914167,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-19.030833,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-17.147500,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-15.264167,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-13.380833,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-11.497500,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-11.497500,-4.126500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-9.614167,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-9.614167,-4.126500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-7.730833,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-7.730833,-4.126500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-5.847500,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-5.847500,-4.126500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.964167,-4.551500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,-3.964167,-4.126500,103.000000,61,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.719167,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,0.719167,-4.126500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,2.602500,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,2.602500,-4.126500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,4.485833,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,4.485833,-4.126500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,6.369167,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,6.369167,-4.126500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,8.252500,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,8.252500,-4.126500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,10.135833,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,10.135833,-4.126500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,12.019167,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,12.019167,-4.126500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,13.902500,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,15.785833,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,17.669167,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,19.552500,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+TOOL_ACCESSIBILITY,21.435833,-4.551500,103.000000,73,0.000000,1.000000,clear straight-insertion directions for any single configured cutter/shank/holder are below the minimum; sampled five-axis access failure
+
+Inconclusive findings
+INTERNAL_CORNER_RADIUS | face 1 | -67.072917, 36.401792, 4.000000 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 1 | -67.072917, 36.401792, 4.000000 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 2 | -26.180833, 21.198105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 3 | -27.024395, 26.275000, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 4 | -4.424395, 20.084833, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 5 | -24.997500, 25.003212, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 6 | -5.464167, -3.362105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 7 | 22.380712, 24.925000, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 8 | -27.024395, -3.489000, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 9 | 2.219167, 21.198105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 10 | 21.752500, -7.167212, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 11 | 1.179395, -2.248833, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 12 | 22.380712, -4.839000, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 13 | 22.935833, -3.362105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 15 | 15.947364, -19.035796, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 16 | -32.006006, 15.073765, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 17 | 16.063946, -19.142023, 0.166667 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 18 | -34.277590, 18.566334, 0.166667 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 19 | 17.029188, -21.265824, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 20 | -52.903291, 29.350738, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 21 | 17.269566, -23.934215, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 23 | 27.254725, -7.703171, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 24 | -46.186508, 44.951764, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 25 | 27.137542, -7.593193, 0.166667 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 26 | -26.259288, 32.412158, 0.166667 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 27 | 26.429583, -4.304297, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 28 | -25.317107, 31.871164, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 31 | 26.277127, 26.527241, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 32 | 11.524115, 36.979162, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 33 | 26.440098, 26.703716, 0.166667 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 34 | 14.868533, 37.753553, 0.166667 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 35 | 29.872544, 29.045837, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 36 | 16.288904, 39.243478, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 37 | 32.540436, 29.291699, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 41 | -5.401667, 22.600000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 41 | -5.401667, 22.600000, 9.562500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 42 | -4.424605, 21.106416, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 43 | -25.622500, 22.700000, 9.562500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 44 | -3.022500, 20.084833, 9.562500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 45 | -4.516084, -3.361895, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 46 | -23.622500, 25.000000, 9.562500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 47 | -5.401667, -4.764000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 47 | -5.401667, -4.764000, 9.562500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 48 | 22.377500, 22.700000, 98.937500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 49 | -25.622500, -6.851500, 11.437500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 50 | 1.271084, 21.197895, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 51 | 21.498333, 22.600000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 51 | 21.498333, 22.600000, 9.562500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 52 | 20.377500, -7.164000, 11.437500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 53 | 1.179605, -3.270416, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 54 | -0.222500, 20.084833, 9.562500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 55 | 22.377500, -6.851500, 142.062500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 56 | 21.498333, -4.764000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 56 | 21.498333, -4.764000, 9.562500 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 58 | -4.424395, 22.596788, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 59 | -23.622500, 23.972333, 103.000000 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 60 | -3.025712, -3.362105, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 61 | -24.680833, -4.551500, 103.000000 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 61 | -24.680833, -4.551500, 103.000000 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 66 | -23.622500, 0.336000, 104.875000 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+INTERNAL_CORNER_RADIUS | face 67 | -0.219288, 21.198105, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 72 | 1.179395, -4.760788, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 73 | 0.719167, -4.551500, 103.000000 | cavity surface is outside verified analytic pocket/hole recognition
+INTERNAL_CORNER_RADIUS | face 73 | 0.719167, -4.551500, 103.000000 | sidewall corner recognition is incomplete: pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 1 | -67.072917, 36.401792, 4.000000 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 1 | -67.072917, 36.401792, 4.000000 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 2 | -26.180833, 21.198105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 3 | -27.024395, 26.275000, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 4 | -4.424395, 20.084833, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 5 | -24.997500, 25.003212, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 6 | -5.464167, -3.362105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 7 | 22.380712, 24.925000, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 8 | -27.024395, -3.489000, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 9 | 2.219167, 21.198105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 10 | 21.752500, -7.167212, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 11 | 1.179395, -2.248833, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 12 | 22.380712, -4.839000, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 13 | 22.935833, -3.362105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 15 | 15.947364, -19.035796, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 16 | -32.006006, 15.073765, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 17 | 16.063946, -19.142023, 0.166667 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 18 | -34.277590, 18.566334, 0.166667 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 19 | 17.029188, -21.265824, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 20 | -52.903291, 29.350738, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 21 | 17.269566, -23.934215, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 23 | 27.254725, -7.703171, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 24 | -46.186508, 44.951764, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 25 | 27.137542, -7.593193, 0.166667 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 26 | -26.259288, 32.412158, 0.166667 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 27 | 26.429583, -4.304297, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 28 | -25.317107, 31.871164, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 31 | 26.277127, 26.527241, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 32 | 11.524115, 36.979162, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 33 | 26.440098, 26.703716, 0.166667 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 34 | 14.868533, 37.753553, 0.166667 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 35 | 29.872544, 29.045837, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 36 | 16.288904, 39.243478, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 37 | 32.540436, 29.291699, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 41 | -5.401667, 22.600000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 41 | -5.401667, 22.600000, 9.562500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 42 | -4.424605, 21.106416, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 43 | -25.622500, 22.700000, 9.562500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 44 | -3.022500, 20.084833, 9.562500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 45 | -4.516084, -3.361895, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 46 | -23.622500, 25.000000, 9.562500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 47 | -5.401667, -4.764000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 47 | -5.401667, -4.764000, 9.562500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 48 | 22.377500, 22.700000, 98.937500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 49 | -25.622500, -6.851500, 11.437500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 50 | 1.271084, 21.197895, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 51 | 21.498333, 22.600000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 51 | 21.498333, 22.600000, 9.562500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 52 | 20.377500, -7.164000, 11.437500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 53 | 1.179605, -3.270416, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 54 | -0.222500, 20.084833, 9.562500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 55 | 22.377500, -6.851500, 142.062500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 56 | 21.498333, -4.764000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 56 | 21.498333, -4.764000, 9.562500 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 58 | -4.424395, 22.596788, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 59 | -23.622500, 23.972333, 103.000000 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 60 | -3.025712, -3.362105, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 61 | -24.680833, -4.551500, 103.000000 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 61 | -24.680833, -4.551500, 103.000000 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 66 | -23.622500, 0.336000, 104.875000 | pocket has an open side or stepped sidewalls
+POCKET_DEPTH_WIDTH | face 67 | -0.219288, 21.198105, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 72 | 1.179395, -4.760788, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 73 | 0.719167, -4.551500, 103.000000 | cavity surface is outside verified analytic pocket/hole recognition
+POCKET_DEPTH_WIDTH | face 73 | 0.719167, -4.551500, 103.000000 | pocket has an open side or stepped sidewalls
+MIN_HOLE_DIAMETER | face 1 | -67.072917, 36.401792, 4.000000 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 2 | -26.180833, 21.198105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 3 | -27.024395, 26.275000, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 4 | -4.424395, 20.084833, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 5 | -24.997500, 25.003212, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 6 | -5.464167, -3.362105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 7 | 22.380712, 24.925000, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 8 | -27.024395, -3.489000, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 9 | 2.219167, 21.198105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 10 | 21.752500, -7.167212, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 11 | 1.179395, -2.248833, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 12 | 22.380712, -4.839000, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 13 | 22.935833, -3.362105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 15 | 15.947364, -19.035796, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 16 | -32.006006, 15.073765, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 19 | 17.029188, -21.265824, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 20 | -52.903291, 29.350738, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 21 | 17.269566, -23.934215, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 23 | 27.254725, -7.703171, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 24 | -46.186508, 44.951764, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 27 | 26.429583, -4.304297, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 28 | -25.317107, 31.871164, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 31 | 26.277127, 26.527241, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 32 | 11.524115, 36.979162, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 35 | 29.872544, 29.045837, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 36 | 16.288904, 39.243478, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 37 | 32.540436, 29.291699, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 41 | -5.401667, 22.600000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 42 | -4.424605, 21.106416, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 45 | -4.516084, -3.361895, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 47 | -5.401667, -4.764000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 50 | 1.271084, 21.197895, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 51 | 21.498333, 22.600000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 53 | 1.179605, -3.270416, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 56 | 21.498333, -4.764000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 58 | -4.424395, 22.596788, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 60 | -3.025712, -3.362105, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 61 | -24.680833, -4.551500, 103.000000 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 67 | -0.219288, 21.198105, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 72 | 1.179395, -4.760788, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+MIN_HOLE_DIAMETER | face 73 | 0.719167, -4.551500, 103.000000 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 1 | -67.072917, 36.401792, 4.000000 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 2 | -26.180833, 21.198105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 3 | -27.024395, 26.275000, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 4 | -4.424395, 20.084833, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 5 | -24.997500, 25.003212, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 6 | -5.464167, -3.362105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 7 | 22.380712, 24.925000, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 8 | -27.024395, -3.489000, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 9 | 2.219167, 21.198105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 10 | 21.752500, -7.167212, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 11 | 1.179395, -2.248833, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 12 | 22.380712, -4.839000, 5.401895 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 13 | 22.935833, -3.362105, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 15 | 15.947364, -19.035796, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 16 | -32.006006, 15.073765, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 19 | 17.029188, -21.265824, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 20 | -52.903291, 29.350738, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 21 | 17.269566, -23.934215, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 23 | 27.254725, -7.703171, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 24 | -46.186508, 44.951764, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 27 | 26.429583, -4.304297, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 28 | -25.317107, 31.871164, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 31 | 26.277127, 26.527241, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 32 | 11.524115, 36.979162, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 35 | 29.872544, 29.045837, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 36 | 16.288904, 39.243478, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 37 | 32.540436, 29.291699, 0.166667 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 41 | -5.401667, 22.600000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 42 | -4.424605, 21.106416, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 45 | -4.516084, -3.361895, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 47 | -5.401667, -4.764000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 50 | 1.271084, 21.197895, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 51 | 21.498333, 22.600000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 53 | 1.179605, -3.270416, 4.003212 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 56 | 21.498333, -4.764000, 9.562500 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 58 | -4.424395, 22.596788, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 60 | -3.025712, -3.362105, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 61 | -24.680833, -4.551500, 103.000000 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 67 | -0.219288, 21.198105, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 72 | 1.179395, -4.760788, 98.937500 | cavity surface is outside verified analytic pocket/hole recognition
+MAX_HOLE_DEPTH | face 73 | 0.719167, -4.551500, 103.000000 | cavity surface is outside verified analytic pocket/hole recognition
+
+Face IDs (one-based solid.faces() traversal; same persisted B-rep only)
+1: GeomAbs_Plane; representative surface point (-67.072917, 36.401792, 4.000000)
+2: GeomAbs_Cylinder; representative surface point (-26.180833, 21.198105, 4.003212)
+3: GeomAbs_Cylinder; representative surface point (-27.024395, 26.275000, 4.003212)
+4: GeomAbs_Cylinder; representative surface point (-4.424395, 20.084833, 4.003212)
+5: GeomAbs_Cylinder; representative surface point (-24.997500, 25.003212, 5.401895)
+6: GeomAbs_Cylinder; representative surface point (-5.464167, -3.362105, 4.003212)
+7: GeomAbs_Cylinder; representative surface point (22.380712, 24.925000, 5.401895)
+8: GeomAbs_Cylinder; representative surface point (-27.024395, -3.489000, 4.003212)
+9: GeomAbs_Cylinder; representative surface point (2.219167, 21.198105, 4.003212)
+10: GeomAbs_Cylinder; representative surface point (21.752500, -7.167212, 5.401895)
+11: GeomAbs_Cylinder; representative surface point (1.179395, -2.248833, 4.003212)
+12: GeomAbs_Cylinder; representative surface point (22.380712, -4.839000, 5.401895)
+13: GeomAbs_Cylinder; representative surface point (22.935833, -3.362105, 4.003212)
+14: GeomAbs_Cylinder; representative surface point (-32.461390, 12.056399, 0.166667)
+15: GeomAbs_Cylinder; representative surface point (15.947364, -19.035796, 0.166667)
+16: GeomAbs_Cylinder; representative surface point (-32.006006, 15.073765, 0.166667)
+17: GeomAbs_Plane; representative surface point (16.063946, -19.142023, 0.166667)
+18: GeomAbs_Plane; representative surface point (-34.277590, 18.566334, 0.166667)
+19: GeomAbs_Cylinder; representative surface point (17.029188, -21.265824, 0.166667)
+20: GeomAbs_Cylinder; representative surface point (-52.903291, 29.350738, 0.166667)
+21: GeomAbs_Cylinder; representative surface point (17.269566, -23.934215, 0.166667)
+22: GeomAbs_Cylinder; representative surface point (-47.052947, 47.486991, 0.166667)
+23: GeomAbs_Cylinder; representative surface point (27.254725, -7.703171, 0.166667)
+24: GeomAbs_Cylinder; representative surface point (-46.186508, 44.951764, 0.166667)
+25: GeomAbs_Plane; representative surface point (27.137542, -7.593193, 0.166667)
+26: GeomAbs_Plane; representative surface point (-26.259288, 32.412158, 0.166667)
+27: GeomAbs_Cylinder; representative surface point (26.429583, -4.304297, 0.166667)
+28: GeomAbs_Cylinder; representative surface point (-25.317107, 31.871164, 0.166667)
+29: GeomAbs_Cylinder; representative surface point (26.968202, -3.082144, 0.166667)
+30: GeomAbs_Cylinder; representative surface point (10.019665, 37.630820, 0.166667)
+31: GeomAbs_Cylinder; representative surface point (26.277127, 26.527241, 0.166667)
+32: GeomAbs_Cylinder; representative surface point (11.524115, 36.979162, 0.166667)
+33: GeomAbs_Plane; representative surface point (26.440098, 26.703716, 0.166667)
+34: GeomAbs_Plane; representative surface point (14.868533, 37.753553, 0.166667)
+35: GeomAbs_Cylinder; representative surface point (29.872544, 29.045837, 0.166667)
+36: GeomAbs_Cylinder; representative surface point (16.288904, 39.243478, 0.166667)
+37: GeomAbs_Cylinder; representative surface point (32.540436, 29.291699, 0.166667)
+38: GeomAbs_Cylinder; representative surface point (33.265852, -20.582956, 0.166667)
+39: GeomAbs_Cylinder; representative surface point (-55.624148, 42.914044, 0.166667)
+40: GeomAbs_Cylinder; representative surface point (33.265852, 42.914044, 0.166667)
+41: GeomAbs_Plane; representative surface point (-5.401667, 22.600000, 9.562500)
+42: GeomAbs_Sphere; representative surface point (-4.424605, 21.106416, 4.003212)
+43: GeomAbs_Plane; representative surface point (-25.622500, 22.700000, 9.562500)
+44: GeomAbs_Plane; representative surface point (-3.022500, 20.084833, 9.562500)
+45: GeomAbs_Sphere; representative surface point (-4.516084, -3.361895, 4.003212)
+46: GeomAbs_Plane; representative surface point (-23.622500, 25.000000, 9.562500)
+47: GeomAbs_Plane; representative surface point (-5.401667, -4.764000, 9.562500)
+48: GeomAbs_Plane; representative surface point (22.377500, 22.700000, 98.937500)
+49: GeomAbs_Plane; representative surface point (-25.622500, -6.851500, 11.437500)
+50: GeomAbs_Sphere; representative surface point (1.271084, 21.197895, 4.003212)
+51: GeomAbs_Plane; representative surface point (21.498333, 22.600000, 9.562500)
+52: GeomAbs_Plane; representative surface point (20.377500, -7.164000, 11.437500)
+53: GeomAbs_Sphere; representative surface point (1.179605, -3.270416, 4.003212)
+54: GeomAbs_Plane; representative surface point (-0.222500, 20.084833, 9.562500)
+55: GeomAbs_Plane; representative surface point (22.377500, -6.851500, 142.062500)
+56: GeomAbs_Plane; representative surface point (21.498333, -4.764000, 9.562500)
+57: GeomAbs_Plane; representative surface point (-67.072917, 36.401792, 0.000000)
+58: GeomAbs_Cylinder; representative surface point (-4.424395, 22.596788, 98.937500)
+59: GeomAbs_Plane; representative surface point (-23.622500, 23.972333, 103.000000)
+60: GeomAbs_Cylinder; representative surface point (-3.025712, -3.362105, 98.937500)
+61: GeomAbs_Plane; representative surface point (-24.680833, -4.551500, 103.000000)
+62: GeomAbs_Cylinder; representative surface point (-2.905833, 10.470914, 32.954445)
+63: GeomAbs_Cylinder; representative surface point (-2.905833, 10.470914, 47.704445)
+64: GeomAbs_Cylinder; representative surface point (-2.905833, 10.470914, 62.454445)
+65: GeomAbs_Plane; representative surface point (-23.622500, -6.851500, 148.000000)
+66: GeomAbs_Plane; representative surface point (-23.622500, 0.336000, 104.875000)
+67: GeomAbs_Cylinder; representative surface point (-0.219288, 21.198105, 98.937500)
+68: GeomAbs_Cylinder; representative surface point (14.310852, 0.023500, 138.777044)
+69: GeomAbs_Cylinder; representative surface point (-11.084148, 0.023500, 113.377044)
+70: GeomAbs_Cylinder; representative surface point (-11.084148, 0.023500, 138.777044)
+71: GeomAbs_Cylinder; representative surface point (14.310852, 0.023500, 113.377044)
+72: GeomAbs_Cylinder; representative surface point (1.179395, -4.760788, 98.937500)
+73: GeomAbs_Plane; representative surface point (0.719167, -4.551500, 103.000000)
+
+Measurement policy
+Coordinates and lengths: mm. Ratios: dimensionless. Accessibility: direction count.
+Fixed UV/edge/direction sampling; unsampled geometry is not certified.
+Straight insertion against the finished part; unrestricted orientation; fixtures, stock, machine limits and full toolpaths excluded.
+SCREENED means no findings at tested locations, not a global minimum or CNC qualification.
+Zero recognized analytic features does not prove that every possible freeform feature was recognized.
+Accessibility counts stop once the configured minimum is met for one tool.
+Runtime: Python 3.11.2; build123d 0.13.0; OCP 8.0.1.1.0; Linux aarch64
+Config SHA256: 47600ab3c5379a2be71554b8ce6b31cf9968b004b64c34ee5ee976d8e14e15b7
+Config: {"limits":{"max_hole_depth_mm":30.0,"max_pocket_depth_width":4.0,"min_accessible_directions":1,"min_hole_diameter_mm":2.0,"min_internal_radius_mm":1.0,"min_wall_mm":2.0},"report_precision":6,"sampling":{"approach_directions":256,"edge_points":24,"face_u":12,"face_v":12,"hole_axial_samples":3,"pocket_angles":32},"tolerances":{"angular_rad":1e-06,"collision_volume_mm3":1e-09,"linear_mm":1e-06,"ratio":1e-06},"tools":[{"cutting_length_mm":20.0,"diameter_mm":2.0,"holder_clearance_mm":0.01,"holder_diameter_mm":20.0,"holder_length_mm":30.0,"kind":"flat","name":"example_2mm_flat_endmill","shank_diameter_mm":4.0,"stickout_mm":50.0}]}

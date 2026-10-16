@@ -82,33 +82,17 @@ mount Docker sockets or other privileged services, or load additional trusted
 extensions with network access. Existing containers need to be recreated from
 the rebuilt image. Search text may be saved in Pi's normal session history.
 
-The DfM checker, example `config.json`, README, and verification script are
-included in `/opt/DfM`. The Docker environment README is at `/opt/README.md`.
-Run the checker inside a container against a STEP file in your workspace:
-
-```sh
-python /opt/DfM/check_dfm.py /workspace/part.step --output-dir /workspace/results
-python /opt/DfM/verify_dfm.py
-```
-
-The checker defaults to `/opt/DfM/config.json`. Use `--config` to supply your own
-manufacturing limits. Read `/opt/DfM/README.md` for the checks and sampling
-limitations; this is manufacturability screening, not CNC certification.
-The image uses its existing Build123d installation, rather than the macOS
-Python dependency lock described in the DfM README.
-
 Pi automatically meters each prompt until the agent finishes, including tools,
 retries, compaction, and queued continuations. It writes all metering `.txt` reports in `data-Pi` inside the prompt's
 working directory (normally `/workspace/data-Pi`), creating the folder as needed:
 
 - `agents-1-usage.txt`: total input, cached input, uncached input, and output tokens.
 - `agents-1-time.txt`: total elapsed seconds from prompt submission to completion.
-- `compute.txt`: `modal_fea_runs` and `dfm_runs` for the latest prompt. Counts
-  allowed modal `ccx` attempts (including failed solves) and DfM CLI checks after
-  argument parsing (including failed checks). Help, static solves, and attempts
-  rejected by the modal limit do not count. Direct `/usr/bin/ccx` and imported
-  DfM API calls bypass the counters. Each prompt replaces `compute.txt`; concurrent
-  prompts in one directory leave the last completed report.
+- `compute.txt`: `modal_fea_runs` for the latest prompt. Counts allowed modal
+  `ccx` attempts (including failed solves). Help, static solves, and attempts
+  rejected by the modal limit do not count. Direct `/usr/bin/ccx` calls bypass
+  the counter. Each prompt replaces `compute.txt`; concurrent prompts in one
+  directory leave the last completed report.
 
 Both reports include the outcome (`completed`, `aborted`, or `error`). Cache writes
 count as uncached input. Tokens are provider-reported; missing usage cannot be
