@@ -1,0 +1,25 @@
+{
+  "run": "Goal_maxMode_run_01",
+  "container": "goal-maxmode-run-01",
+  "image": "text-to-mfg:latest",
+  "model": "deepseek-flash",
+  "reasoning": "max",
+  "modal_limit": 30,
+  "workspace": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/L1 Runs/Goal_maxMode_run_01",
+  "prompt_source": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/prompt.md",
+  "prompt_sha256": "e2ae51806fa5ffe94d9dd5c1677061356c5023271174b816ac8e4186d090e671",
+  "input_sha256": "e8157dfad15f513aa994a139f58608af314c1f4ed5080e1360ecad11105383d8",
+  "created": "2026-10-16T22:12:36.699922+00:00",
+  "status": "stopped_by_user",
+  "archive_policy": "Keep all information and iterations in this run folder; do not archive.",
+  "image_id": "sha256:87377cf9966cbc1e256089fbfde354ad34e2fbdf7e5b365f395b7aafbd7177f6",
+  "container_id": "dd0679e3d72590eab628763a4712f7c86f6c935c34e41dc097ec582d08a35678",
+  "started": "2026-10-16T22:12:46.02583292Z",
+  "management_automation": {
+    "id": "manage-goal-maxmode-run-01",
+    "check_interval_minutes": 1,
+    "status": "PAUSED"
+  },
+  "stopped": "2026-10-17T01:05:00.200262+00:00",
+  "elapsed_seconds": 10334.17443
+}
