@@ -1,0 +1,50 @@
+{
+  "4_5": {
+    "design_source.py": {
+      "hashes": [
+        "e65b03ddfc2c6e7f6254e91a268532c65a3e731c2dbdab91e91039e678024428",
+        "e65b03ddfc2c6e7f6254e91a268532c65a3e731c2dbdab91e91039e678024428"
+      ],
+      "identical": true
+    },
+    "bracket.brep": {
+      "hashes": [
+        "afa5b8f1434c1745c8e373502ee75408ca8d6aae79ce360e926ce6c1df3351d3",
+        "afa5b8f1434c1745c8e373502ee75408ca8d6aae79ce360e926ce6c1df3351d3"
+      ],
+      "identical": true
+    }
+  },
+  "7_8": {
+    "design_source.py": {
+      "hashes": [
+        "32217153eb5c61f836992408fef1712307d513f57dd2c831d859f16fd6650c89",
+        "32217153eb5c61f836992408fef1712307d513f57dd2c831d859f16fd6650c89"
+      ],
+      "identical": true
+    },
+    "bracket.brep": {
+      "hashes": [
+        "8e4f631ce643b68e2e94c956aa2175552b035da32504f6e2c347a4f93b7ab454",
+        "8e4f631ce643b68e2e94c956aa2175552b035da32504f6e2c347a4f93b7ab454"
+      ],
+      "identical": true
+    }
+  },
+  "9_10": {
+    "design_source.py": {
+      "hashes": [
+        "32217153eb5c61f836992408fef1712307d513f57dd2c831d859f16fd6650c89",
+        "32217153eb5c61f836992408fef1712307d513f57dd2c831d859f16fd6650c89"
+      ],
+      "identical": true
+    },
+    "bracket.brep": {
+      "hashes": [
+        "cebb4dce9f4212335bf1a928d9d7350099b3c8b0b90e99ab66d9683bafb1c454",
+        "cebb4dce9f4212335bf1a928d9d7350099b3c8b0b90e99ab66d9683bafb1c454"
+      ],
+      "identical": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{"directory": "/workspace/iteration1/FEA1/model", "modal": true, "utc": "2026-10-20T19:13:02.335378+00:00"}
+{"directory": "/workspace/iteration2/FEA1/model", "modal": true, "utc": "2026-10-20T19:15:07.005826+00:00"}
+{"directory": "/workspace/iteration2/FEA1/static_repaired", "modal": false, "utc": "2026-10-20T19:18:39.675188+00:00"}
+{"directory": "/workspace/iteration3/FEA1/model", "modal": true, "utc": "2026-10-20T19:21:55.515708+00:00"}
+{"directory": "/workspace/iteration4/FEA1/model", "modal": true, "utc": "2026-10-20T19:25:06.084353+00:00"}
+{"directory": "/workspace/iteration5/FEA1/model", "modal": true, "utc": "2026-10-20T19:27:23.190062+00:00"}
+{"directory": "/workspace/iteration6/FEA1/quality_refined", "modal": true, "utc": "2026-10-20T19:32:04.567325+00:00"}
+{"directory": "/workspace/iteration6/FEA1/static_convergence", "modal": false, "utc": "2026-10-20T19:36:53.092730+00:00"}
+{"directory": "/workspace/iteration6/FEA1/static_Z_recovery", "modal": false, "utc": "2026-10-20T19:42:33.730336+00:00"}
+{"directory": "/workspace/iteration7/FEA1/model", "modal": true, "utc": "2026-10-20T19:47:45.832433+00:00"}
+{"directory": "/workspace/iteration8/FEA1/model_final", "modal": true, "utc": "2026-10-20T19:53:05.870481+00:00"}
+{"directory": "/workspace/iteration9/FEA1/model", "modal": true, "utc": "2026-10-20T19:55:45.955293+00:00"}
+{"directory": "/workspace/iteration10/FEA1/model_complete", "modal": true, "utc": "2026-10-20T20:01:25.983350+00:00"}

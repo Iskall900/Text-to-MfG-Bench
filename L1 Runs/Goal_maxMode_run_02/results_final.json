@@ -1,0 +1,95 @@
+{
+  "status": "stopped_by_operator_iteration_limit_violation",
+  "best_iteration": 7,
+  "overall_pass": false,
+  "modal_attempts_observed": 9,
+  "results": [
+    {
+      "iteration": 1,
+      "mass_g": 149.71191404328727,
+      "frequency_hz": 50.72553,
+      "modal_finished": true,
+      "within_geometry_budget": true
+    },
+    {
+      "iteration": 2,
+      "mass_g": 187.8906211090881,
+      "frequency_hz": 65.72627,
+      "modal_finished": true,
+      "within_geometry_budget": true
+    },
+    {
+      "iteration": 3,
+      "mass_g": 189.43015435908825,
+      "frequency_hz": 65.76355,
+      "modal_finished": true,
+      "within_geometry_budget": true
+    },
+    {
+      "iteration": 4,
+      "mass_g": 199.43885875149894,
+      "frequency_hz": 58.62049,
+      "modal_finished": true,
+      "within_geometry_budget": true
+    },
+    {
+      "iteration": 5,
+      "mass_g": 197.34136422022195,
+      "frequency_hz": 69.4728,
+      "modal_finished": true,
+      "within_geometry_budget": true
+    },
+    {
+      "iteration": 6,
+      "mass_g": 193.85319670584244,
+      "frequency_hz": 75.77718,
+      "modal_finished": true,
+      "within_geometry_budget": true
+    },
+    {
+      "iteration": 7,
+      "mass_g": 197.26563041534396,
+      "frequency_hz": 85.75219,
+      "modal_finished": true,
+      "within_geometry_budget": true
+    },
+    {
+      "iteration": 8,
+      "mass_g": 198.66582838613343,
+      "frequency_hz": 80.10737,
+      "modal_finished": true,
+      "within_geometry_budget": true
+    },
+    {
+      "iteration": 9,
+      "mass_g": 192.209701734563,
+      "frequency_hz": null,
+      "modal_finished": false,
+      "within_geometry_budget": true
+    },
+    {
+      "iteration": 10,
+      "mass_g": 199.54220836519772,
+      "frequency_hz": 80.18674,
+      "modal_finished": true,
+      "within_geometry_budget": true
+    },
+    {
+      "iteration": 11,
+      "mass_g": 196.79809230816102,
+      "frequency_hz": null,
+      "modal_finished": false,
+      "within_geometry_budget": false
+    }
+  ],
+  "requirements": {
+    "mass_best": "pass: 197.27 g < 200 g",
+    "frequency": "fail: best 85.75219 Hz < 100 Hz",
+    "geometry_iteration_budget": "fail: iteration11 created",
+    "modal_budget": "9 observed, <=10",
+    "safety_factors": "unverified",
+    "keepout": "unverified: scripts use z=3.31..112.51, prompt specifies -77.8..31.4; coordinate equivalence not established",
+    "mesh_convergence": "unverified",
+    "CNC_machinability": "unverified"
+  }
+}

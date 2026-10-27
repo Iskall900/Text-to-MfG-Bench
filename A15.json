@@ -19,19 +19,15 @@
         "mount_type": null,
         "bolt_type": {
           "size": "1/4",
-          "thread_pitch": null,
           "standard": "NAS1352",
           "head_type": "socket_head_cap_screw",
           "nominal_diameter_in": 0.25,
-          "thread_pitch_unit": null,
-          "screw_length_mm": null,
-          "thread_engagement_mm": null,
           "washer_standard": "NAS620",
           "washer_dimensions_mm": null
         },
-        "hole_diameter_mm": null,
+        "hole_diameter_mm": 6.731,
         "hole_depth_mm": null,
-        "hole_fit": null
+        "hole_fit": "through_clearance"
       },
       {
         "id": "T2",
@@ -48,19 +44,15 @@
         "mount_type": null,
         "bolt_type": {
           "size": "1/4",
-          "thread_pitch": null,
           "standard": "NAS1352",
           "head_type": "socket_head_cap_screw",
           "nominal_diameter_in": 0.25,
-          "thread_pitch_unit": null,
-          "screw_length_mm": null,
-          "thread_engagement_mm": null,
           "washer_standard": "NAS620",
           "washer_dimensions_mm": null
         },
-        "hole_diameter_mm": null,
+        "hole_diameter_mm": 6.731,
         "hole_depth_mm": null,
-        "hole_fit": null
+        "hole_fit": "through_clearance"
       },
       {
         "id": "T3",
@@ -77,19 +69,15 @@
         "mount_type": null,
         "bolt_type": {
           "size": "1/4",
-          "thread_pitch": null,
           "standard": "NAS1352",
           "head_type": "socket_head_cap_screw",
           "nominal_diameter_in": 0.25,
-          "thread_pitch_unit": null,
-          "screw_length_mm": null,
-          "thread_engagement_mm": null,
           "washer_standard": "NAS620",
           "washer_dimensions_mm": null
         },
-        "hole_diameter_mm": null,
+        "hole_diameter_mm": 6.731,
         "hole_depth_mm": null,
-        "hole_fit": null
+        "hole_fit": "through_clearance"
       }
     ],
     "loading_interfaces": [
@@ -117,19 +105,15 @@
             "mount_type": null,
             "bolt_type": {
               "size": "1/4",
-              "thread_pitch": null,
               "standard": "NAS1352",
               "head_type": "socket_head_cap_screw",
               "nominal_diameter_in": 0.25,
-              "thread_pitch_unit": null,
-              "screw_length_mm": null,
-              "thread_engagement_mm": null,
               "washer_standard": "NAS620",
               "washer_dimensions_mm": null
             },
-            "hole_diameter_mm": null,
+            "hole_diameter_mm": 6.731,
             "hole_depth_mm": null,
-            "hole_fit": null
+            "hole_fit": "through_clearance"
           },
           {
             "id": "S2",
@@ -146,19 +130,15 @@
             "mount_type": null,
             "bolt_type": {
               "size": "1/4",
-              "thread_pitch": null,
               "standard": "NAS1352",
               "head_type": "socket_head_cap_screw",
               "nominal_diameter_in": 0.25,
-              "thread_pitch_unit": null,
-              "screw_length_mm": null,
-              "thread_engagement_mm": null,
               "washer_standard": "NAS620",
               "washer_dimensions_mm": null
             },
-            "hole_diameter_mm": null,
+            "hole_diameter_mm": 6.731,
             "hole_depth_mm": null,
-            "hole_fit": null
+            "hole_fit": "through_clearance"
           },
           {
             "id": "S3",
@@ -175,19 +155,15 @@
             "mount_type": null,
             "bolt_type": {
               "size": "1/4",
-              "thread_pitch": null,
               "standard": "NAS1352",
               "head_type": "socket_head_cap_screw",
               "nominal_diameter_in": 0.25,
-              "thread_pitch_unit": null,
-              "screw_length_mm": null,
-              "thread_engagement_mm": null,
               "washer_standard": "NAS620",
               "washer_dimensions_mm": null
             },
-            "hole_diameter_mm": null,
+            "hole_diameter_mm": 6.731,
             "hole_depth_mm": null,
-            "hole_fit": null
+            "hole_fit": "through_clearance"
           },
           {
             "id": "S4",
@@ -204,19 +180,15 @@
             "mount_type": null,
             "bolt_type": {
               "size": "1/4",
-              "thread_pitch": null,
               "standard": "NAS1352",
               "head_type": "socket_head_cap_screw",
               "nominal_diameter_in": 0.25,
-              "thread_pitch_unit": null,
-              "screw_length_mm": null,
-              "thread_engagement_mm": null,
               "washer_standard": "NAS620",
               "washer_dimensions_mm": null
             },
-            "hole_diameter_mm": null,
+            "hole_diameter_mm": 6.731,
             "hole_depth_mm": null,
-            "hole_fit": null
+            "hole_fit": "through_clearance"
           }
         ]
       }
@@ -251,27 +223,9 @@
         "representation": "keepout_envelope",
         "geometry": null,
         "reference_file": null,
-        "clearance_margin_mm": null,
+        "clearance_margin_mm": 2.0,
         "basis": "unresolved; specify measured or conservative_assumption",
-        "source_or_assumption": null
-      },
-      {
-        "id": "telescope",
-        "representation": "keepout_envelope",
-        "geometry": null,
-        "reference_file": null,
-        "clearance_margin_mm": null,
-        "basis": "unresolved; specify measured or conservative_assumption",
-        "source_or_assumption": null
-      },
-      {
-        "id": "optical_path",
-        "representation": "keepout_envelope",
-        "geometry": null,
-        "reference_file": null,
-        "clearance_margin_mm": null,
-        "basis": "unresolved; specify measured or conservative_assumption",
-        "source_or_assumption": null
+        "source_or_assumption": "keep-out cylinder defined in prompt.md"
       }
     ],
     "fastener_access": {
@@ -307,13 +261,13 @@
         "S4": null
       },
       "insertion_direction_by_interface": {
-        "T1": null,
-        "T2": null,
-        "T3": null,
-        "S1": null,
-        "S2": null,
-        "S3": null,
-        "S4": null
+        "T1": "from +Z side, traveling toward -Z",
+        "T2": "from +Z side, traveling toward -Z",
+        "T3": "from +Z side, traveling toward -Z",
+        "S1": "from +Y side, traveling toward -Y",
+        "S2": "from +Y side, traveling toward -Y",
+        "S3": "from +Y side, traveling toward -Y",
+        "S4": "from +Y side, traveling toward -Y"
       },
       "driver_tool": null
     }
@@ -330,7 +284,7 @@
       "max": 85
     },
     "vibration_profile": "MIL-STD-810G",
-    "confirmation_status": "requires_confirmation; not specified in the original bracket brief"
+    "confirmation_status": "not_required; do not analyze thermal or vibration-profile loads"
   },
   "design_constraints": {
     "safety_factor": 1.4,
@@ -362,28 +316,21 @@
       "represent_payload_offset_moments": true,
       "include_bracket_self_inertia": true,
       "self_inertia_acceleration": "same signed global acceleration as each payload case",
-      "load_sign_convention": "+1 or -1 relative to the positive global axis; null means unresolved",
       "cases": [
         {
           "id": "X",
           "axis": "X",
-          "payload_force_magnitude_N": 132.389775,
-          "load_sign": null,
-          "reversed_sign_equivalent": null
+          "payload_force_magnitude_N": 132.389775
         },
         {
           "id": "Y",
           "axis": "Y",
-          "payload_force_magnitude_N": 39.7169325,
-          "load_sign": null,
-          "reversed_sign_equivalent": null
+          "payload_force_magnitude_N": 39.7169325
         },
         {
           "id": "Z",
           "axis": "Z",
-          "payload_force_magnitude_N": 39.7169325,
-          "load_sign": null,
-          "reversed_sign_equivalent": null
+          "payload_force_magnitude_N": 39.7169325
         }
       ]
     },
@@ -393,14 +340,10 @@
         "T2",
         "T3"
       ],
-      "telescope_support_definition": null,
-      "stage_load_transfer_method": null,
+      "telescope_support_definition": "fix all degrees of freedom on the cylindrical bore surface of each T1-T3 hole",
+      "stage_load_transfer_method": "1.35 kg payload as a point mass at its center of gravity (TopLoad), connected rigidly to the S1-S4 hole surfaces; used for both static and modal analyses",
       "physically_interpretable_required": true,
-      "overconstraint_permitted": false,
-      "contact_model": null,
-      "bolt_preload_N": null,
-      "friction_coefficient": null,
-      "interface_stiffness": null
+      "overconstraint_permitted": false
     },
     "modal": {
       "type": "supported",
@@ -410,21 +353,18 @@
       "payload_loading_interface": "TopLoad",
       "include_payload_mass": true,
       "payload_representation": "point_mass",
-      "point_mass_at_payload_cg": true,
-      "payload_rotational_inertia_tensor_kg_m2": null,
-      "rotational_inertia_status": "not_provided",
-      "invent_rotational_inertia_tensor": false
+      "point_mass_at_payload_cg": true
     },
     "material_properties": {
-      "density_kg_m3": null,
-      "elastic_modulus_Pa": null,
-      "poissons_ratio": null,
-      "yield_allowable_Pa": null,
+      "density_kg_m3": 2700,
+      "elastic_modulus_Pa": 68900000000.0,
+      "poissons_ratio": 0.33,
+      "yield_allowable_Pa": 276000000.0,
       "sources": {
-        "density": null,
-        "elastic_modulus": null,
-        "poissons_ratio": null,
-        "yield_allowable": null
+        "density": "standard 6061-T651 value",
+        "elastic_modulus": "standard 6061-T651 value",
+        "poissons_ratio": "standard 6061-T651 value",
+        "yield_allowable": "6061-T651 minimum tensile yield strength"
       }
     },
     "reporting": {
@@ -439,16 +379,14 @@
         "node_count",
         "mesh_quality",
         "convergence",
-        "load_signs_used",
-        "reversed_load_sign_equivalence",
         "first_mode_frequency",
         "first_mode_shape"
       ],
-      "mesh_quality_acceptance_criteria": null,
-      "convergence_acceptance_criteria": null,
-      "equilibrium_error_acceptance_criteria": null,
-      "stress_metric": null,
-      "stress_evaluation_method": null,
+      "mesh_quality_acceptance_criteria": "C3D10 second-order tetrahedral elements, at least 2 elements through the thinnest wall",
+      "convergence_acceptance_criteria": "first mode frequency changes less than 2% on mesh refinement",
+      "equilibrium_error_acceptance_criteria": "reaction force error under 1% of applied load",
+      "stress_metric": "von_mises",
+      "stress_evaluation_method": "maximum_value_in_bracket",
       "yield_fos_definition": "yield_allowable divided by evaluated_stress"
     }
   },

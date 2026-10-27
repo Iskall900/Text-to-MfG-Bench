@@ -1,0 +1,65 @@
+{
+  "run": "Goal_maxMode_run_01",
+  "generated_at_utc": "2026-10-27T21:25:16.554461+00:00",
+  "archive_destination": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Archives/Goal_maxMode_run_01/repository-snapshot-2026-10-27",
+  "original_file_count": 31,
+  "original_bytes": 582582,
+  "archive_contains_all_inventory_files": true,
+  "full_inventory": "ARCHIVE_MANIFEST_2026-10-27.json in archive_destination",
+  "files": [
+    {
+      "path": "A15.json",
+      "bytes": 13395,
+      "sha256": "e8157dfad15f513aa994a139f58608af314c1f4ed5080e1360ecad11105383d8",
+      "action": "keep"
+    },
+    {
+      "path": "RUN_LOG.md",
+      "bytes": 6900,
+      "sha256": "cbd1266a722e6f2d9774c11d38a931b8638c4d4eae35dd3e62094243838b4562",
+      "action": "keep"
+    },
+    {
+      "path": "TOKEN_USAGE_REPORT.md",
+      "bytes": 2321,
+      "sha256": "a97b273fa2d509ac7dc17021c4a1150380d00146aad8ed075576c6224da2f09d",
+      "action": "keep"
+    },
+    {
+      "path": "iteration14/results_iteration14.json",
+      "bytes": 4487,
+      "sha256": "70edb8184558965cf3c73af19fa5485b6f31895d5a0054913425452a80b793e6",
+      "action": "keep"
+    },
+    {
+      "path": "iteration16/results_iteration16.json",
+      "bytes": 4490,
+      "sha256": "ac3b8a6abe2c0034d463ff06b0993bbc9e3debc670415654f21c939e2ef9a4e4",
+      "action": "keep"
+    },
+    {
+      "path": "operator-instructions.txt",
+      "bytes": 632,
+      "sha256": "1f395fe38e30d9886bd020deb13dec64fd5fb3a9642476371189084cd9e0f86f",
+      "action": "keep"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 1286,
+      "sha256": "e2ae51806fa5ffe94d9dd5c1677061356c5023271174b816ac8e4186d090e671",
+      "action": "keep"
+    },
+    {
+      "path": "run-manifest.json",
+      "bytes": 1148,
+      "sha256": "fd3535b5e21ac8311a941f4ba85839bf67cca73bf2468d8a0fca1584f965ace9",
+      "action": "keep"
+    },
+    {
+      "path": "scripts/bracket.py",
+      "bytes": 14609,
+      "sha256": "f7eaf7d155fe7376a3535e8b8b675eb7301a56deb8abae996c3b7e134ab850df",
+      "action": "keep"
+    }
+  ]
+}

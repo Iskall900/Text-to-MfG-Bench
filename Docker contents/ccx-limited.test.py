@@ -20,7 +20,7 @@ class ModalLimitTests(unittest.TestCase):
             (root / 'modes.inp').write_text('*include, input=job.inp\n *frequency, solver=ARPACK\n')
             self.assertTrue(limited.is_modal(deck))
 
-    def test_exactly_30_concurrent_attempts_are_allowed(self):
+    def test_exactly_15_concurrent_attempts_are_allowed(self):
         with tempfile.TemporaryDirectory() as directory:
             state = Path(directory) / 'count'
             state.write_text('0')
@@ -31,9 +31,9 @@ class ModalLimitTests(unittest.TestCase):
                 except RuntimeError:
                     return False
             with ThreadPoolExecutor(max_workers=8) as pool:
-                self.assertEqual(sum(pool.map(attempt, range(40))), 30)
-            self.assertEqual(state.read_text(), '30')
-            with self.assertRaisesRegex(RuntimeError, '30 runs'):
+                self.assertEqual(sum(pool.map(attempt, range(40))), 15)
+            self.assertEqual(state.read_text(), '15')
+            with self.assertRaisesRegex(RuntimeError, '15 runs'):
                 limited.reserve(state)
 
 

@@ -1,0 +1,246 @@
+{
+  "assumption_status": "Conservative generic 1/4-inch hardware envelopes; actual NAS1352/NAS620 stack and tool must be confirmed. Not hardware qualification.",
+  "washer_OD_mm": 16,
+  "washer_ID_mm": 6.8,
+  "washer_thickness_mm": 1.5,
+  "head_diameter_mm": 11,
+  "head_height_mm": 6.5,
+  "driver_diameter_mm": 11,
+  "driver_length_mm": 100,
+  "straight_insertion_swept_radius_mm": 8,
+  "straight_insertion_length_mm": 100,
+  "interfaces": [
+    {
+      "id": "T1",
+      "axis": "Z",
+      "insertion_direction": "-Z",
+      "approach_side": "+Z",
+      "diameter_mm": 6.8,
+      "bearing_area_mm2": 164.74511875424756,
+      "required_assumed_bearing_area_mm2": 164.74511875424875,
+      "bearing_fraction": 0.9999999999999928,
+      "envelopes": {
+        "bolt": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "washer": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "head": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "straight_insertion": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "driver": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        }
+      },
+      "bearing_pass": true
+    },
+    {
+      "id": "T2",
+      "axis": "Z",
+      "insertion_direction": "-Z",
+      "approach_side": "+Z",
+      "diameter_mm": 6.8,
+      "bearing_area_mm2": 164.74511875424753,
+      "required_assumed_bearing_area_mm2": 164.74511875424875,
+      "bearing_fraction": 0.9999999999999926,
+      "envelopes": {
+        "bolt": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "washer": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "head": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "straight_insertion": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "driver": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        }
+      },
+      "bearing_pass": true
+    },
+    {
+      "id": "T3",
+      "axis": "Z",
+      "insertion_direction": "-Z",
+      "approach_side": "+Z",
+      "diameter_mm": 6.8,
+      "bearing_area_mm2": 164.74511875424753,
+      "required_assumed_bearing_area_mm2": 164.74511875424875,
+      "bearing_fraction": 0.9999999999999926,
+      "envelopes": {
+        "bolt": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "washer": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "head": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "straight_insertion": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "driver": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        }
+      },
+      "bearing_pass": true
+    },
+    {
+      "id": "S1",
+      "axis": "Y",
+      "insertion_direction": "-Y",
+      "approach_side": "+Y",
+      "diameter_mm": 6.8,
+      "bearing_area_mm2": 164.74511875424884,
+      "required_assumed_bearing_area_mm2": 164.74511875424875,
+      "bearing_fraction": 1.0000000000000004,
+      "envelopes": {
+        "bolt": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "washer": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "head": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "straight_insertion": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "driver": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        }
+      },
+      "bearing_pass": true
+    },
+    {
+      "id": "S2",
+      "axis": "Y",
+      "insertion_direction": "-Y",
+      "approach_side": "+Y",
+      "diameter_mm": 6.8,
+      "bearing_area_mm2": 164.74511875424884,
+      "required_assumed_bearing_area_mm2": 164.74511875424875,
+      "bearing_fraction": 1.0000000000000004,
+      "envelopes": {
+        "bolt": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "washer": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "head": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "straight_insertion": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "driver": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        }
+      },
+      "bearing_pass": true
+    },
+    {
+      "id": "S3",
+      "axis": "Y",
+      "insertion_direction": "-Y",
+      "approach_side": "+Y",
+      "diameter_mm": 6.8,
+      "bearing_area_mm2": 164.74511875424878,
+      "required_assumed_bearing_area_mm2": 164.74511875424875,
+      "bearing_fraction": 1.0000000000000002,
+      "envelopes": {
+        "bolt": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "washer": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "head": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "straight_insertion": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "driver": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        }
+      },
+      "bearing_pass": true
+    },
+    {
+      "id": "S4",
+      "axis": "Y",
+      "insertion_direction": "-Y",
+      "approach_side": "+Y",
+      "diameter_mm": 6.8,
+      "bearing_area_mm2": 164.74511875424878,
+      "required_assumed_bearing_area_mm2": 164.74511875424875,
+      "bearing_fraction": 1.0000000000000002,
+      "envelopes": {
+        "bolt": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "washer": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "head": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "straight_insertion": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        },
+        "driver": {
+          "bracket_intersection_mm3": 0.0,
+          "pass": true
+        }
+      },
+      "bearing_pass": true
+    }
+  ],
+  "all_assumed_access_and_bearing_pass": true
+}

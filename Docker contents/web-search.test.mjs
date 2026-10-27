@@ -42,8 +42,12 @@ test('image shell blocks network in children while preserving local computation'
   const shell = tools.get('bash');
   const local = await shell.execute('local', { command: 'python -c "from build123d import Box; assert abs(Box(1, 2, 3).volume - 6) < 1e-9; print(42)"' });
   assert.match(local.content[0].text, /42/);
+  const unix = await shell.execute('unix', { command: 'python -c "import socket; socket.socket(socket.AF_UNIX); print(43)"' });
+  assert.match(unix.content[0].text, /43/);
   for (const command of [
     'python -c "import socket; socket.create_connection((\'example.com\', 443))"',
+    'python -c "import socket; socket.socket(socket.AF_INET6)"',
+    'python -c "import socket; socket.socket(socket.AF_NETLINK, socket.SOCK_RAW)"',
     'node -e "fetch(\'https://example.com/file.zip\').then(()=>process.exit(0)).catch(()=>process.exit(9))"',
     '/opt/pi/node_modules/.bin/pi --version && python -c "import socket; socket.socket()"',
   ]) {

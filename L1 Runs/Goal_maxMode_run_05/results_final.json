@@ -1,0 +1,427 @@
+{
+  "bracket_id": "A15",
+  "status": "budget_exhausted_best_attempt_200Hz_target_FAILED",
+  "best_iteration": 10,
+  "all_requirements_fully_verified": false,
+  "frequency_requirement_hz": 200,
+  "first_mode_frequency_hz": 126.6192,
+  "frequency_requirement_pass": false,
+  "frequency_shortfall_hz": 73.3808,
+  "keepout_status": "waived_by_user",
+  "geometry_iterations": 10,
+  "modal_solver_invocations": 10,
+  "modal_run_limit": 10,
+  "remaining_modal_attempts": 0,
+  "completed_modal_invocations": 8,
+  "failed_or_terminated_modal_attempts": 2,
+  "bracket_only_mass_kg": 0.19871038738971622,
+  "mass_requirement_pass": true,
+  "minimum_computed_yield_fos_assumed_material": 5.277648736684906,
+  "material_assumptions": {
+    "density_kg_m3": 2700,
+    "E_MPa": 68900,
+    "poisson": 0.33,
+    "yield_MPa": 240,
+    "status": "engineering assumptions, not certified material/temperature allowables"
+  },
+  "modal_mesh": {
+    "node_count": 55501,
+    "element_count": 29025,
+    "quality": {
+      "min_scaled_jacobian": 0.10193032245574471,
+      "mean_scaled_jacobian": 0.9829461002236677,
+      "negative_count": 0,
+      "tetra_volume_sum_mm3": 73644.30229319935
+    },
+    "mesh_size_mm": 3.5
+  },
+  "static_refined_mesh": {
+    "node_count": 92605,
+    "element_count": 49186,
+    "quality": {
+      "min_scaled_jacobian": 0.9999999999961914,
+      "mean_scaled_jacobian": 0.9999999999999035,
+      "negative_count": 0,
+      "tetra_volume_sum_mm3": 73659.36117959482
+    },
+    "mesh_size_mm": 2.4
+  },
+  "additional_modal_mesh_quality": {
+    "min_SICN": 0.007178262750368662,
+    "p01_SICN": 0.3117942551756092,
+    "median_SICN": 0.822132415860746,
+    "count_SICN_below_0_05": 12,
+    "min_gamma": 0.004337740458271996,
+    "p01_gamma": 0.32060982461216847,
+    "note": "Shape-quality diagnostics only; no new acceptance threshold imposed post hoc. Inverted curved recovery mesh rejected and never solved."
+  },
+  "static_refined_geometry_approximation": "straight-sided quadratic C3D10, planar facets; bore node sets retained from original CAD surface classification",
+  "static_refined_mesh_volume_relative_error_vs_CAD": 0.0008549517587956068,
+  "static": {
+    "X": {
+      "max_displacement_mm": 0.1789277110610095,
+      "payload_displacement_mm": [
+        0.1159651,
+        -0.02638414,
+        -0.01568165
+      ],
+      "max_integration_point_von_mises_MPa": 45.474796064346116,
+      "peak_element": 75051,
+      "peak_element_center_mm": [
+        -54.64816153501647,
+        34.44756389495906,
+        9.003540999943198
+      ],
+      "yield_fos_raw": 5.277648736684906,
+      "structural_vm_outside_7mm_interface_regions_MPa": 45.474796064346116,
+      "reaction_sum_N": [
+        -151.8563630948,
+        3.1620999108583625e-06,
+        -1.4329999473705612e-06
+      ],
+      "reaction_moment_Nmm": [
+        -0.00014310952219886985,
+        -18013.522425176914,
+        -7342.125048252744
+      ],
+      "applied_force_N": [
+        151.8766072049536,
+        0.0,
+        0.0
+      ],
+      "applied_moment_Nmm": [
+        0.0,
+        18011.52608313138,
+        7341.648106772532
+      ],
+      "force_equilibrium_relative_error": 0.00013329314384765282,
+      "moment_equilibrium_relative_error": 0.00010552650096994176
+    },
+    "Y": {
+      "max_displacement_mm": 0.05668964369616878,
+      "payload_displacement_mm": [
+        -0.01029617,
+        0.02106032,
+        0.01101932
+      ],
+      "max_integration_point_von_mises_MPa": 11.354908400705867,
+      "peak_element": 73442,
+      "peak_element_center_mm": [
+        16.638860110293752,
+        -24.689668022154844,
+        8.81693139889759
+      ],
+      "yield_fos_raw": 21.136233911414084,
+      "structural_vm_outside_7mm_interface_regions_MPa": 11.354908400705867,
+      "reaction_sum_N": [
+        -4.5333002719749604e-07,
+        -45.55691310297008,
+        -9.232999311215018e-07
+      ],
+      "reaction_moment_Nmm": [
+        5404.056770635847,
+        6.975324967584129e-05,
+        75.37438906405743
+      ],
+      "applied_force_N": [
+        0.0,
+        45.56298216148609,
+        0.0
+      ],
+      "applied_moment_Nmm": [
+        -5403.457824939415,
+        0.0,
+        -75.42105349007053
+      ],
+      "force_equilibrium_relative_error": 0.00013320152271114813,
+      "moment_equilibrium_relative_error": 0.00011116997519178699
+    },
+    "Z": {
+      "max_displacement_mm": 0.03338417808588237,
+      "payload_displacement_mm": [
+        -0.005659023,
+        0.01033171,
+        0.01567653
+      ],
+      "max_integration_point_von_mises_MPa": 10.661785230378527,
+      "peak_element": 76663,
+      "peak_element_center_mm": [
+        19.988294795553085,
+        42.653533198691164,
+        138.8529564896702
+      ],
+      "yield_fos_raw": 22.510301493990912,
+      "structural_vm_outside_7mm_interface_regions_MPa": 10.661785230378527,
+      "reaction_sum_N": [
+        -1.3468160449947586e-06,
+        -1.3871399949794139e-06,
+        -45.55690957247989
+      ],
+      "reaction_moment_Nmm": [
+        2202.6376352084817,
+        -75.37449162649717,
+        3.8735168681469645e-05
+      ],
+      "applied_force_N": [
+        0.0,
+        0.0,
+        45.56298216148609
+      ],
+      "applied_moment_Nmm": [
+        -2202.49443203176,
+        75.42105349007053,
+        0.0
+      ],
+      "force_equilibrium_relative_error": 0.00013327901348638026,
+      "moment_equilibrium_relative_error": 6.832912592504512e-05
+    }
+  },
+  "coarse_static": {
+    "X": {
+      "max_displacement_mm": 0.17821573821913037,
+      "payload_displacement_mm": [
+        0.1155312,
+        -0.02613165,
+        -0.01562609
+      ],
+      "max_integration_point_von_mises_MPa": 38.848098058757714,
+      "peak_element": 38723,
+      "peak_element_center_mm": [
+        -28.336796626025727,
+        -0.8928717906359548,
+        100.0426697284368
+      ],
+      "yield_fos_raw": 6.177908623402881,
+      "structural_vm_outside_7mm_interface_regions_MPa": 38.848098058757714,
+      "reaction_sum_N": [
+        -151.8362718353102,
+        -1.9670100208646346e-06,
+        -1.3468700115204513e-05
+      ],
+      "reaction_moment_Nmm": [
+        -0.00033358654015103184,
+        -18011.36887221678,
+        -7342.468137671168
+      ],
+      "applied_force_N": [
+        151.8766072049536,
+        0.0,
+        0.0
+      ],
+      "applied_moment_Nmm": [
+        0.0,
+        18011.52608313138,
+        7341.648106772532
+      ],
+      "force_equilibrium_relative_error": 0.0002655798854238706,
+      "moment_equilibrium_relative_error": 4.292807480767017e-05
+    },
+    "Y": {
+      "max_displacement_mm": 0.05645213100530152,
+      "payload_displacement_mm": [
+        -0.01020537,
+        0.02099214,
+        0.01104623
+      ],
+      "max_integration_point_von_mises_MPa": 16.1275067892279,
+      "peak_element": 47978,
+      "peak_element_center_mm": [
+        22.6725479118095,
+        -1.3493809523809999,
+        100.53223777753375
+      ],
+      "yield_fos_raw": 14.881407469647074,
+      "structural_vm_outside_7mm_interface_regions_MPa": 16.1275067892279,
+      "reaction_sum_N": [
+        1.8908799748612592e-06,
+        -45.55087708319998,
+        2.0608000599886545e-06
+      ],
+      "reaction_moment_Nmm": [
+        5403.4105421119,
+        -6.171583254044322e-05,
+        75.42696403798308
+      ],
+      "applied_force_N": [
+        0.0,
+        45.56298216148609,
+        0.0
+      ],
+      "applied_moment_Nmm": [
+        -5403.457824939415,
+        0.0,
+        -75.42105349007053
+      ],
+      "force_equilibrium_relative_error": 0.00026567792613543,
+      "moment_equilibrium_relative_error": 8.817726975011258e-06
+    },
+    "Z": {
+      "max_displacement_mm": 0.03334499434592433,
+      "payload_displacement_mm": [
+        -0.005639941,
+        0.01035847,
+        0.01571859
+      ],
+      "max_integration_point_von_mises_MPa": 13.293201829698337,
+      "peak_element": 34799,
+      "peak_element_center_mm": [
+        19.563918388387716,
+        42.62504813663347,
+        139.4469109907041
+      ],
+      "yield_fos_raw": 18.05434108912844,
+      "structural_vm_outside_7mm_interface_regions_MPa": 13.293201829698337,
+      "reaction_sum_N": [
+        1.2637310186081052e-06,
+        5.88419998083338e-07,
+        -45.55087960036607
+      ],
+      "reaction_moment_Nmm": [
+        2202.740559259889,
+        -75.42680293882935,
+        3.3755182546446605e-05
+      ],
+      "applied_force_N": [
+        0.0,
+        0.0,
+        45.56298216148609
+      ],
+      "applied_moment_Nmm": [
+        -2202.49443203176,
+        75.42105349007053,
+        0.0
+      ],
+      "force_equilibrium_relative_error": 0.00026562267494699047,
+      "moment_equilibrium_relative_error": 0.00011171431422236535
+    }
+  },
+  "static_mesh_sensitivity": {
+    "X": {
+      "raw_peak_stress_relative_change": 0.14572243482327507,
+      "payload_displacement_relative_change": 0.004210483313190199,
+      "raw_peak_stress_10_percent_check_pass": false,
+      "payload_displacement_2_percent_check_pass": true
+    },
+    "Y": {
+      "raw_peak_stress_relative_change": 0.4203114829376651,
+      "payload_displacement_relative_change": 0.004504979214561335,
+      "raw_peak_stress_10_percent_check_pass": false,
+      "payload_displacement_2_percent_check_pass": true
+    },
+    "Z": {
+      "raw_peak_stress_relative_change": 0.24680825419575497,
+      "payload_displacement_relative_change": 0.0027221091594165346,
+      "raw_peak_stress_10_percent_check_pass": false,
+      "payload_displacement_2_percent_check_pass": true
+    }
+  },
+  "modal_mesh_convergence_status": "unverified final geometry; no additional modal attempt permitted",
+  "passed": [
+    {
+      "requirement": "nominal bracket-only mass <=0.2 kg",
+      "value_kg": 0.19871038738971622,
+      "margin_kg": 0.0012896126102837913,
+      "evidence": "iteration10/geometry1/cad_metrics.json"
+    },
+    {
+      "requirement": "exact telescope/stage mounting centers and planes, one connected valid solid",
+      "status": "passed numerical BRep check",
+      "evidence": "iteration10/geometry1/interface_check.json"
+    },
+    {
+      "requirement": "computed yield FoS >=1.4 in each independent linear static case",
+      "minimum_computed": 5.277648736684906,
+      "qualification": "conditional engineering result only; material/joints assumed, local stress convergence NOT established",
+      "evidence": "iteration10/FEA1/static_refined_straight_sided/summary.json"
+    },
+    {
+      "requirement": "payload offset and self-inertia represented; no invented rotational inertia",
+      "status": "model-definition check passed",
+      "evidence": "iteration10/FEA1/model.inc; static_X.inp; coupling_diagnostics.json"
+    },
+    {
+      "requirement": "grounded constraints only on telescope bolt-hole surfaces; non-rigid transfer through stage holes",
+      "status": "adopted model-definition check passed"
+    },
+    {
+      "requirement": "assumed separate fastener access and washer bearing envelopes",
+      "status": "passed generic assumptions only",
+      "evidence": "iteration10/DfM1/access_check.json"
+    },
+    {
+      "requirement": "positive Jacobians in meshes actually solved",
+      "coarse_min_scaled_Jacobian": 0.10193032245574471,
+      "static_refined_min_scaled_Jacobian": 0.9999999999961914,
+      "negative_count_solved_meshes": 0,
+      "qualification": "not full mesh qualification; low shape-quality elements remain"
+    },
+    {
+      "requirement": "force and moment equilibrium relative errors below1%",
+      "max_force_relative_error": 0.00013329314384765282,
+      "max_moment_relative_error": 0.00011116997519178699
+    },
+    {
+      "requirement": "total geometry iterations <=10; modal attempts <=10",
+      "geometry_iterations": 10,
+      "modal_attempts": 10,
+      "remaining_modal_attempts": 0
+    }
+  ],
+  "failed": [
+    {
+      "requirement": "first supported mode >=200 Hz",
+      "actual_hz": 126.6192,
+      "shortfall_hz": 73.3808,
+      "relative_shortfall": 0.36690399999999995,
+      "status": "FAILED",
+      "evidence": "iteration10/FEA1/modal.dat"
+    },
+    {
+      "requirement": "analyst-selected 10% local raw peak stress mesh-change check",
+      "cases": {
+        "X": 0.14572243482327507,
+        "Y": 0.4203114829376651,
+        "Z": 0.24680825419575497
+      },
+      "status": "all three exceed threshold; stress convergence not established"
+    },
+    {
+      "requirement": "requested R0.8 root blends in final CAD construction",
+      "status": "construction failed; unfilleted roots retained",
+      "evidence": "iteration10/geometry1/cad_metrics.json"
+    }
+  ],
+  "unverified": [
+    "Final-geometry modal mesh convergence (refined optimizer aborted; no modal attempts remain)",
+    "Mesh adequacy at local slivers/sharp roots despite positive Jacobians",
+    "Local peak stress/continuum limit of sampled stage-bore load transfer",
+    "Actual material and yield allowables over -40 to +85 C",
+    "Actual NAS1352/NAS620 dimensions, bolt length, thread engagement and driver hardware",
+    "Measured stage/telescope and optical-path clearance beyond conservative proxy envelopes",
+    "Physical preload, contact, friction, slip and support/interface stiffness",
+    "5-axis CAM, cutter/holder access, fixture plan, machining distortion and tolerances",
+    "Minimum-feature/thickness audit at acute bolt-access relief terminations",
+    "MIL-STD-810G spectrum and environmental qualification",
+    "Global maximum-stiffness optimality"
+  ],
+  "hardware_qualified": false,
+  "cnc_qualified": false,
+  "before_high_200hz_records": "before_high_200hz/",
+  "deliverables": {
+    "step": "iteration10/geometry1/bracket.step",
+    "stl": "iteration10/geometry1/bracket.stl",
+    "Build123d_source": "iteration10/geometry1/bracket_build123d.py",
+    "modal_input": "iteration10/FEA1/modal.inp",
+    "modal_results": "iteration10/FEA1/modal.dat",
+    "modal_shapes": "iteration10/FEA1/modal.frd",
+    "mode_image": "iteration10/FEA1/first_mode_shape.png",
+    "mode_animation": "iteration10/FEA1/first_mode_animation.gif",
+    "static_refined_summary": "iteration10/FEA1/static_refined_straight_sided/summary.json",
+    "static_refined_case_directories": "iteration10/FEA1/static_refined_straight_sided/case_X, case_Y, case_Z",
+    "DfM": "iteration10/DfM1/FINAL_DFM_REVIEW.md",
+    "access": "iteration10/DfM1/access_check.json",
+    "analysis_assumptions": "requirement_decisions.json",
+    "run_ledger": "modal_run_ledger.json",
+    "prior_records": "before_high_200hz/ and initial_feasibility/"
+  }
+}

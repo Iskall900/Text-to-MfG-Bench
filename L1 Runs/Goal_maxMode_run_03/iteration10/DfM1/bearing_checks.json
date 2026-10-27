@@ -1,0 +1,64 @@
+{
+  "basis": "Assumed OD16/ID6.6 washer. Thin 0.1mm material slice immediately under rear bearing face. Not actual NAS620 qualification.",
+  "checks": [
+    {
+      "id": "T1",
+      "assumed_washer_annulus_area_mm2": 166.84998583215392,
+      "supported_area_mm2": 166.84998583215489,
+      "full_bearing_pass": true,
+      "outer_edge_distance_from_axis_mm": 12.0,
+      "hole_edge_ligament_mm": 8.7,
+      "keepout_axis_radial_distance_mm": 64.1428047406722
+    },
+    {
+      "id": "T2",
+      "assumed_washer_annulus_area_mm2": 166.84998583215392,
+      "supported_area_mm2": 166.8499858321548,
+      "full_bearing_pass": true,
+      "outer_edge_distance_from_axis_mm": 12.0,
+      "hole_edge_ligament_mm": 8.7,
+      "keepout_axis_radial_distance_mm": 54.274893910536576
+    },
+    {
+      "id": "T3",
+      "assumed_washer_annulus_area_mm2": 166.84998583215392,
+      "supported_area_mm2": 166.8499858321548,
+      "full_bearing_pass": true,
+      "outer_edge_distance_from_axis_mm": 12.0,
+      "hole_edge_ligament_mm": 8.7,
+      "keepout_axis_radial_distance_mm": 140.0863833818262
+    },
+    {
+      "id": "S1",
+      "assumed_washer_annulus_area_mm2": 166.84998583215392,
+      "supported_area_mm2": 166.84998583215545,
+      "full_bearing_pass": true,
+      "outer_edge_distance_from_axis_mm": 9.4975,
+      "hole_edge_ligament_mm": 6.197500000000001
+    },
+    {
+      "id": "S2",
+      "assumed_washer_annulus_area_mm2": 166.84998583215392,
+      "supported_area_mm2": 166.84998583215545,
+      "full_bearing_pass": true,
+      "outer_edge_distance_from_axis_mm": 9.4975,
+      "hole_edge_ligament_mm": 6.197500000000001
+    },
+    {
+      "id": "S3",
+      "assumed_washer_annulus_area_mm2": 166.84998583215392,
+      "supported_area_mm2": 166.84998583215548,
+      "full_bearing_pass": true,
+      "outer_edge_distance_from_axis_mm": 9.4975,
+      "hole_edge_ligament_mm": 6.197500000000001
+    },
+    {
+      "id": "S4",
+      "assumed_washer_annulus_area_mm2": 166.84998583215392,
+      "supported_area_mm2": 166.84998583214863,
+      "full_bearing_pass": true,
+      "outer_edge_distance_from_axis_mm": 9.4975,
+      "hole_edge_ligament_mm": 6.197500000000001
+    }
+  ]
+}

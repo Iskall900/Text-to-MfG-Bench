@@ -1,0 +1,161 @@
+{
+  "iteration": "iteration10",
+  "job": "analysis",
+  "bracket_mass_kg": 0.19838586402111025,
+  "bracket_com_mm": [
+    -6.193434710224982,
+    15.940628910437843,
+    69.65760729595031
+  ],
+  "static_cases": {
+    "X": {
+      "load_sign": 1,
+      "payload_force_N": [
+        132.389775,
+        0.0,
+        0.0
+      ],
+      "self_force_N": [
+        19.455007334026206,
+        0.0,
+        0.0
+      ],
+      "max_integration_point_vm_MPa": 41.885593624307056,
+      "yield_fos": 5.729893723189902,
+      "hot_element": 100364,
+      "hot_integration_point": 3,
+      "hot_element_centroid_mm": [
+        -55.755262558562045,
+        49.02504716478932,
+        6.375
+      ],
+      "max_body_displacement_mm": 0.03701935468274081,
+      "cg_displacement_mm": [
+        0.06679114,
+        0.00801181,
+        0.001157076
+      ],
+      "reaction_force_N": [
+        -151.8180443139699,
+        6.371799971205405e-06,
+        -3.8500898522086935e-06
+      ],
+      "reaction_moment_origin_Nmm": [
+        -0.0001338780582056387,
+        -17931.636646693092,
+        -7258.367264718878
+      ],
+      "applied_total_moment_origin_Nmm": [
+        0.0,
+        17931.712988563428,
+        7257.804045738441
+      ],
+      "force_equilibrium_relative_error": 0.00017608784893174837,
+      "moment_equilibrium_relative_error": 2.9380958773210747e-05
+    },
+    "Y": {
+      "load_sign": 1,
+      "payload_force_N": [
+        0.0,
+        39.716932500000006,
+        0.0
+      ],
+      "self_force_N": [
+        0.0,
+        5.836502200207862,
+        0.0
+      ],
+      "max_integration_point_vm_MPa": 15.245274474596346,
+      "yield_fos": 15.74258308041086,
+      "hot_element": 99138,
+      "hot_integration_point": 2,
+      "hot_element_centroid_mm": [
+        22.679366342819606,
+        -18.964535324615532,
+        7.104530205253487
+      ],
+      "max_body_displacement_mm": 0.018713158489694088,
+      "cg_displacement_mm": [
+        0.002125952,
+        0.01293077,
+        0.009160507
+      ],
+      "reaction_force_N": [
+        2.3660000800229675e-07,
+        -45.545412836199965,
+        9.386499923436098e-07
+      ],
+      "reaction_moment_origin_Nmm": [
+        5379.491065418639,
+        -8.760118968709207e-05,
+        100.58601118430066
+      ],
+      "applied_total_moment_origin_Nmm": [
+        -5379.51389656903,
+        0.0,
+        -100.58871829432186
+      ],
+      "force_equilibrium_relative_error": 0.0001760978973177585,
+      "moment_equilibrium_relative_error": 4.273105637201751e-06
+    },
+    "Z": {
+      "load_sign": 1,
+      "payload_force_N": [
+        0.0,
+        0.0,
+        39.716932500000006
+      ],
+      "self_force_N": [
+        0.0,
+        0.0,
+        5.836502200207862
+      ],
+      "max_integration_point_vm_MPa": 9.545582818168839,
+      "yield_fos": 25.142519275322783,
+      "hot_element": 99138,
+      "hot_integration_point": 2,
+      "hot_element_centroid_mm": [
+        22.679366342819606,
+        -18.964535324615532,
+        7.104530205253487
+      ],
+      "max_body_displacement_mm": 0.01687735284110103,
+      "cg_displacement_mm": [
+        5.931548e-05,
+        0.008718978,
+        0.01886712
+      ],
+      "reaction_force_N": [
+        -6.944600085684316e-07,
+        1.032600014161389e-06,
+        -45.54541264382997
+      ],
+      "reaction_moment_origin_Nmm": [
+        2177.5101350616915,
+        -100.58583032495055,
+        -9.661230154911493e-05
+      ],
+      "applied_total_moment_origin_Nmm": [
+        -2177.3412137215328,
+        100.58871829432186,
+        0.0
+      ],
+      "force_equilibrium_relative_error": 0.00017610212110699978,
+      "moment_equilibrium_relative_error": 7.751015479279009e-05
+    }
+  },
+  "frequencies_Hz": [
+    170.8879,
+    194.0514,
+    344.1779,
+    1421.217,
+    2105.042,
+    2160.797,
+    2350.532,
+    2877.079
+  ],
+  "first_frequency_Hz": 170.8879,
+  "peak_stress_metric": "maximum unaveraged C3D10 Gauss-point von Mises, no exclusions",
+  "reversed_sign_equivalence": "linear elastic unpreloaded model; reversing an entire independent case negates stress, displacement and reactions; von Mises and FoS unchanged",
+  "status": "provisional engineering model; not hardware qualification"
+}

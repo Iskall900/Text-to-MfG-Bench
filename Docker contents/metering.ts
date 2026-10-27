@@ -1,5 +1,4 @@
-import { closeSync, mkdirSync, mkdtempSync, openSync, readFileSync, readdirSync, rmSync, unlinkSync, writeFileSync } from 'node:fs';
-import { tmpdir } from 'node:os';
+import { closeSync, mkdirSync, openSync, readFileSync, readdirSync, unlinkSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ExtensionAPI, ExtensionContext } from '@earendil-works/pi-coding-agent';
 
@@ -37,9 +36,15 @@ function writeReports(cwd: string, usage: string, time: string) {
   }
 }
 
+// The ccx wrapper keeps this count as the fea user; Pi can read it but not change it.
+function modalCount() {
+  try { return Number(readFileSync(process.env.PI_MODAL_FEA_COUNT ?? '/var/lib/fea/count', 'utf8')) || 0; }
+  catch (error) { if ((error as NodeJS.ErrnoException).code === 'ENOENT') return 0; throw error; }
+}
+
 export default function metering(pi: ExtensionAPI) {
   let run: {
-    computeDir: string;
+    modalStart: number;
     start: bigint;
     cwd: string;
     entryIds: Set<string>;
@@ -47,7 +52,7 @@ export default function metering(pi: ExtensionAPI) {
     outcome: string;
   } | undefined;
   const start = (ctx: ExtensionContext) => ({
-    computeDir: mkdtempSync(join(tmpdir(), 'pi-compute-')),
+    modalStart: modalCount(),
     start: process.hrtime.bigint(),
     cwd: ctx.cwd,
     entryIds: new Set(ctx.sessionManager.getEntries().map(entry => entry.id)),
@@ -61,7 +66,6 @@ export default function metering(pi: ExtensionAPI) {
   pi.on('before_agent_start', (_event, ctx) => {
     run ??= start(ctx);
     run.active = true;
-    process.env.PI_COMPUTE_LOG = join(run.computeDir, 'runs');
   });
   pi.on('agent_before_settle', event => {
     if (run?.active) run.outcome = event.outcome;
@@ -70,7 +74,6 @@ export default function metering(pi: ExtensionAPI) {
     if (!run?.active) return;
     const completed = run;
     run = undefined;
-    delete process.env.PI_COMPUTE_LOG;
     const seconds = Number(process.hrtime.bigint() - completed.start) / 1e9;
     let uncached = 0, cached = 0, output = 0;
     for (const entry of ctx.sessionManager.getEntries()) {
@@ -85,13 +88,10 @@ export default function metering(pi: ExtensionAPI) {
     }
     const outcome = `outcome: ${completed.outcome}\n`;
     try {
-      let runs: string[] = [];
-      try { runs = readFileSync(join(completed.computeDir, 'runs'), 'utf8').trim().split('\n'); }
-      catch (error) { if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error; }
       const reportDir = join(completed.cwd, 'data-Pi');
       mkdirSync(reportDir, { recursive: true });
       writeFileSync(join(reportDir, 'compute.txt'),
-        `${outcome}modal_fea_runs: ${runs.filter(kind => kind === 'modal_fea').length}\n`);
+        `${outcome}modal_fea_runs: ${modalCount() - completed.modalStart}\n`);
       writeReports(reportDir,
         `${outcome}input_tokens_total: ${uncached + cached}\ninput_tokens_cached: ${cached}\ninput_tokens_uncached: ${uncached}\noutput_tokens: ${output}\n`,
         `${outcome}elapsed_seconds: ${seconds.toFixed(6)}\n`);
@@ -99,8 +99,6 @@ export default function metering(pi: ExtensionAPI) {
       const message = `Pi metering could not write reports: ${error}`;
       console.error(message);
       ctx.ui.notify(message, 'error');
-    } finally {
-      rmSync(completed.computeDir, { recursive: true, force: true });
     }
   });
 }

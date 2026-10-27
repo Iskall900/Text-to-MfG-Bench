@@ -1,0 +1,35 @@
+[
+  {
+    "interface": "T1",
+    "position_mm": {
+      "x": 30.03,
+      "y": -21.45,
+      "z": 0.0
+    },
+    "axis_distance_mm": 64.1428047406722,
+    "signed_radial_clearance_mm": -5.857195259327796,
+    "inside_keepout": true
+  },
+  {
+    "interface": "T2",
+    "position_mm": {
+      "x": 30.03,
+      "y": 42.047,
+      "z": 0.0
+    },
+    "axis_distance_mm": 54.274893910536576,
+    "signed_radial_clearance_mm": -15.725106089463424,
+    "inside_keepout": true
+  },
+  {
+    "interface": "T3",
+    "position_mm": {
+      "x": -58.86,
+      "y": 42.047,
+      "z": 0.0
+    },
+    "axis_distance_mm": 140.0863833818262,
+    "signed_radial_clearance_mm": 70.08638338182621,
+    "inside_keepout": false
+  }
+]

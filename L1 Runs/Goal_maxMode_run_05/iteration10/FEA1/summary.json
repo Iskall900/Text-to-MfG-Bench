@@ -1,0 +1,144 @@
+{
+  "iteration": 10,
+  "mass_kg": 0.19871038738971622,
+  "frequencies_hz": [
+    126.6192,
+    187.1182,
+    318.9408,
+    858.9745,
+    951.8988,
+    1413.716,
+    1513.678,
+    1952.528
+  ],
+  "mesh": {
+    "node_count": 55501,
+    "element_count": 29025,
+    "quality": {
+      "min_scaled_jacobian": 0.10193032245574471,
+      "mean_scaled_jacobian": 0.9829461002236677,
+      "negative_count": 0,
+      "tetra_volume_sum_mm3": 73644.30229319935
+    },
+    "mesh_size_mm": 3.5
+  },
+  "static": {
+    "X": {
+      "max_displacement_mm": 0.17821573821913037,
+      "payload_displacement_mm": [
+        0.1155312,
+        -0.02613165,
+        -0.01562609
+      ],
+      "max_integration_point_von_mises_MPa": 38.848098058757714,
+      "peak_element": 38723,
+      "peak_element_center_mm": [
+        -28.336796626025727,
+        -0.8928717906359548,
+        100.0426697284368
+      ],
+      "yield_fos_raw": 6.177908623402881,
+      "structural_vm_outside_7mm_interface_regions_MPa": 38.848098058757714,
+      "reaction_sum_N": [
+        -151.8362718353102,
+        -1.9670100208646346e-06,
+        -1.3468700115204513e-05
+      ],
+      "reaction_moment_Nmm": [
+        -0.00033358654015103184,
+        -18011.36887221678,
+        -7342.468137671168
+      ],
+      "applied_force_N": [
+        151.8766072049536,
+        0.0,
+        0.0
+      ],
+      "applied_moment_Nmm": [
+        0.0,
+        18011.52608313138,
+        7341.648106772532
+      ],
+      "force_equilibrium_relative_error": 0.0002655798854238706,
+      "moment_equilibrium_relative_error": 4.292807480767017e-05
+    },
+    "Y": {
+      "max_displacement_mm": 0.05645213100530152,
+      "payload_displacement_mm": [
+        -0.01020537,
+        0.02099214,
+        0.01104623
+      ],
+      "max_integration_point_von_mises_MPa": 16.1275067892279,
+      "peak_element": 47978,
+      "peak_element_center_mm": [
+        22.6725479118095,
+        -1.3493809523809999,
+        100.53223777753375
+      ],
+      "yield_fos_raw": 14.881407469647074,
+      "structural_vm_outside_7mm_interface_regions_MPa": 16.1275067892279,
+      "reaction_sum_N": [
+        1.8908799748612592e-06,
+        -45.55087708319998,
+        2.0608000599886545e-06
+      ],
+      "reaction_moment_Nmm": [
+        5403.4105421119,
+        -6.171583254044322e-05,
+        75.42696403798308
+      ],
+      "applied_force_N": [
+        0.0,
+        45.56298216148609,
+        0.0
+      ],
+      "applied_moment_Nmm": [
+        -5403.457824939415,
+        0.0,
+        -75.42105349007053
+      ],
+      "force_equilibrium_relative_error": 0.00026567792613543,
+      "moment_equilibrium_relative_error": 8.817726975011258e-06
+    },
+    "Z": {
+      "max_displacement_mm": 0.03334499434592433,
+      "payload_displacement_mm": [
+        -0.005639941,
+        0.01035847,
+        0.01571859
+      ],
+      "max_integration_point_von_mises_MPa": 13.293201829698337,
+      "peak_element": 34799,
+      "peak_element_center_mm": [
+        19.563918388387716,
+        42.62504813663347,
+        139.4469109907041
+      ],
+      "yield_fos_raw": 18.05434108912844,
+      "structural_vm_outside_7mm_interface_regions_MPa": 13.293201829698337,
+      "reaction_sum_N": [
+        1.2637310186081052e-06,
+        5.88419998083338e-07,
+        -45.55087960036607
+      ],
+      "reaction_moment_Nmm": [
+        2202.740559259889,
+        -75.42680293882935,
+        3.3755182546446605e-05
+      ],
+      "applied_force_N": [
+        0.0,
+        0.0,
+        45.56298216148609
+      ],
+      "applied_moment_Nmm": [
+        -2202.49443203176,
+        75.42105349007053,
+        0.0
+      ],
+      "force_equilibrium_relative_error": 0.00026562267494699047,
+      "moment_equilibrium_relative_error": 0.00011171431422236535
+    }
+  }
+}

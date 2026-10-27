@@ -1,0 +1,326 @@
+{
+  "bracket_id": "A15",
+  "overall_status": "BEST_ATTEMPT_NOT_ALL_REQUIREMENTS_MET",
+  "best_iteration": "iteration9",
+  "selection_reason": "Highest first frequency among completed single-solid, mass-feasible models; same geometry as iteration10, which provides finer but interrupted verification. Iteration8 has a passing two-mesh stress comparison but poor minimum gamma, so it is not a fully validated fallback.",
+  "modal_runs_used": 10,
+  "modal_run_limit": 10,
+  "best_files": {
+    "step": "iteration9/geometry1/bracket.step",
+    "build123d_source": "iteration9/geometry1/design_source.py",
+    "brep": "iteration9/geometry1/bracket.brep",
+    "stl": "iteration9/geometry1/bracket.stl",
+    "solver_input": "iteration9/FEA1/analysis.inp",
+    "results": "iteration9/FEA1/analysis_results.json",
+    "fine_results": "iteration10/FEA1/analysis_results.json",
+    "mode_shape": "iteration10/FEA1/first_mode.png",
+    "mode_shape_data": "iteration10/FEA1/mode1.npz",
+    "dfm_report": "iteration9/DfM1/DFM_REPORT.md",
+    "access_checks": "iteration9/DfM1/access_and_keepout_checks.json"
+  },
+  "metrics": {
+    "bracket_mass_kg": 0.19838586401362043,
+    "completed_first_mode_Hz": 171.1534,
+    "fine_first_mode_Hz": 170.8879,
+    "fine_static_cases": {
+      "X": {
+        "load_sign": 1,
+        "payload_force_N": [
+          132.389775,
+          0.0,
+          0.0
+        ],
+        "self_force_N": [
+          19.455007334026206,
+          0.0,
+          0.0
+        ],
+        "max_integration_point_vm_MPa": 41.885593624307056,
+        "yield_fos": 5.729893723189902,
+        "hot_element": 100364,
+        "hot_integration_point": 3,
+        "hot_element_centroid_mm": [
+          -55.755262558562045,
+          49.02504716478932,
+          6.375
+        ],
+        "max_body_displacement_mm": 0.03701935468274081,
+        "cg_displacement_mm": [
+          0.06679114,
+          0.00801181,
+          0.001157076
+        ],
+        "reaction_force_N": [
+          -151.8180443139699,
+          6.371799971205405e-06,
+          -3.8500898522086935e-06
+        ],
+        "reaction_moment_origin_Nmm": [
+          -0.0001338780582056387,
+          -17931.636646693092,
+          -7258.367264718878
+        ],
+        "applied_total_moment_origin_Nmm": [
+          0.0,
+          17931.712988563428,
+          7257.804045738441
+        ],
+        "force_equilibrium_relative_error": 0.00017608784893174837,
+        "moment_equilibrium_relative_error": 2.9380958773210747e-05
+      },
+      "Y": {
+        "load_sign": 1,
+        "payload_force_N": [
+          0.0,
+          39.716932500000006,
+          0.0
+        ],
+        "self_force_N": [
+          0.0,
+          5.836502200207862,
+          0.0
+        ],
+        "max_integration_point_vm_MPa": 15.245274474596346,
+        "yield_fos": 15.74258308041086,
+        "hot_element": 99138,
+        "hot_integration_point": 2,
+        "hot_element_centroid_mm": [
+          22.679366342819606,
+          -18.964535324615532,
+          7.104530205253487
+        ],
+        "max_body_displacement_mm": 0.018713158489694088,
+        "cg_displacement_mm": [
+          0.002125952,
+          0.01293077,
+          0.009160507
+        ],
+        "reaction_force_N": [
+          2.3660000800229675e-07,
+          -45.545412836199965,
+          9.386499923436098e-07
+        ],
+        "reaction_moment_origin_Nmm": [
+          5379.491065418639,
+          -8.760118968709207e-05,
+          100.58601118430066
+        ],
+        "applied_total_moment_origin_Nmm": [
+          -5379.51389656903,
+          0.0,
+          -100.58871829432186
+        ],
+        "force_equilibrium_relative_error": 0.0001760978973177585,
+        "moment_equilibrium_relative_error": 4.273105637201751e-06
+      },
+      "Z": {
+        "load_sign": 1,
+        "payload_force_N": [
+          0.0,
+          0.0,
+          39.716932500000006
+        ],
+        "self_force_N": [
+          0.0,
+          0.0,
+          5.836502200207862
+        ],
+        "max_integration_point_vm_MPa": 9.545582818168839,
+        "yield_fos": 25.142519275322783,
+        "hot_element": 99138,
+        "hot_integration_point": 2,
+        "hot_element_centroid_mm": [
+          22.679366342819606,
+          -18.964535324615532,
+          7.104530205253487
+        ],
+        "max_body_displacement_mm": 0.01687735284110103,
+        "cg_displacement_mm": [
+          5.931548e-05,
+          0.008718978,
+          0.01886712
+        ],
+        "reaction_force_N": [
+          -6.944600085684316e-07,
+          1.032600014161389e-06,
+          -45.54541264382997
+        ],
+        "reaction_moment_origin_Nmm": [
+          2177.5101350616915,
+          -100.58583032495055,
+          -9.661230154911493e-05
+        ],
+        "applied_total_moment_origin_Nmm": [
+          -2177.3412137215328,
+          100.58871829432186,
+          0.0
+        ],
+        "force_equilibrium_relative_error": 0.00017610212110699978,
+        "moment_equilibrium_relative_error": 7.751015479279009e-05
+      }
+    },
+    "completed_solid_nodes": 79623,
+    "completed_solid_elements": 41116,
+    "fine_solid_nodes": 123468,
+    "fine_solid_elements": 66223
+  },
+  "passed_screening_requirements": [
+    {
+      "requirement": "bracket-only mass <= 0.2 kg",
+      "evidence": 0.19838586401362043,
+      "scope": "CAD volume with assumed 2700 kg/m3; produced-part mass not verified"
+    },
+    {
+      "requirement": "one valid connected solid and continuous material paths",
+      "evidence": {
+        "solid_count": 1,
+        "valid": true
+      }
+    },
+    {
+      "requirement": "preserve 3 telescope and 4 stage interfaces",
+      "evidence": "seven post-STEP cylindrical CAD surfaces radius 3.4 mm at JSON axes; original mount planes preserved; independent core and outer-ring checks in DfM1 JSON"
+    },
+    {
+      "requirement": "first supported mode >=100 Hz, including bracket and 1.35 kg offset payload",
+      "evidence": {
+        "completed_run_Hz": 171.1534,
+        "fine_verification_Hz": 170.8879
+      },
+      "scope": "idealized room-temperature model; fine solver output later interrupted"
+    },
+    {
+      "requirement": "yield FoS >=1.4 for independent X/Y/Z cases",
+      "evidence": {
+        "X": {
+          "fine_peak_vm_MPa": 41.885593624307056,
+          "fine_yield_fos": 5.729893723189902
+        },
+        "Y": {
+          "fine_peak_vm_MPa": 15.245274474596346,
+          "fine_yield_fos": 15.74258308041086
+        },
+        "Z": {
+          "fine_peak_vm_MPa": 9.545582818168839,
+          "fine_yield_fos": 25.142519275322783
+        }
+      },
+      "scope": "single-mesh stress screening with assumed 240 MPa yield; peak stress convergence not established"
+    },
+    {
+      "requirement": "constraints only on bolt holes",
+      "evidence": "T1/T2/T3 cylindrical nodes only; no fixed pad faces; stage holes not rigidly coupled"
+    },
+    {
+      "requirement": "payload offset moments and signed bracket self inertia",
+      "evidence": "independent CLOAD/DLOAD steps and force/moment equilibrium diagnostics"
+    },
+    {
+      "requirement": "bracket-only fastener/head/driver clearance and washer bearing",
+      "evidence": {
+        "T1": true,
+        "T2": true,
+        "T3": true,
+        "S1": true,
+        "S2": true,
+        "S3": true,
+        "S4": true
+      },
+      "scope": "assumed hardware envelopes only; washers placed separately"
+    },
+    {
+      "requirement": "mesh Jacobians and force/moment equilibrium",
+      "evidence": {
+        "fine_minSJ": 0.13152871765181356,
+        "fine_min_gamma": 0.02412692470332405,
+        "worst_force_relative_error": 0.00017610212110699978,
+        "worst_moment_relative_error": 7.751015479279009e-05
+      }
+    },
+    {
+      "requirement": "modal solver budget <=10",
+      "evidence": "10 modal-containing invocations, including failed attempt 1 and interrupted attempt 10; no further modal calls"
+    }
+  ],
+  "failed_requirements": [
+    {
+      "requirement": "fine verification mesh gamma >= 0.05",
+      "evidence": {
+        "minimum_gamma": 0.02412692470332405,
+        "criterion": 0.05
+      },
+      "reason": "Fine mesh has low-quality sliver-shaped elements despite positive scaled Jacobians; mesh-quality criterion not fully met."
+    },
+    {
+      "requirement": "specified cylindrical keep-out clearance",
+      "evidence": {
+        "literal_overlap_mm3": 9278.653825553338,
+        "T1_axis_distance_to_cylinder_mm": 64.1428047406722,
+        "T2_axis_distance_to_cylinder_mm": 54.274893910536576
+      },
+      "reason": "T1 and T2 prescribed axes at Z=0 are inside the literal radius-70 cylinder spanning Z=-77.8..31.4. STEP-to-A15 transform unavailable."
+    },
+    {
+      "requirement": "10% peak-stress mesh convergence for selected geometry",
+      "evidence": {
+        "X": {
+          "peak_stress_relative_change": 0.1168647260900834,
+          "bracket_displacement_relative_change": 0.0036596228024116367,
+          "cg_displacement_relative_change": 0.0038403944124889063,
+          "stress_convergence_pass": false,
+          "displacement_convergence_pass": true
+        },
+        "Y": {
+          "peak_stress_relative_change": 0.03947524899427968,
+          "bracket_displacement_relative_change": 0.00468469983472515,
+          "cg_displacement_relative_change": 0.0033733079014941127,
+          "stress_convergence_pass": true,
+          "displacement_convergence_pass": true
+        },
+        "Z": {
+          "peak_stress_relative_change": 0.041656413546036095,
+          "bracket_displacement_relative_change": 0.004654832948431435,
+          "cg_displacement_relative_change": 0.003233160966690408,
+          "stress_convergence_pass": true,
+          "displacement_convergence_pass": true
+        }
+      },
+      "reason": "X peak stress changes by >10% from iteration9 to iteration10; do not claim converged peak stress."
+    },
+    {
+      "requirement": "clean completion of finest verification run",
+      "evidence": "iteration10/FEA1/solver_exit_timeout.txt",
+      "reason": "tool timeout during higher-mode output; first-mode and all static evidence retained, but clean end-of-job absent."
+    }
+  ],
+  "unverified_requirements": [
+    {
+      "requirement": "True STEP-to-A15 keep-out transform and measured optical/stage/telescope envelopes"
+    },
+    {
+      "requirement": "Resolution of three A15 telescope interfaces versus prose four-pad description"
+    },
+    {
+      "requirement": "Certified 6061-T651 property provenance and allowables throughout -40 to +85 C"
+    },
+    {
+      "requirement": "Real NAS1352/NAS620 variant dimensions, screw lengths, engagement, preload, fastener strength and assembled-hardware/tool access"
+    },
+    {
+      "requirement": "Real bolt/contact/friction/interface stiffness and fidelity of fixed bore support idealization"
+    },
+    {
+      "requirement": "CNC holder reach, setups, workholding, toolpath simulation, minimum junction radii and thin-web distortion"
+    },
+    {
+      "requirement": "Actual machined-part mass, dimensional inspection, static proof test and experimental modal test"
+    },
+    {
+      "requirement": "Defined and qualified MIL-STD-810G vibration/shock exposure"
+    },
+    {
+      "requirement": "Global optimality of first-mode frequency; this is the best completed, mass-feasible candidate tested, not a proven optimum"
+    }
+  ],
+  "qualification": "Neither real hardware compatibility nor CNC or environmental qualification is claimed. Numerical passes are conditional on documented assumptions."
+}

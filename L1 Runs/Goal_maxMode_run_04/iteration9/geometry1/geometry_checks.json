@@ -1,0 +1,22 @@
+{
+  "wall_mm": 3.5,
+  "omitted_disconnected_scrap_mm3": 0.015966935088725112,
+  "volume_mm3": 73476.24593097053,
+  "mass_kg": 0.19838586401362043,
+  "solids": 1,
+  "valid": true,
+  "bbox_min": [
+    -70.86,
+    -33.45,
+    0.0
+  ],
+  "bbox_max": [
+    42.03,
+    54.047,
+    148.0000001
+  ],
+  "keepout_literal_intersection_mm3": 9278.653825553338,
+  "holes_diameter_mm": 6.8,
+  "stage_face_y_mm": -7.164,
+  "base_face_z_mm": 0
+}

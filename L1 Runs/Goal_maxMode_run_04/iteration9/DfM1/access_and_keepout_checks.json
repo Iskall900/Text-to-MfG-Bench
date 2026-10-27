@@ -1,0 +1,401 @@
+{
+  "interfaces": {
+    "T1": {
+      "nominal_axis_location_mm": [
+        30.03,
+        -21.45,
+        0.0
+      ],
+      "hole_axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "insertion_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "hole_diameter_mm": 6.8,
+      "hole_depth_mm": 6.0,
+      "bore_core_intersection_mm3": 0.0,
+      "bore_outer_wall_fill_fraction": 1.0,
+      "collision_volumes_mm3": {
+        "bolt": 0.0,
+        "washer": 0.0,
+        "head": 0.0,
+        "straight_insertion": 0.0,
+        "driver": 0.0
+      },
+      "washer_bearing_area_mm2": 123.21326387379169,
+      "washer_bearing_fill_fraction": 1.0,
+      "bracket_only_access_pass": true
+    },
+    "T2": {
+      "nominal_axis_location_mm": [
+        30.03,
+        42.047,
+        0.0
+      ],
+      "hole_axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "insertion_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "hole_diameter_mm": 6.8,
+      "hole_depth_mm": 6.0,
+      "bore_core_intersection_mm3": 0.0,
+      "bore_outer_wall_fill_fraction": 1.0,
+      "collision_volumes_mm3": {
+        "bolt": 0.0,
+        "washer": 0.0,
+        "head": 0.0,
+        "straight_insertion": 0.0,
+        "driver": 0.0
+      },
+      "washer_bearing_area_mm2": 123.21326387379169,
+      "washer_bearing_fill_fraction": 1.0,
+      "bracket_only_access_pass": true
+    },
+    "T3": {
+      "nominal_axis_location_mm": [
+        -58.86,
+        42.047,
+        0.0
+      ],
+      "hole_axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "insertion_direction": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "hole_diameter_mm": 6.8,
+      "hole_depth_mm": 6.0,
+      "bore_core_intersection_mm3": 0.0,
+      "bore_outer_wall_fill_fraction": 1.0,
+      "collision_volumes_mm3": {
+        "bolt": 0.0,
+        "washer": 0.0,
+        "head": 0.0,
+        "straight_insertion": 0.0,
+        "driver": 0.0
+      },
+      "washer_bearing_area_mm2": 123.21326387379169,
+      "washer_bearing_fill_fraction": 1.0,
+      "bracket_only_access_pass": true
+    },
+    "S1": {
+      "nominal_axis_location_mm": [
+        11.075,
+        -7.164,
+        112.51
+      ],
+      "hole_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "insertion_direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "hole_diameter_mm": 6.8,
+      "hole_depth_mm": 6.0,
+      "bore_core_intersection_mm3": 0.0,
+      "bore_outer_wall_fill_fraction": 1.0,
+      "collision_volumes_mm3": {
+        "bolt": 0.0,
+        "washer": 0.0,
+        "head": 0.0,
+        "straight_insertion": 0.0,
+        "driver": 0.0
+      },
+      "washer_bearing_area_mm2": 123.21326387379169,
+      "washer_bearing_fill_fraction": 1.0,
+      "bracket_only_access_pass": true
+    },
+    "S2": {
+      "nominal_axis_location_mm": [
+        -14.32,
+        -7.164,
+        112.51
+      ],
+      "hole_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "insertion_direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "hole_diameter_mm": 6.8,
+      "hole_depth_mm": 6.0,
+      "bore_core_intersection_mm3": 0.0,
+      "bore_outer_wall_fill_fraction": 1.0,
+      "collision_volumes_mm3": {
+        "bolt": 0.0,
+        "washer": 0.0,
+        "head": 0.0,
+        "straight_insertion": 0.0,
+        "driver": 0.0
+      },
+      "washer_bearing_area_mm2": 123.21326387379169,
+      "washer_bearing_fill_fraction": 1.0,
+      "bracket_only_access_pass": true
+    },
+    "S3": {
+      "nominal_axis_location_mm": [
+        -14.32,
+        -7.164,
+        137.91
+      ],
+      "hole_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "insertion_direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "hole_diameter_mm": 6.8,
+      "hole_depth_mm": 6.0,
+      "bore_core_intersection_mm3": 0.0,
+      "bore_outer_wall_fill_fraction": 1.0,
+      "collision_volumes_mm3": {
+        "bolt": 0.0,
+        "washer": 0.0,
+        "head": 0.0,
+        "straight_insertion": 0.0,
+        "driver": 0.0
+      },
+      "washer_bearing_area_mm2": 123.21326387379169,
+      "washer_bearing_fill_fraction": 1.0,
+      "bracket_only_access_pass": true
+    },
+    "S4": {
+      "nominal_axis_location_mm": [
+        11.075,
+        -7.164,
+        137.91
+      ],
+      "hole_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "insertion_direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "hole_diameter_mm": 6.8,
+      "hole_depth_mm": 6.0,
+      "bore_core_intersection_mm3": 0.0,
+      "bore_outer_wall_fill_fraction": 1.0,
+      "collision_volumes_mm3": {
+        "bolt": 0.0,
+        "washer": 0.0,
+        "head": 0.0,
+        "straight_insertion": 0.0,
+        "driver": 0.0
+      },
+      "washer_bearing_area_mm2": 123.21326387379169,
+      "washer_bearing_fill_fraction": 1.0,
+      "bracket_only_access_pass": true
+    }
+  },
+  "cad_6p8mm_bore_surfaces": [
+    {
+      "radius_mm": 3.4,
+      "axis_point_mm": [
+        30.03,
+        -21.45,
+        -1.0
+      ],
+      "axis_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "surface_area_mm2": 128.17698026647201
+    },
+    {
+      "radius_mm": 3.4,
+      "axis_point_mm": [
+        -14.32,
+        -10.0,
+        137.91
+      ],
+      "axis_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "surface_area_mm2": 128.17698026647201
+    },
+    {
+      "radius_mm": 3.4,
+      "axis_point_mm": [
+        -14.32,
+        -10.0,
+        112.51
+      ],
+      "axis_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "surface_area_mm2": 128.17698026647201
+    },
+    {
+      "radius_mm": 3.4,
+      "axis_point_mm": [
+        11.075,
+        -10.0,
+        137.91
+      ],
+      "axis_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "surface_area_mm2": 128.17698026647201
+    },
+    {
+      "radius_mm": 3.4,
+      "axis_point_mm": [
+        11.075,
+        -10.0,
+        112.51
+      ],
+      "axis_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "surface_area_mm2": 128.17698026647201
+    },
+    {
+      "radius_mm": 3.4,
+      "axis_point_mm": [
+        30.03,
+        42.047,
+        -1.0
+      ],
+      "axis_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "surface_area_mm2": 128.17698026647201
+    },
+    {
+      "radius_mm": 3.4,
+      "axis_point_mm": [
+        -58.86,
+        42.047,
+        -1.0
+      ],
+      "axis_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "surface_area_mm2": 128.17698026647201
+    }
+  ],
+  "obstacles": {
+    "stage": {
+      "basis": "conservative_assumption",
+      "extent_mm": {
+        "x": [
+          -24,
+          21
+        ],
+        "y": [
+          -107.164,
+          -7.164
+        ],
+        "z": [
+          101,
+          148
+        ]
+      },
+      "intersection_mm3": 0.0,
+      "status": "bracket-only screening; not a measured stage envelope"
+    },
+    "telescope": {
+      "basis": "conservative_assumption",
+      "extent_mm": {
+        "x": [
+          -100,
+          60
+        ],
+        "y": [
+          -60,
+          70
+        ],
+        "z": [
+          -50,
+          0
+        ]
+      },
+      "intersection_mm3": 0.0,
+      "status": "assumed half-space below telescope mounting plane; not measured"
+    },
+    "specified_cylinder": {
+      "basis": "literal user-supplied STEP coordinates, without an unavailable STEP-to-A15 rigid transform",
+      "diameter_mm": 140,
+      "center_xy_mm": [
+        79.4,
+        19.5
+      ],
+      "z_mm": [
+        -77.8,
+        31.4
+      ],
+      "intersection_mm3": 9278.653785492957,
+      "status": "FAIL if applied directly in A15 coordinates; true transformed clearance UNVERIFIED"
+    },
+    "optical_path": {
+      "basis": "no separate optical ray/envelope dimensions supplied",
+      "status": "UNVERIFIED; specified cylinder is tested but not silently reinterpreted"
+    }
+  },
+  "assumed_hardware_dimensions": {
+    "shank_diameter_mm": 6.35,
+    "washer_OD_ID_thickness_mm": [
+      14.3,
+      6.9,
+      1.5
+    ],
+    "head_OD_height_mm": [
+      10,
+      6.5
+    ],
+    "straight_bolt_insertion_sweep_diameter_length_mm": [
+      10,
+      100
+    ],
+    "driver_diameter_length_mm": [
+      9,
+      100
+    ],
+    "qualification": "screening envelopes only; actual NAS1352/NAS620 variants, lengths, driver and telescope threads not supplied"
+  },
+  "assembly_note": "Washers are placed separately before screws. Base washers can be offered laterally from outside the pads. Stage washers enter the central open rear window then slide on the rear bearing plane. The straight-insertion sweep is for the screw/head, not a preassembled washer/head stack. Full hardware assembly accessibility remains unverified."
+}

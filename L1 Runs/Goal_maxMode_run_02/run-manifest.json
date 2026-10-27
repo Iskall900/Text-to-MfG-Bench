@@ -1,0 +1,36 @@
+{
+  "run": "Goal_maxMode_run_02",
+  "container": "goal-maxmode-run-02",
+  "image": "text-to-mfg:latest",
+  "image_id": "sha256:87377cf9966cbc1e256089fbfde354ad34e2fbdf7e5b365f395b7aafbd7177f6",
+  "model": "deepseek-flash",
+  "model_name": "DeepSeek V4.1 Flash 1017",
+  "model_version_evidence": "https://api-docs.deepseek.com/zh-cn/news/news261017/",
+  "reasoning": "max",
+  "modal_limit_prompt": 10,
+  "workspace": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/L1 Runs/Goal_maxMode_run_02",
+  "prompt_source": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/prompt.md",
+  "prompt_sha256": "2b444130f1b2535e0fff8e92d923da83081da6dd813d71b2299c08b9995e8b7e",
+  "created": "2026-10-20T17:06:54.244142+00:00",
+  "status": "stopped_by_operator_iteration_limit_violation",
+  "archive_policy": "Preserve all run artifacts here. Do not archive or alter run 01.",
+  "started": "2026-10-20T17:07:17.622959+00:00",
+  "container_id": "7b626ab9923b894df2ddff6ee579579df473da0c224b46eb11809d123d2b5649",
+  "host": {
+    "model": "MacBookPro18,1",
+    "chip": "Apple M1 Pro",
+    "logical_cpus": 10,
+    "memory_bytes": 17179869184
+  },
+  "telemetry_interval_seconds": 10,
+  "modal_limit_harness": 30,
+  "modal_limit_note": "Unmodified image enforces 30 attempts; prompt specifies 10. Monitor for compliance.",
+  "management_automation": {
+    "id": "manage-benchmark-run-02",
+    "check_interval_minutes": 1,
+    "status": "PAUSED"
+  },
+  "stopped": "2026-10-20T17:37:26.128635547Z",
+  "exit_code": 137,
+  "oom_killed": false
+}

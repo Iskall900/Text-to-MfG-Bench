@@ -25,8 +25,8 @@ def reserve(state):
     with open(state, 'r+') as counter:
         fcntl.flock(counter, fcntl.LOCK_EX)
         count = int(counter.read())
-        if count >= 30:
-            raise RuntimeError('Modal FEA limit reached: 30 runs per harness launch.')
+        if count >= 15:
+            raise RuntimeError('Modal FEA limit reached: 15 runs per harness launch.')
         counter.seek(0)
         counter.write(str(count + 1))
         counter.truncate()

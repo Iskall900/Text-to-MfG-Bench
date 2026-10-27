@@ -1,0 +1,108 @@
+{
+  "criteria": {
+    "minimum_scaled_jacobian": 0.05,
+    "minimum_gamma": 0.05,
+    "all_minimum_determinants_positive": true,
+    "force_and_moment_relative_error_max": 0.001,
+    "frequency_relative_mesh_change_max": 0.03,
+    "displacement_relative_mesh_change_max": 0.03,
+    "peak_integration_point_stress_relative_mesh_change_max": 0.1,
+    "status": "analyst screening criteria chosen because A15 supplies none; not a qualification standard"
+  },
+  "comparisons": [
+    {
+      "coarse": "iteration4",
+      "fine": "iteration5",
+      "same_cad_volume_mm3": true,
+      "frequency_relative_change": 0.0012101291441665555,
+      "static_cases": {
+        "X": {
+          "peak_stress_relative_change": 0.13058906435661713,
+          "bracket_displacement_relative_change": 0.0019639892157150584,
+          "cg_displacement_relative_change": 0.002440917351722843,
+          "stress_convergence_pass": false,
+          "displacement_convergence_pass": true
+        },
+        "Y": {
+          "peak_stress_relative_change": 0.09199703696737414,
+          "bracket_displacement_relative_change": 0.0023915311864962253,
+          "cg_displacement_relative_change": 0.002113126926666831,
+          "stress_convergence_pass": true,
+          "displacement_convergence_pass": true
+        },
+        "Z": {
+          "peak_stress_relative_change": 0.06450980235866621,
+          "bracket_displacement_relative_change": 0.003180842354928496,
+          "cg_displacement_relative_change": 0.0033929780976070943,
+          "stress_convergence_pass": true,
+          "displacement_convergence_pass": true
+        }
+      },
+      "fine_job_clean_completion": true,
+      "frequency_convergence_pass": true
+    },
+    {
+      "coarse": "iteration7",
+      "fine": "iteration8",
+      "same_cad_volume_mm3": true,
+      "frequency_relative_change": 0.001819080724874594,
+      "static_cases": {
+        "X": {
+          "peak_stress_relative_change": 0.08171547793014694,
+          "bracket_displacement_relative_change": 0.0017458381566448846,
+          "cg_displacement_relative_change": 0.0021090688290562776,
+          "stress_convergence_pass": true,
+          "displacement_convergence_pass": true
+        },
+        "Y": {
+          "peak_stress_relative_change": 0.01611563867850266,
+          "bracket_displacement_relative_change": 0.0025018262165962105,
+          "cg_displacement_relative_change": 0.0031214434833247706,
+          "stress_convergence_pass": true,
+          "displacement_convergence_pass": true
+        },
+        "Z": {
+          "peak_stress_relative_change": 0.014091807826574888,
+          "bracket_displacement_relative_change": 0.00292994605899287,
+          "cg_displacement_relative_change": 0.0040247416874158995,
+          "stress_convergence_pass": true,
+          "displacement_convergence_pass": true
+        }
+      },
+      "fine_job_clean_completion": true,
+      "frequency_convergence_pass": true
+    },
+    {
+      "coarse": "iteration9",
+      "fine": "iteration10",
+      "same_cad_volume_mm3": true,
+      "frequency_relative_change": 0.001553650082890614,
+      "static_cases": {
+        "X": {
+          "peak_stress_relative_change": 0.1168647260900834,
+          "bracket_displacement_relative_change": 0.0036596228024116367,
+          "cg_displacement_relative_change": 0.0038403944124889063,
+          "stress_convergence_pass": false,
+          "displacement_convergence_pass": true
+        },
+        "Y": {
+          "peak_stress_relative_change": 0.03947524899427968,
+          "bracket_displacement_relative_change": 0.00468469983472515,
+          "cg_displacement_relative_change": 0.0033733079014941127,
+          "stress_convergence_pass": true,
+          "displacement_convergence_pass": true
+        },
+        "Z": {
+          "peak_stress_relative_change": 0.041656413546036095,
+          "bracket_displacement_relative_change": 0.004654832948431435,
+          "cg_displacement_relative_change": 0.003233160966690408,
+          "stress_convergence_pass": true,
+          "displacement_convergence_pass": true
+        }
+      },
+      "fine_job_clean_completion": false,
+      "frequency_convergence_pass": true
+    }
+  ],
+  "interpretation": "Peak-stress convergence for selected geometry (9/10) does NOT meet the 10% screening criterion. The 7/8 geometry has a passing two-mesh comparison. More refinement or local support/junction modeling is needed; first frequency and displacement are stable. Iteration10 completed the relevant eigenvalue and first-mode computation but timed out during later mode-output writing."
+}

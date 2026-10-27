@@ -1,0 +1,52 @@
+{
+  "geometry_family": "deep_stage_wedge_fan_frame",
+  "volume_mm3": 73596.43977396897,
+  "mass_kg": 0.19871038738971622,
+  "solid_count": 1,
+  "valid": true,
+  "center_of_mass_mm": [
+    -1.8782479015118918,
+    11.611994650928764,
+    73.63959109868053
+  ],
+  "fillets": [
+    "failed",
+    "Failed creating a fillet with radius of 0.8, try a smaller value or use max_fillet() to find the largest valid fillet radius"
+  ],
+  "parameters": {
+    "base": 8,
+    "pad_radius": 15.5,
+    "rear_web": 3.2,
+    "front_web": 3,
+    "stage": 6,
+    "stage_bottom": 100,
+    "foot_half_width": 12,
+    "front_top": 110,
+    "front_top_y": -3.164,
+    "root_blend": 0.8,
+    "access_radius": 8.5,
+    "stage_access_radius": 8.5,
+    "fan_window_margin": 6.5,
+    "window_radius": 3,
+    "rib_width": 2.5,
+    "rib_depth_each_side": 4.5,
+    "deep_stage": true,
+    "deep_back_y": 42,
+    "cheek_wall": 3.2,
+    "cap_wall": 2.5,
+    "solid_front_skin": true,
+    "trim_stage_negative_y": true,
+    "distributed_remote": true,
+    "remote_samples_per_ring": 8,
+    "h": 3.5
+  },
+  "material": {
+    "density_kg_m3": 2700,
+    "E_MPa": 68900,
+    "poisson": 0.33,
+    "yield_MPa": 240,
+    "status": "engineering assumptions, not certified material/temperature allowables"
+  },
+  "keepout": "waived_by_user",
+  "frequency_requirement_hz": 200
+}

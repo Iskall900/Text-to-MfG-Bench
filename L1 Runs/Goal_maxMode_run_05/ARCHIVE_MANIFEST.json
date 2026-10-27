@@ -1,0 +1,173 @@
+{
+  "run": "Goal_maxMode_run_05",
+  "generated_at_utc": "2026-10-27T21:23:12.587431+00:00",
+  "archive_destination": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Archives/Goal_maxMode_run_05",
+  "original_file_count": 1092,
+  "original_bytes": 3206083568,
+  "archive_contains_all_inventory_files": true,
+  "full_inventory": "ARCHIVE_MANIFEST_2026-10-27.json in archive_destination",
+  "files": [
+    {
+      "path": "A15.json",
+      "bytes": 13395,
+      "sha256": "e8157dfad15f513aa994a139f58608af314c1f4ed5080e1360ecad11105383d8",
+      "action": "keep"
+    },
+    {
+      "path": "FINAL_REPORT.md",
+      "bytes": 14335,
+      "sha256": "fbd10f17dbc242b4fda2a957fb55caa8dae35455b519cc4b1fa37821f97615d3",
+      "action": "keep"
+    },
+    {
+      "path": "continuation-01.txt",
+      "bytes": 748,
+      "sha256": "eca9130a7dbabfa9a647f2b438c83ea43b2e26e81f72c4e0d960a3ad87198131",
+      "action": "keep"
+    },
+    {
+      "path": "continuation-02.txt",
+      "bytes": 775,
+      "sha256": "3815d182512d277024a2d6ce09b11352f6cdf78bfc45cdd08b9405a613e97588",
+      "action": "keep"
+    },
+    {
+      "path": "data-Pi/agents-1-usage.txt",
+      "bytes": 121,
+      "sha256": "9fbcec58eb444773a2bd7ce12e600a59eb0d2e57c2bf7a6077aa9dc24e6e4fc4",
+      "action": "keep"
+    },
+    {
+      "path": "data-Pi/agents-2-usage.txt",
+      "bytes": 126,
+      "sha256": "b0b6ff4793bd563872b8d06aa5e761071c3b8f9c93de646b197a9e4074a961d1",
+      "action": "keep"
+    },
+    {
+      "path": "data-Pi/agents-3-usage.txt",
+      "bytes": 127,
+      "sha256": "260f5ec354e1e874a51a94c0bf3d5f5bba8f80c1fb71f1606a7b59c8de9d346a",
+      "action": "keep"
+    },
+    {
+      "path": "data-Pi/compute.txt",
+      "bytes": 37,
+      "sha256": "d6e09d41f512531c2f51a83f49872f7bad3e12853b53131c0ec618305b1e2b95",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/DfM1/FINAL_DFM_REVIEW.md",
+      "bytes": 2921,
+      "sha256": "377d154eaa1dbf4ba3ecdd908fb3bab9bef7f08936086fac3d9a13f7bb777745",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/DfM1/access_check.json",
+      "bytes": 6402,
+      "sha256": "943c73d2165119b421dc53f6a112ddb9bd7cd59aeeb460d9d4d74f3350cc0e2e",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/FEA1/coupling_diagnostics.json",
+      "bytes": 571,
+      "sha256": "7a0a5eeeb4d9a21ca0fe5fd9a554e9c2d73ff6556183e53227566cbf154083de",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/FEA1/static_mesh_sensitivity.json",
+      "bytes": 1053,
+      "sha256": "1d0056c3c6934525c3e8bdd3b810006dc5d1650179031fc57d1d2313283fff86",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/FEA1/static_refined_straight_sided/coupling_diagnostics.json",
+      "bytes": 577,
+      "sha256": "853297878379f8aee4fba9d3fe217c185f0601acbfeef8515a656fc5754403ba",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/FEA1/static_refined_straight_sided/summary.json",
+      "bytes": 3655,
+      "sha256": "bf58f99345b1bc7437f64e91fa13e8cabdb0b2804aa4ec1fd9a400507cfa28f4",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/FEA1/summary.json",
+      "bytes": 3759,
+      "sha256": "f6bb459bcce81defba3edee523fc3db4c3cab66d1c02940b92ccd1f1487e4982",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/geometry1/bracket.step",
+      "bytes": 744443,
+      "sha256": "087bdd8a7cf1b15b26a5a9d986fe526003a589a6d02931e991feda5158580110",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/geometry1/bracket.stl",
+      "bytes": 408184,
+      "sha256": "8e9a5e438d7407a22f7d6d1b95282b755051292fe5d8c4c8db171387e6e756b9",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/geometry1/bracket_build123d.py",
+      "bytes": 7368,
+      "sha256": "f87c58487627da6e713e7524ee29d2ff99c35a3d57e98f8999c4b00a281369c1",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/geometry1/cad_metrics.json",
+      "bytes": 1333,
+      "sha256": "1d0187276da0fe020fdf711c6adbedd6b31e0ff61b9ce9b3586465cd74262848",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/geometry1/interface_check.json",
+      "bytes": 2297,
+      "sha256": "2d70cfb50e55f4158714a145e22f56ddb1c7e1699e8bcd9a18b1d3e03806a982",
+      "action": "keep"
+    },
+    {
+      "path": "keepout_interface_check.json",
+      "bytes": 712,
+      "sha256": "8fafbe6d08ce9a62bc9eec0157575b3df07a119288618c3583bb4ef5838dd6cb",
+      "action": "keep"
+    },
+    {
+      "path": "modal_run_ledger.json",
+      "bytes": 4854,
+      "sha256": "ef5238c2b4f07e6506fe1ba13ae595dccc4515ad9d917bd88ba5b22e63ffd2c8",
+      "action": "keep"
+    },
+    {
+      "path": "operator-instructions.txt",
+      "bytes": 632,
+      "sha256": "1f395fe38e30d9886bd020deb13dec64fd5fb3a9642476371189084cd9e0f86f",
+      "action": "keep"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 2220,
+      "sha256": "bee481a2a4a4e4c31d3efa07c3232445de039628af43df7ad27129d7308df62c",
+      "action": "keep"
+    },
+    {
+      "path": "requirement_decisions.json",
+      "bytes": 4224,
+      "sha256": "a76a7814f2b21fffa8836631a662ef3bdc5a9ce7200a70ab4be2eace0b56f351",
+      "action": "keep"
+    },
+    {
+      "path": "results_final.json",
+      "bytes": 14536,
+      "sha256": "0c0bb1cdc9fe668510c32557ae930bb6cbcf761c658b6068940a1cedf859d026",
+      "action": "keep"
+    },
+    {
+      "path": "run-manifest.json",
+      "bytes": 3158,
+      "sha256": "09c4942c95a8e205f257fb69ec84dce646cd30666467c52596a6d89b1d41e169",
+      "action": "keep"
+    }
+  ]
+}

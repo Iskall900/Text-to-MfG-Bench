@@ -1,0 +1,12 @@
+{
+  "wall_mm": 3.5,
+  "pad_radius_mm": 12,
+  "pad_thickness_mm": 6,
+  "stage_plate_thickness_mm": 6,
+  "window_corner_radius_mm": 3,
+  "units": "mm",
+  "coordinates": "A15 global XYZ",
+  "front_window_corner_radius_mm": 4,
+  "base_access_relief": "washer R7.5 x1.5, then head/insertion R5.5",
+  "scrap_omission_threshold_mm3": 0.1
+}

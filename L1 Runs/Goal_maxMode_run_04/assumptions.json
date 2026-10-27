@@ -1,0 +1,19 @@
+{
+  "coordinates": "A15.json global XYZ used unchanged; user cylinder tested literally. No STEP model or coordinate transform supplied. No transform invented. A15 has three telescope holes, not the four pads mentioned in prose.",
+  "cg_z": "125.21 mm per JSON; image rounded variant is 125.206 mm. JSON is used.",
+  "material": {
+    "E_MPa": 68900,
+    "nu": 0.33,
+    "density_kg_m3": 2700,
+    "yield_MPa": 240,
+    "status": "room-temperature engineering assumptions; no material certificate; 240 MPa conservative screening allowable"
+  },
+  "material_source": "uncertified engineering reference values. Cached CalculiX and Build123d manuals confirm API/solver modeling, not alloy properties. Web-search service unavailable (no API key); no fetched material data.",
+  "fasteners": "\u00d86.8 clearance holes; assumed nominal \u00d86.35 shanks, washer \u00d814.3/\u00d86.9 x1.5, head \u00d810 x6.5, driver \u00d89 x100. Actual NAS variants, thread engagement, bolt length and preload not provided.",
+  "supports": "only telescope bore-surface translations fixed, idealized bonded/snug clamped-bolt model matching the visual instruction. Real bolt and telescope stiffness unknown.",
+  "loading": "independent positive X/Y/Z accelerations; reversed whole-case signs are equivalent only for this unpreloaded linear model. Bracket self inertia and payload offset moments included.",
+  "payload": "1.35 kg MASS element at exact supplied CG; no rotary inertia invented. Distributed least-squares coupling does not rigidify hole surfaces.",
+  "keepouts": "Explicit user cylinder is primary measured input. Additional stage and telescope envelope boxes are stated conservative assumptions only; real optical path and hardware unresolved.",
+  "manufacturing": "5-axis billet-machining concept, not toolpath-verified or physically manufactured. Open through-windows and radiused window corners improve accessibility; some web intersections remain sharp and require CAM/radius review.",
+  "environment": "-40 to +85 C and MIL-STD-810G confirmation pending. No temperature-dependent allowables, thermal stresses, damping, shock or vibration profile supplied."
+}

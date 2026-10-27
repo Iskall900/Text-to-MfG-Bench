@@ -1,0 +1,44 @@
+{
+  "first_sample": "2026-10-20T17:07:20.259058+00:00",
+  "last_sample": "2026-10-20T17:37:18.574782+00:00",
+  "container_cpu_percent": {
+    "samples": 148,
+    "mean": 42.0525,
+    "p95": 173.33,
+    "max": 265.06,
+    "first": 9.82,
+    "last": 10.45
+  },
+  "container_memory_gib": {
+    "samples": 148,
+    "mean": 0.8228537531672298,
+    "p95": 1.13,
+    "max": 1.248,
+    "first": 0.1017578125,
+    "last": 0.84208984375
+  },
+  "host_cpu_busy_percent": {
+    "samples": 148,
+    "mean": 45.633445945945944,
+    "p95": 71.17,
+    "max": 96.19,
+    "first": 46.69,
+    "last": 38.36
+  },
+  "host_gpu_device_percent": {
+    "samples": 148,
+    "mean": 5.148648648648648,
+    "p95": 32.0,
+    "max": 35.0,
+    "first": 0.0,
+    "last": 12.0
+  },
+  "host_swap_mib": {
+    "samples": 148,
+    "mean": 14519.311824324324,
+    "p95": 14925.94,
+    "max": 15339.5,
+    "first": 13378.31,
+    "last": 14789.56
+  }
+}

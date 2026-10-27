@@ -20,13 +20,15 @@ const assistant = (tokens) => ({ type: 'message', message: { role: 'assistant', 
 
 test('counts all new model usage, waits for settlement, and resets per prompt', async () => {
   const cwd = mkdtempSync(join(tmpdir(), 'pi-metering-'));
+  process.env.PI_MODAL_FEA_COUNT = join(mkdtempSync(join(tmpdir(), 'pi-count-')), 'count');
+  writeFileSync(process.env.PI_MODAL_FEA_COUNT, '3');
   try {
     const h = harness(cwd);
     h.entries.push(assistant(usage(999, 0, 0, 999)));
     await h.emit('input');
     await new Promise(resolve => setTimeout(resolve, 25));
     await h.emit('before_agent_start');
-    writeFileSync(process.env.PI_COMPUTE_LOG, 'modal_fea\nmodal_fea\n');
+    writeFileSync(process.env.PI_MODAL_FEA_COUNT, '5');
     h.entries.push(assistant(usage(10, 20, 3, 4)));
     await h.emit('agent_end');
     assert.deepEqual(readdirSync(cwd), []);

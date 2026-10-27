@@ -1,0 +1,27 @@
+{
+  "run": "Goal_maxMode_run_03",
+  "container": "goal-maxmode-run-03",
+  "image": "text-to-mfg:latest",
+  "image_id": "sha256:87377cf9966cbc1e256089fbfde354ad34e2fbdf7e5b365f395b7aafbd7177f6",
+  "provider": "openrouter",
+  "model": "openai/gpt-6.1-sol",
+  "reasoning": "high",
+  "modal_limit_prompt": 10,
+  "modal_limit_harness": 30,
+  "iteration_limit": 10,
+  "workspace": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/L1 Runs/Goal_maxMode_run_03",
+  "prompt_source": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/prompt.md",
+  "prompt_sha256": "2b444130f1b2535e0fff8e92d923da83081da6dd813d71b2299c08b9995e8b7e",
+  "created": "2026-10-20T19:02:47.283783+00:00",
+  "status": "running",
+  "archive_policy": "Keep all run 03 artifacts here; leave run 01 untouched; do not archive anything.",
+  "telemetry_interval_seconds": 10,
+  "model_reference": "https://openrouter.ai/openai/gpt-6.1-sol",
+  "started": "2026-10-20T19:02:55.92294559Z",
+  "container_id": "d19ad88e25579da589e2e21210a0d3fd88340a44a276f64a0de10ae1e5aa6c7f",
+  "management_automation": {
+    "id": "manage-benchmark-run-03",
+    "check_interval_minutes": 1,
+    "status": "ACTIVE"
+  }
+}

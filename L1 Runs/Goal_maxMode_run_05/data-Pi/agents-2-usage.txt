@@ -1,0 +1,5 @@
+outcome: completed
+input_tokens_total: 3980379
+input_tokens_cached: 3907219
+input_tokens_uncached: 73160
+output_tokens: 43291

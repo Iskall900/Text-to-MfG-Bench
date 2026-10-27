@@ -1,0 +1,30 @@
+{
+  "basis": "Three byte-identical CAD models, hmax 3/2/1.5 mm; locally refined upper-left junction. Surface Delaunay. Same analytic loading and 96 representative bore nodes, resampled on each mesh.",
+  "criteria": "Engineering screening criteria selected because A15 leaves them null: frequency <=2%, displacement <=5%, maximum integration-point von Mises <=10% change between finest two meshes; equilibrium <=0.5%; minSICN>0.05; sampled curved Jacobians >0.",
+  "frequency_relative_change": 0.0013906670170123461,
+  "static": {
+    "X": {
+      "peak_stress_relative_change": 0.1410597998229956,
+      "displacement_relative_change": 0.001535471808643893,
+      "unweighted_p99_stress_relative_change": 0.12001597851324394,
+      "peak_stress_converged_screen": false,
+      "displacement_converged_screen": true
+    },
+    "Y": {
+      "peak_stress_relative_change": 0.000924211023191883,
+      "displacement_relative_change": 0.0024407881246422875,
+      "unweighted_p99_stress_relative_change": 0.1173790699761613,
+      "peak_stress_converged_screen": true,
+      "displacement_converged_screen": true
+    },
+    "Z": {
+      "peak_stress_relative_change": 0.05161436711693352,
+      "displacement_relative_change": 0.0027279178289203424,
+      "unweighted_p99_stress_relative_change": 0.05671856509243774,
+      "peak_stress_converged_screen": true,
+      "displacement_converged_screen": true
+    }
+  },
+  "frequency_converged_screen": true,
+  "peak_stress_converged_screen": false
+}

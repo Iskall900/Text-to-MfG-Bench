@@ -1,0 +1,43 @@
+{
+  "run": "Goal_maxMode_run_04",
+  "container": "goal-maxmode-run-04",
+  "image": "text-to-mfg:latest",
+  "image_id": "sha256:87377cf9966cbc1e256089fbfde354ad34e2fbdf7e5b365f395b7aafbd7177f6",
+  "provider": "openrouter",
+  "model": "openai/gpt-6.1-sol",
+  "reasoning": "high",
+  "modal_limit_prompt": 10,
+  "modal_limit_harness": 30,
+  "iteration_limit": 10,
+  "workspace": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/L1 Runs/Goal_maxMode_run_04",
+  "prompt_source": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/prompt.md",
+  "prompt_sha256": "1f9971a333922f6ff5889b1969a75a4287059ce8015749f34e199e008a448198",
+  "created": "2026-10-21T17:21:53.624447+00:00",
+  "status": "completed_best_attempt_not_accepted",
+  "archive_policy": "Keep all run 04 files here; leave run 01 and all existing runs untouched; archive nothing.",
+  "telemetry_interval_seconds": 10,
+  "model_reference": "https://openrouter.ai/openai/gpt-6.1-sol",
+  "started": "2026-10-21T17:21:58.200696717Z",
+  "container_id": "7736642696c6539fb41001d6608a9b8f56b50bf9a16e5b67aa3cb197a1cb2f49",
+  "iterations_with_results": 9,
+  "latest_iteration": 10,
+  "latest_results": {
+    "mass_g": 198.38586402111025,
+    "first_frequency_hz": 170.8879,
+    "minimum_yield_fos": 5.729893723189902,
+    "keepout_intersection_mm3": 9278.653825553338,
+    "overall_acceptance": false
+  },
+  "management_automation": {
+    "id": "manage-benchmark-run-04",
+    "status": "completion_reported"
+  },
+  "finished": "2026-10-21T18:08:52.672751588Z",
+  "container_exit_code": 0,
+  "best_iteration": 9,
+  "modal_runs_used": 10,
+  "elapsed_seconds": 2813.67827,
+  "overall_acceptance": false,
+  "final_report": "FINAL_REPORT.md",
+  "results": "results_final.json"
+}

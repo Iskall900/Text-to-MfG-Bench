@@ -1,0 +1,80 @@
+{
+  "run": "Goal_maxMode_run_05",
+  "container": "goal-maxmode-run-05-continue-01",
+  "image": "text-to-mfg:latest",
+  "image_id": "sha256:87377cf9966cbc1e256089fbfde354ad34e2fbdf7e5b365f395b7aafbd7177f6",
+  "provider": "openrouter",
+  "model": "openai/gpt-6.1-sol",
+  "reasoning": "high",
+  "modal_limit_prompt": 10,
+  "modal_limit_harness": 30,
+  "iteration_limit": 10,
+  "workspace": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/L1 Runs/Goal_maxMode_run_05",
+  "prompt_source": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Bench/prompt.md",
+  "prompt_sha256": "bee481a2a4a4e4c31d3efa07c3232445de039628af43df7ad27129d7308df62c",
+  "created": "2026-10-21T18:18:48.738393+00:00",
+  "status": "completed_budget_exhausted_200hz_failed",
+  "archive_policy": "Preserve every run 05 artifact here. Leave run 01 and all existing runs untouched. Archive nothing.",
+  "update_interval_seconds": 300,
+  "started": "2026-10-21T18:18:51.752745466Z",
+  "container_id": "eeda181e5d6ed1f296b1b477caed85919b6aae78003cf14f7719320d69ffca53",
+  "management_automation": {
+    "id": "manage-benchmark-run-05",
+    "status": "PAUSED",
+    "check_interval_minutes": 5
+  },
+  "geometry_iterations": 10,
+  "modal_runs_used": 10,
+  "static_runs_used": 0,
+  "final_report": "FINAL_REPORT.md",
+  "results": "results_final.json",
+  "keepout_status": "waived_by_user",
+  "continuation_instruction": "continuation-02.txt",
+  "resumed_at": "2026-10-21T19:52:22.259703+00:00",
+  "initial_result_directory": "initial-feasibility",
+  "last_checked": "2026-10-21T20:28:22.952707+00:00",
+  "latest_results": {
+    "iteration": 10,
+    "mass_g": 198.71038738971623,
+    "first_frequency_single_mesh_hz": 126.6192,
+    "minimum_computed_yield_fos": 5.277648736684906,
+    "target_frequency_hz": 200,
+    "frequency_target_met": false
+  },
+  "latest_problems": [
+    "200 Hz target missed by 73.3808 Hz.",
+    "Static raw stress mesh sensitivity fails selected 10 percent check in all axes.",
+    "Final modal mesh convergence, material, hardware and CNC qualification unverified."
+  ],
+  "activity": "Completed and reported; no further prompts or solver calls.",
+  "best_iteration": 10,
+  "overall_acceptance": false,
+  "usage_total": {
+    "input_tokens_total": 10358733,
+    "input_tokens_cached": 10117515,
+    "input_tokens_uncached": 241218,
+    "output_tokens": 103316
+  },
+  "continuation_elapsed_seconds": 2088.552059,
+  "first_mode_requirement_hz": 200,
+  "modal_runs_remaining": 0,
+  "verified_reasoning": "high",
+  "independent_checks": {
+    "refined_static_peak_stresses_recomputed_MPa": {
+      "X": 45.474796064346116,
+      "Y": 11.354908400705867,
+      "Z": 10.661785230378527
+    },
+    "minimum_fos_recomputed": 5.277648736684906
+  },
+  "finished": "2026-10-21T20:23:26.928658969Z",
+  "container_exit_code": 0,
+  "high_reasoning_elapsed_seconds": 1882.269119,
+  "high_reasoning_usage": {
+    "input_tokens_total": 6328779,
+    "input_tokens_cached": 6171608,
+    "input_tokens_uncached": 157171,
+    "output_tokens": 57969
+  },
+  "metering_note": "compute.txt reports 3 modal calls in high-reasoning prompt; cumulative persisted counter and ledger are 10."
+}

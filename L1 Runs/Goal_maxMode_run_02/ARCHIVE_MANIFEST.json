@@ -1,0 +1,95 @@
+{
+  "run": "Goal_maxMode_run_02",
+  "generated_at_utc": "2026-10-27T21:25:16.710503+00:00",
+  "archive_destination": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Archives/Goal_maxMode_run_02/repository-snapshot-2026-10-27",
+  "original_file_count": 33,
+  "original_bytes": 63469704,
+  "archive_contains_all_inventory_files": true,
+  "full_inventory": "ARCHIVE_MANIFEST_2026-10-27.json in archive_destination",
+  "files": [
+    {
+      "path": "A15.json",
+      "bytes": 13395,
+      "sha256": "e8157dfad15f513aa994a139f58608af314c1f4ed5080e1360ecad11105383d8",
+      "action": "keep"
+    },
+    {
+      "path": "FEA_AUDIT.md",
+      "bytes": 6664,
+      "sha256": "e259e3bd622b806c020a88ce0c32caa57546d1f09c3c60c74d427d8fe001c0c1",
+      "action": "keep"
+    },
+    {
+      "path": "FINAL_REPORT.md",
+      "bytes": 1402,
+      "sha256": "0579035a251512dc688389587f48ebfd1636e3ac974b02cfce311ad512b6ae2f",
+      "action": "keep"
+    },
+    {
+      "path": "RESOURCE_USAGE_SUMMARY.json",
+      "bytes": 912,
+      "sha256": "69268c22219e9eba2815577b8a36e156bf90339df32c44aad302182e71811393",
+      "action": "keep"
+    },
+    {
+      "path": "TOKEN_USAGE_REPORT.json",
+      "bytes": 573,
+      "sha256": "633f270fbd837d72f777c691b43d77bf51612add7a85e0e6e2a1b80739e7dcca",
+      "action": "keep"
+    },
+    {
+      "path": "TOKEN_USAGE_REPORT.md",
+      "bytes": 731,
+      "sha256": "f2c2cf70ae56317459f1ffae90c4a0c49aca2a727c7a1c94c96d735d4b45d622",
+      "action": "keep"
+    },
+    {
+      "path": "iteration7/geometry7/A15_bracket_i7.step",
+      "bytes": 372627,
+      "sha256": "63c64375ce973573d81008340768d7e8eb0fdfb44ef0949d0dd332cdd04a9268",
+      "action": "keep"
+    },
+    {
+      "path": "iteration7/geometry7/A15_bracket_i7.stl",
+      "bytes": 108284,
+      "sha256": "26e443b1ff928e0e0bc23d728e92bf26da469f40e43884f4bf6128b05e3d4995",
+      "action": "keep"
+    },
+    {
+      "path": "iteration7/geometry7/A15_bracket_i7_meta.json",
+      "bytes": 1317,
+      "sha256": "d4f6f3c577af28b6e1f9d5b7dcc5d6eab595c7d8514c671aa974ee30ae73b938",
+      "action": "keep"
+    },
+    {
+      "path": "iteration7/geometry7/build_bracket.py",
+      "bytes": 7865,
+      "sha256": "84af84dfd15531b633b1d10fa0cedf2a1e34b2caaae296845be9dee12c60e8b0",
+      "action": "keep"
+    },
+    {
+      "path": "operator-instructions.txt",
+      "bytes": 632,
+      "sha256": "1f395fe38e30d9886bd020deb13dec64fd5fb3a9642476371189084cd9e0f86f",
+      "action": "keep"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 1287,
+      "sha256": "2b444130f1b2535e0fff8e92d923da83081da6dd813d71b2299c08b9995e8b7e",
+      "action": "keep"
+    },
+    {
+      "path": "results_final.json",
+      "bytes": 2487,
+      "sha256": "a02e631d83601dfd4e8e79072993460fa5811ba122fa34f1252389e562aafe93",
+      "action": "keep"
+    },
+    {
+      "path": "run-manifest.json",
+      "bytes": 1533,
+      "sha256": "1465dabf47b09481c09ce0e3dc71c1e5e9d79caaf77286f77fe10f63bad05900",
+      "action": "keep"
+    }
+  ]
+}

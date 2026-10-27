@@ -1,0 +1,304 @@
+{
+  "frequencies_hz": [
+    143.0968,
+    177.467,
+    333.0255,
+    1371.16,
+    2157.062,
+    2466.367,
+    2631.347,
+    2720.195
+  ],
+  "first_frequency_hz": 143.0968,
+  "static_cases": [
+    {
+      "id": "X",
+      "sign": 1,
+      "max_von_mises_MPa": 47.83747510674619,
+      "von_mises_p99_MPa": 10.001983183220615,
+      "max_stress_element": 140917,
+      "max_stress_integration_point": 2,
+      "yield_allowable_MPa": 240,
+      "yield_factor_of_safety": 5.01698719391974,
+      "yield_requirement_pass": true,
+      "max_displacement_mm": 0.08246817512325864,
+      "max_displacement_node": 213554,
+      "payload_CG_displacement_mm": [
+        0.08116157,
+        0.003830416,
+        -0.01411125
+      ],
+      "reactions_by_bolt": {
+        "T1": {
+          "force_N": [
+            -111.01163561661171,
+            -11.515095850099991,
+            10.445035498939992
+          ],
+          "moment_about_global_origin_Nmm": [
+            260.3004146982963,
+            -1155.719265183692,
+            -2763.303268278453
+          ]
+        },
+        "T2": {
+          "force_N": [
+            -8.827925601128232,
+            -67.36548479689996,
+            218.45208206259989
+          ],
+          "moment_about_global_origin_Nmm": [
+            8668.554827379845,
+            -4875.992386994418,
+            -1321.6515056724163
+          ]
+        },
+        "T3": {
+          "force_N": [
+            -31.13638321011097,
+            78.88058020720004,
+            -228.8971185127
+          ],
+          "moment_about_global_origin_Nmm": [
+            -8928.85527621109,
+            -11861.895749849626,
+            -3328.5447657543486
+          ]
+        }
+      },
+      "reaction_total_N": [
+        -150.97594442785086,
+        -4.398000368333044e-07,
+        -9.511599252109981e-07
+      ],
+      "reaction_moment_Nmm": [
+        -3.4132946203691006e-05,
+        -17893.607402027734,
+        -7413.499539705214
+      ],
+      "applied_total_N": [
+        150.9759484433138,
+        -4.1744385725905886e-14,
+        -2.2724877535296173e-16
+      ],
+      "applied_moment_Nmm": [
+        -5.4569682106375694e-12,
+        17893.607196443776,
+        7413.499820052301
+      ],
+      "force_equilibrium_relative_error": 2.748748037815179e-08,
+      "moment_equilibrium_relative_error": 1.803540192469279e-08,
+      "equilibrium_pass": true,
+      "reversed_load_sign_equivalence": "Exact for this linear elastic bilateral fixed-bore model: U,R,S change sign, von Mises, yield FoS and frequency unchanged. Not a claim for real joint opening/slip."
+    },
+    {
+      "id": "Y",
+      "sign": 1,
+      "max_von_mises_MPa": 12.030796951812846,
+      "von_mises_p99_MPa": 2.8478579003610394,
+      "max_stress_element": 57227,
+      "max_stress_integration_point": 3,
+      "yield_allowable_MPa": 240,
+      "yield_factor_of_safety": 19.948803139249716,
+      "yield_requirement_pass": true,
+      "max_displacement_mm": 0.022992989478895734,
+      "max_displacement_node": 47959,
+      "payload_CG_displacement_mm": [
+        0.000627105,
+        0.01425098,
+        0.01241523
+      ],
+      "reactions_by_bolt": {
+        "T1": {
+          "force_N": [
+            13.664476016520005,
+            -19.75687928902351,
+            -84.28483076939993
+          ],
+          "moment_about_global_origin_Nmm": [
+            1973.9433763956415,
+            1785.0479404676096,
+            -66.47882967749749
+          ]
+        },
+        "T2": {
+          "force_N": [
+            -3.263587560669982,
+            -21.86795380640065,
+            78.91745238720003
+          ],
+          "moment_about_global_origin_Nmm": [
+            3029.4530032473485,
+            -1832.8083971377096,
+            -361.4430683003616
+          ]
+        },
+        "T3": {
+          "force_N": [
+            -10.40088570988999,
+            -3.6679514586362982,
+            5.367380667969995
+          ],
+          "moment_about_global_origin_Nmm": [
+            364.6858329891855,
+            47.760477127391695,
+            524.862261677287
+          ]
+        }
+      },
+      "reaction_total_N": [
+        2.745959983145238e-06,
+        -45.292784554060475,
+        2.2857699918076013e-06
+      ],
+      "reaction_moment_Nmm": [
+        5368.082212632168,
+        2.0457292746134392e-05,
+        96.94036369942765
+      ],
+      "applied_total_N": [
+        6.715277205832093e-18,
+        45.29278453299295,
+        -5.3722217646656745e-17
+      ],
+      "applied_moment_Nmm": [
+        -5368.082158933088,
+        7.467984564080155e-16,
+        -96.94040349936222
+      ],
+      "force_equilibrium_relative_error": 7.888412824215451e-08,
+      "moment_equilibrium_relative_error": 1.3019443163947108e-08,
+      "equilibrium_pass": true,
+      "reversed_load_sign_equivalence": "Exact for this linear elastic bilateral fixed-bore model: U,R,S change sign, von Mises, yield FoS and frequency unchanged. Not a claim for real joint opening/slip."
+    },
+    {
+      "id": "Z",
+      "sign": 1,
+      "max_von_mises_MPa": 17.06085441147273,
+      "von_mises_p99_MPa": 3.3222844527920192,
+      "max_stress_element": 68116,
+      "max_stress_integration_point": 3,
+      "yield_allowable_MPa": 240,
+      "yield_factor_of_safety": 14.067290782260576,
+      "yield_requirement_pass": true,
+      "max_displacement_mm": 0.030748269279768075,
+      "max_displacement_node": 213554,
+      "payload_CG_displacement_mm": [
+        -0.004650723,
+        0.0121034,
+        0.02788072
+      ],
+      "reactions_by_bolt": {
+        "T1": {
+          "force_N": [
+            16.81358513994,
+            -8.5053416415558,
+            -71.9215956391235
+          ],
+          "moment_about_global_origin_Nmm": [
+            1427.287233565061,
+            1580.0040069332483,
+            186.33392655167663
+          ]
+        },
+        "T2": {
+          "force_N": [
+            -0.9856179897999955,
+            -5.662241284670004,
+            37.45994590390934
+          ],
+          "moment_about_global_origin_Nmm": [
+            1281.0874342573998,
+            -871.5052035606221,
+            -83.3671355796122
+          ]
+        },
+        "T3": {
+          "force_N": [
+            -15.827969213060005,
+            14.167581221682,
+            -10.831135924256296
+          ],
+          "moment_about_global_origin_Nmm": [
+            -484.3247065912977,
+            -805.4392378478049,
+            -102.96683353856909
+          ]
+        }
+      },
+      "reaction_total_N": [
+        -2.062920068074403e-06,
+        -1.7045438040208527e-06,
+        -45.29278565947045
+      ],
+      "reaction_moment_Nmm": [
+        2224.049961231162,
+        -96.94043447517872,
+        -4.2566504667718164e-05
+      ],
+      "applied_total_N": [
+        -5.117434254131581e-17,
+        -1.1546319456101628e-14,
+        45.29278453299301
+      ],
+      "applied_moment_Nmm": [
+        -2224.049946015755,
+        96.94040349936239,
+        -3.907985046680551e-14
+      ],
+      "force_equilibrium_relative_error": 6.410417535563114e-08,
+      "moment_equilibrium_relative_error": 2.4615858161741892e-08,
+      "equilibrium_pass": true,
+      "reversed_load_sign_equivalence": "Exact for this linear elastic bilateral fixed-bore model: U,R,S change sign, von Mises, yield FoS and frequency unchanged. Not a claim for real joint opening/slip."
+    }
+  ],
+  "mesh": {
+    "nodes_bracket": 213553,
+    "nodes_including_payload": 213554,
+    "elements_C3D10": 127443,
+    "mass_elements": 1,
+    "mesh_size_mm": 1.5,
+    "minSICN_min": 0.10011859834047573,
+    "minSICN_p01": 0.5746255942079276,
+    "minSICN_median": 0.8452508016664158,
+    "min_jacobian_determinant": 0.0038361443443164726,
+    "nonpositive_jacobian_quadrature_points": 0,
+    "mesh_volume_mm3": 70194.89776801657,
+    "mesh_bracket_mass_kg": 0.18952622397364474,
+    "mesh_center_mm": [
+      -5.828648308062359,
+      8.30882583327936,
+      70.86361658632683
+    ],
+    "support_bore_node_counts": [
+      348,
+      344,
+      344
+    ],
+    "stage_bore_node_counts": [
+      24,
+      24,
+      24,
+      24
+    ],
+    "remote_rigid_motion_reproduction_error": 2.1316282072803006e-14,
+    "mesh_quality_criteria": "minSICN > 0.05 and all sampled quadratic Jacobian determinants > 0",
+    "mesh_quality_pass": true,
+    "payload_kg": 1.35,
+    "payload_CG_mm": [
+      -1.6225,
+      -57.164,
+      125.21
+    ],
+    "payload_inertia": "No intrinsic rotational tensor invented; 3 translational point mass DOFs only",
+    "boundary_condition": "U1=U2=U3=0 exclusively at T1,T2,T3 cylindrical bore nodes; no faces or stage bore nodes fixed",
+    "material": {
+      "E_MPa": 68900,
+      "nu": 0.33,
+      "density_kg_m3": 2700,
+      "yield_MPa": 240
+    },
+    "stress_metric": "Maximum unaveraged von Mises over all bracket integration points, no stress exclusions"
+  },
+  "missing_static_cases": []
+}

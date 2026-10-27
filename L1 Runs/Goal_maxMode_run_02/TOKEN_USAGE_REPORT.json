@@ -1,0 +1,13 @@
+{
+  "uncached_input_tokens": 87388,
+  "cached_input_tokens": 20837632,
+  "total_input_tokens": 20925020,
+  "output_tokens": 256468,
+  "reasoning_tokens_included_in_output": 209428,
+  "total_tokens": 21181488,
+  "completed_assistant_responses": 111,
+  "elapsed_seconds": 1823.536,
+  "container_started": "2026-10-20T17:07:02.591862009Z",
+  "container_finished": "2026-10-20T17:37:26.128635547Z",
+  "limitation": "Provider usage from completed saved assistant messages only; interrupted in-flight response may be missing. Reasoning is included in output, not added again."
+}

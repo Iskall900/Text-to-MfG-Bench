@@ -1,0 +1,143 @@
+{
+  "run": "Goal_maxMode_run_04",
+  "generated_at_utc": "2026-10-27T21:22:59.044342+00:00",
+  "archive_destination": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Archives/Goal_maxMode_run_04",
+  "original_file_count": 548,
+  "original_bytes": 3791351870,
+  "archive_contains_all_inventory_files": true,
+  "full_inventory": "ARCHIVE_MANIFEST_2026-10-27.json in archive_destination",
+  "files": [
+    {
+      "path": "A15.json",
+      "bytes": 13395,
+      "sha256": "e8157dfad15f513aa994a139f58608af314c1f4ed5080e1360ecad11105383d8",
+      "action": "keep"
+    },
+    {
+      "path": "FINAL_REPORT.md",
+      "bytes": 8690,
+      "sha256": "179899a1e8585d6010f511f3b5a9c825b5307e925cbfb2f90a447785ef2e7f9f",
+      "action": "keep"
+    },
+    {
+      "path": "assumptions.json",
+      "bytes": 2152,
+      "sha256": "052a344a9e2a8aa0d68b81df36fb67c14f0939fbf5bb721ce6d32abb8fdedcd0",
+      "action": "keep"
+    },
+    {
+      "path": "convergence.json",
+      "bytes": 4586,
+      "sha256": "76d0cda98376ce5e1628a6b85c4295e98cd7b47bc563e30eef9ce1ea38654725",
+      "action": "keep"
+    },
+    {
+      "path": "data-Pi/agents-1-usage.txt",
+      "bytes": 126,
+      "sha256": "e5bb4f02064008bc6fd5e6f6415ff6550788d9243eb7980c88ac3651f589ec05",
+      "action": "keep"
+    },
+    {
+      "path": "data-Pi/compute.txt",
+      "bytes": 38,
+      "sha256": "21f69b50a7757e811bf888394f1e5684fd4bb379896507a67bc3dd2c6251e8c1",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/FEA1/analysis_results.json",
+      "bytes": 4210,
+      "sha256": "9e663085ed8be52a90425c902666487d7ab5c08cba19c04ba6700967e65dd69b",
+      "action": "keep"
+    },
+    {
+      "path": "iteration9/DfM1/DFM_REPORT.md",
+      "bytes": 2684,
+      "sha256": "9e5c35a4cb3745ec7fcb011394d6864419caf1331bd20be42a1b809872d03bf8",
+      "action": "keep"
+    },
+    {
+      "path": "iteration9/DfM1/access_and_keepout_checks.json",
+      "bytes": 8829,
+      "sha256": "24ae2875ccad6b65494a4d33e84b22c26bd6223cebe598f81e0363fef757f72c",
+      "action": "keep"
+    },
+    {
+      "path": "iteration9/FEA1/FEA_REPORT.md",
+      "bytes": 1872,
+      "sha256": "ff8c94196efa6a3a867d2ba1f09013d7435a7d34bf6683254cb6390f95047ef5",
+      "action": "keep"
+    },
+    {
+      "path": "iteration9/FEA1/analysis_results.json",
+      "bytes": 4209,
+      "sha256": "a37c51844565d7f7d52feb367c91b8d8c7a423ddc87b3b388b5dd67acc556892",
+      "action": "keep"
+    },
+    {
+      "path": "iteration9/geometry1/bracket.step",
+      "bytes": 1869089,
+      "sha256": "c077df1e257d1dfda547bc5aea67a8b3f346122b3a8aeec464d358c6701eb3ad",
+      "action": "keep"
+    },
+    {
+      "path": "iteration9/geometry1/bracket.stl",
+      "bytes": 593284,
+      "sha256": "46b8f4ee99af2317dbd818c6ad41d6deea9180013531eb0f53bbcb7599e2084c",
+      "action": "keep"
+    },
+    {
+      "path": "iteration9/geometry1/design_source.py",
+      "bytes": 6922,
+      "sha256": "32217153eb5c61f836992408fef1712307d513f57dd2c831d859f16fd6650c89",
+      "action": "keep"
+    },
+    {
+      "path": "iteration9/geometry1/geometry_checks.json",
+      "bytes": 429,
+      "sha256": "21a49b203dad1c490938316b68928ac4d87415d9f21530ae3478d59a18cf2fcf",
+      "action": "keep"
+    },
+    {
+      "path": "iteration9/geometry1/parameters.json",
+      "bytes": 332,
+      "sha256": "5c5c07a5b362b8b9bfb1ae51109bee99a5a42071db2051904fe534937ee07cf3",
+      "action": "keep"
+    },
+    {
+      "path": "operator-instructions.txt",
+      "bytes": 632,
+      "sha256": "1f395fe38e30d9886bd020deb13dec64fd5fb3a9642476371189084cd9e0f86f",
+      "action": "keep"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 2163,
+      "sha256": "1f9971a333922f6ff5889b1969a75a4287059ce8015749f34e199e008a448198",
+      "action": "keep"
+    },
+    {
+      "path": "results_final.json",
+      "bytes": 11560,
+      "sha256": "bff017e0f6d21f948d28030856327783eb1a06ac58e934c5989cff512fab7984",
+      "action": "keep"
+    },
+    {
+      "path": "run-manifest.json",
+      "bytes": 1733,
+      "sha256": "b5face62ac7a24f0179023c5d92e01261707cb6d25a723fc577f42f99f69262c",
+      "action": "keep"
+    },
+    {
+      "path": "run_ledger.json",
+      "bytes": 6050,
+      "sha256": "2278aae715d79b50dea94fd300a554679a21fcfdc3dcc77f56455b8fe0adc7e2",
+      "action": "keep"
+    },
+    {
+      "path": "same_geometry_evidence.json",
+      "bytes": 1446,
+      "sha256": "c432e7a01309decbbef97605b2681a2069b07ac476bbc51dbe81ed648588d9f5",
+      "action": "keep"
+    }
+  ]
+}

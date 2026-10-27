@@ -1,0 +1,24 @@
+{
+  "comparison": "coarse curved C3D10 h3.5 vs fine straight-sided C3D10 h2.4; geometry approximations differ, not a formal asymptotic convergence proof",
+  "cases": {
+    "X": {
+      "raw_peak_stress_relative_change": 0.14572243482327507,
+      "payload_displacement_relative_change": 0.004210483313190199,
+      "raw_peak_stress_10_percent_check_pass": false,
+      "payload_displacement_2_percent_check_pass": true
+    },
+    "Y": {
+      "raw_peak_stress_relative_change": 0.4203114829376651,
+      "payload_displacement_relative_change": 0.004504979214561335,
+      "raw_peak_stress_10_percent_check_pass": false,
+      "payload_displacement_2_percent_check_pass": true
+    },
+    "Z": {
+      "raw_peak_stress_relative_change": 0.24680825419575497,
+      "payload_displacement_relative_change": 0.0027221091594165346,
+      "raw_peak_stress_10_percent_check_pass": false,
+      "payload_displacement_2_percent_check_pass": true
+    }
+  },
+  "modal_refinement": "not available for final geometry; final modal attempt used valid coarse mesh only"
+}

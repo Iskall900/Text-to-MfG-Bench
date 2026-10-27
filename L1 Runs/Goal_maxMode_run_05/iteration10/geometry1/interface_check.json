@@ -1,0 +1,121 @@
+{
+  "method": "Circular edges of STEP BRep at specified mounting planes, matching centers and clearance radii",
+  "tolerance_for_numerical_check_mm": 1e-06,
+  "interfaces": [
+    {
+      "id": "T1",
+      "specified_center_mm": [
+        30.03,
+        -21.45,
+        0
+      ],
+      "measured_outer_face_hole_center_mm": [
+        30.03,
+        -21.45,
+        0.0
+      ],
+      "position_error_mm": 0.0,
+      "diameter_mm": 6.8,
+      "pass": true
+    },
+    {
+      "id": "T2",
+      "specified_center_mm": [
+        30.03,
+        42.047,
+        0
+      ],
+      "measured_outer_face_hole_center_mm": [
+        30.03,
+        42.047,
+        0.0
+      ],
+      "position_error_mm": 0.0,
+      "diameter_mm": 6.8,
+      "pass": true
+    },
+    {
+      "id": "T3",
+      "specified_center_mm": [
+        -58.86,
+        42.047,
+        0
+      ],
+      "measured_outer_face_hole_center_mm": [
+        -58.86,
+        42.047,
+        0.0
+      ],
+      "position_error_mm": 0.0,
+      "diameter_mm": 6.8,
+      "pass": true
+    },
+    {
+      "id": "S1",
+      "specified_center_mm": [
+        11.075,
+        -7.164,
+        112.51
+      ],
+      "measured_outer_face_hole_center_mm": [
+        11.075,
+        -7.164,
+        112.51
+      ],
+      "position_error_mm": 0.0,
+      "diameter_mm": 6.8,
+      "pass": true
+    },
+    {
+      "id": "S2",
+      "specified_center_mm": [
+        -14.32,
+        -7.164,
+        112.51
+      ],
+      "measured_outer_face_hole_center_mm": [
+        -14.32,
+        -7.164,
+        112.51
+      ],
+      "position_error_mm": 0.0,
+      "diameter_mm": 6.8,
+      "pass": true
+    },
+    {
+      "id": "S3",
+      "specified_center_mm": [
+        -14.32,
+        -7.164,
+        137.91
+      ],
+      "measured_outer_face_hole_center_mm": [
+        -14.32,
+        -7.164,
+        137.91
+      ],
+      "position_error_mm": 0.0,
+      "diameter_mm": 6.8,
+      "pass": true
+    },
+    {
+      "id": "S4",
+      "specified_center_mm": [
+        11.075,
+        -7.164,
+        137.91
+      ],
+      "measured_outer_face_hole_center_mm": [
+        11.075,
+        -7.164,
+        137.91
+      ],
+      "position_error_mm": 0.0,
+      "diameter_mm": 6.8,
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "connected_solid_count": 1,
+  "valid": true
+}

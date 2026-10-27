@@ -1,0 +1,421 @@
+{
+  "parameters": {
+    "iteration": 8,
+    "strut_radius_mm": 5.0,
+    "pad_thickness_mm": 6.0,
+    "plate_thickness_mm": 7.0,
+    "mesh_size_mm": 3.0,
+    "fillet_radius_mm": 0.0,
+    "foot_centers_mm": [
+      [
+        19.53,
+        -21.45,
+        6.0
+      ],
+      [
+        21.43,
+        35.647,
+        6.0
+      ],
+      [
+        -51.76,
+        34.647,
+        6.0
+      ]
+    ],
+    "stage_strut_ends_mm": [
+      [
+        -21.0,
+        1.5,
+        105.0
+      ],
+      [
+        18.0,
+        1.5,
+        105.0
+      ],
+      [
+        -21.0,
+        -0.664,
+        146.0
+      ],
+      [
+        18.0,
+        -0.664,
+        146.0
+      ]
+    ]
+  },
+  "valid": true,
+  "solid_count": 1,
+  "volume_mm3": 70196.91049324721,
+  "bracket_mass_kg": 0.18953165833176747,
+  "cad_center_mm": [
+    -5.830047996664933,
+    8.312894837806143,
+    70.86161702706042
+  ],
+  "bbox_min_mm": [
+    -70.8600001,
+    -33.450000100000004,
+    -1e-07
+  ],
+  "bbox_max_mm": [
+    42.0300001,
+    54.0470001,
+    151.0
+  ],
+  "required_STEP_keepout_overlap_mm3": 7046.06293275879,
+  "keepout_registration_status": "No STEP-to-JSON transform supplied. Overlap uses numerical coordinates directly; not a claim of registration.",
+  "assumed_stage_overlap_mm3": 0.0,
+  "assumed_telescope_overlap_mm3": 0.0,
+  "hardware_envelope_basis": "Conservative nominal assumptions, NOT verified NAS hardware dimensions. Bore diameter 6.6; washer OD16/ID6.6/t1.6; head OD10/h6.5; insertion OD10.5 L60; driver OD8 L150.",
+  "access": [
+    {
+      "interface": "T1",
+      "type": "bolt",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T1",
+      "type": "washer",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T1",
+      "type": "head",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T1",
+      "type": "straight_insertion",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T1",
+      "type": "driver",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T2",
+      "type": "bolt",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T2",
+      "type": "washer",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T2",
+      "type": "head",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T2",
+      "type": "straight_insertion",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T2",
+      "type": "driver",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T3",
+      "type": "bolt",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T3",
+      "type": "washer",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T3",
+      "type": "head",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T3",
+      "type": "straight_insertion",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "T3",
+      "type": "driver",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S1",
+      "type": "bolt",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S1",
+      "type": "washer",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S1",
+      "type": "head",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S1",
+      "type": "straight_insertion",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S1",
+      "type": "driver",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S2",
+      "type": "bolt",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S2",
+      "type": "washer",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S2",
+      "type": "head",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S2",
+      "type": "straight_insertion",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S2",
+      "type": "driver",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S3",
+      "type": "bolt",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S3",
+      "type": "washer",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S3",
+      "type": "head",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S3",
+      "type": "straight_insertion",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S3",
+      "type": "driver",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S4",
+      "type": "bolt",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S4",
+      "type": "washer",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S4",
+      "type": "head",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S4",
+      "type": "straight_insertion",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    },
+    {
+      "interface": "S4",
+      "type": "driver",
+      "overlap_mm3": 0.0,
+      "passes_nominal_envelope": true
+    }
+  ],
+  "fillet_log": [],
+  "interfaces": [
+    {
+      "id": "T1",
+      "location": [
+        30.03,
+        -21.45,
+        0
+      ],
+      "hole_axis": [
+        0,
+        0,
+        1
+      ],
+      "hole_diameter_mm": 6.6,
+      "insertion_direction": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "T2",
+      "location": [
+        30.03,
+        42.047,
+        0
+      ],
+      "hole_axis": [
+        0,
+        0,
+        1
+      ],
+      "hole_diameter_mm": 6.6,
+      "insertion_direction": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "T3",
+      "location": [
+        -58.86,
+        42.047,
+        0
+      ],
+      "hole_axis": [
+        0,
+        0,
+        1
+      ],
+      "hole_diameter_mm": 6.6,
+      "insertion_direction": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "S1",
+      "location": [
+        11.075,
+        -7.164,
+        112.51
+      ],
+      "hole_axis": [
+        0,
+        1,
+        0
+      ],
+      "hole_diameter_mm": 6.6,
+      "insertion_direction": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "S2",
+      "location": [
+        -14.32,
+        -7.164,
+        112.51
+      ],
+      "hole_axis": [
+        0,
+        1,
+        0
+      ],
+      "hole_diameter_mm": 6.6,
+      "insertion_direction": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "S3",
+      "location": [
+        -14.32,
+        -7.164,
+        137.91
+      ],
+      "hole_axis": [
+        0,
+        1,
+        0
+      ],
+      "hole_diameter_mm": 6.6,
+      "insertion_direction": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "S4",
+      "location": [
+        11.075,
+        -7.164,
+        137.91
+      ],
+      "hole_axis": [
+        0,
+        1,
+        0
+      ],
+      "hole_diameter_mm": 6.6,
+      "insertion_direction": [
+        0,
+        -1,
+        0
+      ]
+    }
+  ]
+}

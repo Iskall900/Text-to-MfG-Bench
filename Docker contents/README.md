@@ -13,8 +13,22 @@ docker run -it --name mfg-1 text-to-mfg:latest
 docker run -it --name mfg-2 text-to-mfg:latest
 ```
 
-The image includes Pi 1.0.4, Build123d 0.13.0, Gmsh 4.15.2 (CLI and Python API), and Debian's CalculiX 2.20
-(the local Mac installation uses CalculiX 2.23).
+The image (Debian 13, Node 24 LTS, Python 3.13) includes Pi 1.4.0, Build123d 0.13.0, Gmsh 4.15.2
+(CLI and Python API), and CalculiX 2.23 (same as the local Mac installation). Debian 13 no longer
+packages CalculiX, so `ccx` is built from the official source with multithreaded SPOOLES and ARPACK.
+Set `OMP_NUM_THREADS` to limit its solver threads.
+
+Also installed:
+
+- CalculiX GraphiX 2.23 (`cgx`), the CalculiX pre/post-processor, built from source. There is no
+  display, so run it under the virtual X server: `xvfb-run -a cgx -b view.fbd` (Mesa software
+  rendering; `hcpy png` screenshots use ImageMagick). cgx stops to ask before each `sys` command
+  in an `.fbd` file, so avoid `sys` in batch scripts or they wait for input.
+- Python: matplotlib (headless `Agg` backend), meshio, trimesh, pypdf.
+- PDFs: `pdftotext`, `pdftoppm` (render pages to PNG), and `pypdf`.
+- ripgrep 15.2.0 and fd 10.5.0 from their official GitHub releases (Pi's `grep`/`find` tools
+  use these instead of downloading their own copies in each new container).
+- `ps`, `pkill`, `less`, `file`, `zip`/`unzip`, `jq`, `bc`, `tree`, `patch`, `nano`, `vi`.
 
 Gmsh is built from the official 4.15.2 source with OpenCASCADE support for
 STEP geometry and without the graphical interface. This supports native Linux
@@ -23,16 +37,19 @@ ARM64 builds, for which the official pip package has no wheel.
 Version-matched documentation is cached in the repository under `Docker contents/docs`
 and extracted into the image, so reading it requires no network connection:
 
-- CalculiX 2.20: `/opt/docs/calculix-2.20/CalculiX/ccx_2.20/doc/ccx/ccx.html`
+- CalculiX 2.23: `/opt/docs/calculix-2.23/CalculiX/ccx_2.23/doc/ccx/ccx.html`
+- CalculiX GraphiX 2.23: `/opt/docs/calculix-2.23/CalculiX/cgx_2.23/doc/cgx/cgx.html`
+- NAS1352 / NAS620 fastener specifications: `/opt/docs/nas/*.pdf`, with `.txt` extracts
 - Build123d 0.13.0: `/opt/docs/build123d-0.13.0/index.xhtml`
 
 The Build123d manual includes API references, tutorials, and examples. Its XHTML
 pages and assets are extracted from the official EPUB and can be read as text or
 opened in a browser. Search the manuals with `grep -ri 'search term' /opt/docs`.
 
-Snapshots downloaded on 2026-10-09 from the official
-[CalculiX HTML archive](https://www.dhondt.de/ccx_2.20.htm.tar.bz2) and
-[Build123d 0.13.0 EPUB](https://build123d.readthedocs.io/_/downloads/en/v0.13.0/epub/).
+Snapshots downloaded from the official
+CalculiX [ccx](https://www.dhondt.de/ccx_2.23.htm.tar.bz2) and
+[cgx](https://www.dhondt.de/cgx_2.23.htm.tar.bz2) HTML archives (2026-10-27) and
+[Build123d 0.13.0 EPUB](https://build123d.readthedocs.io/_/downloads/en/v0.13.0/epub/) (2026-10-09).
 The build verifies `docs/SHA256SUMS` before extraction. To refresh the cache,
 replace the archives, regenerate the checksums, and rebuild the image; update
 the documentation versions alongside any installed package version changes.
@@ -40,16 +57,38 @@ the documentation versions alongside any installed package version changes.
 Inside a container, `pi`, `python`, `gmsh`, and `ccx` are available. Exit with `exit`
 and resume a saved container with `docker start -ai mfg-1`.
 
-Credentials are not included. To use DeepSeek, set `DEEPSEEK_API_KEY` in
-your host shell and pass it at runtime:
+Credentials are not included. Keep keys in a private file outside the repository,
+one `NAME=value` per line (for example `DEEPSEEK_API_KEY`, `BRAVE_SEARCH_API_KEY`):
 
 ```sh
-docker run -it -e DEEPSEEK_API_KEY text-to-mfg:latest
+mkdir -p ~/.config/text-to-mfg
+touch ~/.config/text-to-mfg/keys.env
+chmod 600 ~/.config/text-to-mfg/keys.env
 ```
+
+Open that file in an editor and add the keys, then pass it at runtime:
+
+```sh
+docker run -it --env-file ~/.config/text-to-mfg/keys.env text-to-mfg:latest
+```
+
+Do not use `-e NAME=value` (it lands in shell history), Pi's `/login` (it saves keys
+to `~/.pi/agent/auth.json` in the container), or `docker commit`/`docker push` on a
+container started with keys (the image config keeps them). `docker inspect` shows
+them to anyone with Docker access on the same machine.
+
+Pi keeps keys for model and search requests. Any variable whose name contains
+`KEY`, `TOKEN`, or `SECRET` is removed before agent `bash` and interactive `!`
+commands start. Every tool result, interactive `!` output, user prompt, and model
+reply passes through `redact.ts`, which replaces those variables' values (8+
+characters) with `[REDACTED]` before Pi shows or saves them. This also catches
+keys read from `/proc/*/environ`. It matches exact text only: deliberately
+encoding a key gets through, and preventing that requires running the shell as a
+separate user.
 
 Configure Pi's provider/model in that container as needed.
 
-Each `pi` launch allows at most 30 modal CalculiX invocations through `ccx`.
+Each `pi` launch allows at most 15 modal CalculiX invocations through `ccx`.
 The wrapper detects `*FREQUENCY`, including included input files, and shares a
 locked counter across child processes. Failed modal attempts count; static solves
 and version checks do not. A new Pi launch resets the budget. Direct execution of
@@ -58,11 +97,7 @@ Rebuild the image and recreate containers to apply it.
 
 Pi exposes a `web_search` tool using the
 [Brave Web Search API](https://api-dashboard.search.brave.com/documentation/services/web-search).
-Set `BRAVE_SEARCH_API_KEY` in your host shell and pass it alongside your model key:
-
-```sh
-docker run -it -e DEEPSEEK_API_KEY -e BRAVE_SEARCH_API_KEY text-to-mfg:latest
-```
+Add `BRAVE_SEARCH_API_KEY` to the same key file.
 
 Search returns up to five titles, URLs, and snippets into the conversation; it
 never opens result URLs or saves remote files. Without the search key, searches
@@ -70,8 +105,9 @@ report a configuration error; local work still runs.
 
 The `pi` launcher loads only the image's metering and search extensions. Both the
 agent's `bash` tool and interactive `!` shell commands use an inherited Linux
-seccomp filter that blocks network sockets, including Python/Node downloads and
-package installs. Failure to install the filter stops the command. Local file
+seccomp filter that refuses every socket family except local Unix sockets, which
+blocks Python/Node downloads and package installs while letting `cgx` reach the
+virtual X server. Failure to install the filter stops the command. Local file
 creation, CAD, FEA, and cached documentation remain available. Pi runs as the
 unprivileged `pi` user, with its installed code and extensions owned by root.
 Bind-mounted workspaces must be writable by UID 1001.
@@ -106,7 +142,14 @@ retain reports when removing a container.
 Run the local metering checks after `npm ci`:
 
 ```sh
-node --test metering.test.mjs web-search.test.mjs
+node --test metering.test.mjs web-search.test.mjs redact.test.mjs
+```
+
+Check, with fake keys, that neither shell sees credentials and the saved session
+file never contains them (run from the repository root after building):
+
+```sh
+docker run --rm -e PI_NETWORK_IMAGE_TEST=1 -e DEEPSEEK_API_KEY=canary-deepseek-0123456789 -e BRAVE_SEARCH_API_KEY=canary-brave-0123456789 -e NASA_API_KEY=canary-nasa-0123456789 -v "$PWD/Docker contents/redact.test.mjs:/opt/pi/redact.test.mjs:ro" -w /opt/pi text-to-mfg:latest node --test redact.test.mjs
 ```
 
 Smoke check:
@@ -115,7 +158,7 @@ Smoke check:
 docker run --rm text-to-mfg:latest bash -ec 'pi --version; python -c "from build123d import Box; assert abs(Box(1, 2, 3).volume - 6) < 1e-9"; ccx -v || test "$?" -eq 201'
 ```
 
-CalculiX 2.20 returns status 201 for its version command.
+CalculiX returns status 201 for its version command.
 
 Check Gmsh's CLI and generate a tetrahedral mesh through its Python API:
 

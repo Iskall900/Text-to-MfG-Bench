@@ -1,0 +1,27 @@
+#!/bin/sh
+# Blocks commits whose staged additions contain an API key. Enable once per clone:
+#   git config core.hooksPath .githooks
+added=$(git diff --cached -U0 --no-color | grep '^+' | grep -v '^+++')
+[ -n "$added" ] || exit 0
+fail=0
+leaks() { printf '%s\n' "$added" | grep -qF -- "$1"; }
+
+# Live values: exported secret variables plus the key file the README tells you to use.
+keyfile="$HOME/.config/text-to-mfg/keys.env"
+{ env; [ -r "$keyfile" ] && sed 's/^export //' "$keyfile"; } |
+  grep -Ei '^[A-Za-z_][A-Za-z0-9_]*(KEY|TOKEN|SECRET)[A-Za-z0-9_]*=' | while IFS= read -r line; do
+    name=${line%%=*} value=${line#*=}
+    value=${value#[\"\']} value=${value%[\"\']}
+    [ ${#value} -ge 8 ] && leaks "$value" && echo "pre-commit: staged changes contain the value of $name" >&2 && echo x
+  done | grep -q x && fail=1
+
+# Known shapes: DeepSeek keys, and any KEY/TOKEN/SECRET assignment with a long literal value.
+# Fake canary-* values from the redaction test are allowed.
+shapes=$(printf '%s\n' "$added" | sed 's/canary-[A-Za-z0-9_-]*//g')
+if printf '%s\n' "$shapes" | grep -qE 'sk-[0-9a-f]{32}' ||
+   printf '%s\n' "$shapes" | grep -qiE '(key|token|secret)["'"'"']?[[:space:]]*[:=][[:space:]]*["'"'"']?[A-Za-z0-9_./+-]{16,}'; then
+  echo "pre-commit: staged changes look like they contain an API key" >&2
+  fail=1
+fi
+
+[ "$fail" = 0 ] || { echo "Remove the key, or bypass a false positive with: git commit --no-verify" >&2; exit 1; }

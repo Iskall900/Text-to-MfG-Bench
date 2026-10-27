@@ -1,0 +1,101 @@
+{
+  "run": "Goal_maxMode_run_03",
+  "generated_at_utc": "2026-10-27T21:22:46.166697+00:00",
+  "archive_destination": "/Users/samkweskin/Desktop/Internship/Text-to-MfG Archives/Goal_maxMode_run_03/repository-snapshot-2026-10-27",
+  "original_file_count": 40,
+  "original_bytes": 523197045,
+  "archive_contains_all_inventory_files": true,
+  "full_inventory": "ARCHIVE_MANIFEST_2026-10-27.json in archive_destination",
+  "files": [
+    {
+      "path": "A15.json",
+      "bytes": 13395,
+      "sha256": "e8157dfad15f513aa994a139f58608af314c1f4ed5080e1360ecad11105383d8",
+      "action": "keep"
+    },
+    {
+      "path": "FINAL_REPORT.md",
+      "bytes": 12290,
+      "sha256": "5c4a5b73c9007f8b479a75b3c49c51659dc13aef9b81ba39d2f3da9b978c58d9",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/DfM1/DFM_REPORT.md",
+      "bytes": 3501,
+      "sha256": "2602630b8f6e607da7bb6ee40fb56f293150d1e086ddc1ea9d519a22d530f0e9",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/DfM1/bearing_checks.json",
+      "bytes": 2191,
+      "sha256": "bd9542c55d12adfd428d684b38f3a0ff7b83b0282ec5301de46c70444ae63be6",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/FEA1/FEA_REPORT.md",
+      "bytes": 626,
+      "sha256": "90e481f1347e9d7ace632c8af402d06b46d0e7916f514bf03446b2bbbf59b626",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/FEA1/convergence.json",
+      "bytes": 1491,
+      "sha256": "7d1819200c54a6e2ca8d933c430c368b088e45aab9527345544c7e68a10827ea",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/FEA1/model_complete/results.json",
+      "bytes": 8852,
+      "sha256": "78826e7eef028a0e144321d3bff7b0c155fd1831f8361bd86dc0bd65b78968f3",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/geometry1/bracket.step",
+      "bytes": 989782,
+      "sha256": "c1e2f43babf2c10ee9f31a4f567ee4d4b66b909d534fad2496d1854e6f0a9641",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/geometry1/build123d_source_final.py",
+      "bytes": 8614,
+      "sha256": "038f1fd5e8349731021296137c26fc915eeaa66a4da1a058bf3c444c5e75ea8b",
+      "action": "keep"
+    },
+    {
+      "path": "iteration10/geometry1/geometry_checks.json",
+      "bytes": 7919,
+      "sha256": "924eb58aa7fa73c873e1925cd72c9c954175f14102af3af444e1faa909fcd071",
+      "action": "keep"
+    },
+    {
+      "path": "operator-instructions.txt",
+      "bytes": 632,
+      "sha256": "1f395fe38e30d9886bd020deb13dec64fd5fb3a9642476371189084cd9e0f86f",
+      "action": "keep"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 1287,
+      "sha256": "2b444130f1b2535e0fff8e92d923da83081da6dd813d71b2299c08b9995e8b7e",
+      "action": "keep"
+    },
+    {
+      "path": "results_final.json",
+      "bytes": 17648,
+      "sha256": "9037d378a2b3d4ed532ef087a2b1a387e5e56f9a4fe116ae89e09e49c62c30ab",
+      "action": "keep"
+    },
+    {
+      "path": "run-manifest.json",
+      "bytes": 1172,
+      "sha256": "cc33c8a1dce167afafb67a501b766e3872059a4dff233dd9a5f405d7e6b2942b",
+      "action": "keep"
+    },
+    {
+      "path": "solver_invocations.jsonl",
+      "bytes": 1468,
+      "sha256": "a380e15523be7d39dddda034707d1590f7becc1136ca523ec1232613d3d7b23a",
+      "action": "keep"
+    }
+  ]
+}
